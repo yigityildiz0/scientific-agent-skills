@@ -1,0 +1,16 @@
+{
+  "description": "Bilingual, searchable Agent Skills for reproducible scientific research across Claude Code, OpenAI Codex, and OpenCode.",
+  "homepage": "https://yigityildiz0.github.io/scientific-agent-skills/",
+  "topics": [
+    "agent-skills",
+    "scientific-research",
+    "reproducible-research",
+    "bioinformatics",
+    "claude-code",
+    "openai-codex",
+    "opencode",
+    "rstudio",
+    "nextflow",
+    "single-cell"
+  ]
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If this curated repository supports your work, cite this software collection. Cite individual upstream skills as required by their licenses."
+title: "Scientific Agent Skills"
+type: software
+authors:
+  - family-names: "Yıldız"
+    given-names: "Yiğit"
+repository-code: "https://github.com/yigityildiz0/scientific-agent-skills"
+url: "https://yigityildiz0.github.io/scientific-agent-skills/"
+version: 1.0.0
+date-released: 2026-07-19

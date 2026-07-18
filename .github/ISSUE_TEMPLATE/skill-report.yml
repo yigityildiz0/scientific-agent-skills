@@ -1,0 +1,26 @@
+name: Skill report
+description: Report a broken, unsafe, stale, or incorrectly classified skill
+title: "[skill]: "
+labels: ["skill-report"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [Claude Code, OpenAI Codex, OpenCode, Not platform-specific]
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What happened and what evidence do you have?
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Upstream source or license information
