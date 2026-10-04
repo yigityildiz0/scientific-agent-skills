@@ -1,0 +1,6 @@
+interface:
+  display_name: "Scientific Literature Review"
+  short_description: "Biomedical searches and verified evidence synthesis"
+  default_prompt: "Use $scientific-literature-review to build a reproducible literature search and evidence table."
+policy:
+  allow_implicit_invocation: true

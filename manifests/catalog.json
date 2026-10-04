@@ -356,15 +356,15 @@
     "slug": "scientific-literature-review",
     "category": "Evidence and knowledge",
     "category_tr": "Evidence and knowledge",
-    "description_en": "Produces reproducible biomedical searches, evidence maps, and PRISMA-informed review drafts with verified citations.",
-    "description_tr": "Tekrar üretilebilir biyomedikal aramalar, kanıt haritaları ve doğrulanmış atıflı PRISMA-bilgili inceleme taslakları üretir.",
+    "description_en": "Builds reproducible biomedical/clinical searches, verified review drafts and evidence updates with source provenance and design-specific appraisal.",
+    "description_tr": "Biyomedikal/klinik literatürü tekrarlanabilir sorgularla tarar; kaynak, çalışma tasarımı ve güncelleme sınırlarını koruyarak derleme taslakları üretir.",
     "platforms": [
       "claude",
       "codex",
       "opencode"
     ],
-    "compatibility_en": "Shared portable source; format-ready for all three hosts. Dependencies still require local validation.",
-    "compatibility_tr": "Ortak taşınabilir kaynak; üç host için biçim olarak hazır. Bağımlılıklar yerel doğrulama ister.",
+    "compatibility_en": "Separate GPT/Codex and Claude packages; Claude description under 200 characters. Structure checked; account activation and live tool access require host verification.",
+    "compatibility_tr": "GPT/Codex ve Claude için ayrı paket; Claude açıklaması 200 karakter altında. Yapı doğrulandı; hesapta etkinleşme ve canlı erişim host'ta doğrulanmalı.",
     "license_status": "MIT",
     "provenance": "K-Dense Inc. 2025; bundled license preserved.",
     "host_signals": [
@@ -375,8 +375,8 @@
     ],
     "source_path": "skills/common/scientific-literature-review/SKILL.md",
     "downloads": {
-      "claude": "packages/common/scientific-literature-review.zip",
-      "codex": "packages/common/scientific-literature-review.zip",
+      "claude": "packages/claude/scientific-literature-review.zip",
+      "codex": "packages/codex/scientific-literature-review.zip",
       "opencode": "packages/common/scientific-literature-review.zip"
     }
   },

@@ -62,3 +62,7 @@ Return:
 ## Retrieval and update references
 
 Read [tool-routing.md](references/tool-routing.md) for live capabilities, provenance, pagination and clipped-text handling; [search-strategy.md](references/search-strategy.md) for native clinical queries and review-mode boundaries; [literature-watch.md](references/literature-watch.md) for evidence updates. Use only the references needed for the task. Keep the user's scope and prior authorization within the host's instructions.
+
+## Platform environment
+
+Use the available GPT/Codex tools and inspect their live source coverage. Cloud sessions need enabled retrieval tools; local installation does not install into a ChatGPT cloud account.

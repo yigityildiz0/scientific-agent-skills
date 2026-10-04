@@ -32,3 +32,9 @@ The release bundles contain the correct hidden directory tree. Extract the match
 - Large libraries can crowd discovery metadata. Install selectively or use the router bundle when this repository provides one.
 
 Official references: [Claude Code skills](https://code.claude.com/docs/en/skills), [Codex skills](https://learn.chatgpt.com/docs/build-skills), [OpenCode skills](https://opencode.ai/docs/skills).
+
+## Literature review: cloud surfaces
+
+Use the updated per-skill Claude ZIP in Claude.ai via Customize > Skills > Create skill > Upload a skill, with code execution and account permissions enabled. Its name remains scientific-literature-review and its description is under 200 characters. GPT/Codex local use takes the Codex ZIP; for ChatGPT web/mobile distribution, bundle it under a plugin's skills/scientific-literature-review with a root plugin.json following the official OpenAI guide. A local copy does not prove cloud installation or future monitoring. No schedule is created by this skill.
+
+Official guides: [OpenAI skills](https://learn.chatgpt.com/docs/build-skills), [OpenAI plugins](https://developers.openai.com/plugins/build/plugins), [Claude custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills).
