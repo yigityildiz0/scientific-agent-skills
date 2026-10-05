@@ -21,3 +21,25 @@ The catalog/site license does not replace a skill's own license. `Unspecified` m
 | `scientific-problem-selection` | Apache-2.0 file | Bundled generic Apache-2.0 text; course/article-derived provenance requires further verification. |
 | `scvi-tools` | Apache-2.0 file | Bundled generic Apache-2.0 text; upstream repository and NOTICE remain unverified. |
 | `single-cell-rna-qc` | Apache-2.0 file | Bundled generic Apache-2.0 text; upstream repository and NOTICE remain unverified. |
+
+## Current collection: provenance and license scope
+
+The source tree and per-module LICENSE/NOTICE files are included. Existing license grants govern their own files; this collection does not relicense copied material. Missing explicit grants are marked as not specified, not assumed to be MIT.
+
+- `academic-presentations`: no explicit license file supplied by the canonical source; consult module provenance
+- `bio-data-visualization-ggplot2-fundamentals`: no explicit license file supplied by the canonical source; consult module provenance
+- `bio-differential-expression-deseq2-basics`: no explicit license file supplied by the canonical source; consult module provenance
+- `bioscience-research-router`: no explicit license file supplied by the canonical source; consult module provenance
+- `experimental-design`: `LICENSE.txt`
+- `knowledge-base`: no explicit license file supplied by the canonical source; consult module provenance
+- `molecular-genetics-assay-planning`: `LICENSE.txt`
+- `nextflow-development`: `LICENSE.txt`
+- `quarto-authoring`: no explicit license file supplied by the canonical source; consult module provenance
+- `r-bioscience-data-wrangling`: no explicit license file supplied by the canonical source; consult module provenance
+- `r-biostatistics-workflow`: no explicit license file supplied by the canonical source; consult module provenance
+- `research-synthesis`: no explicit license file supplied by the canonical source; consult module provenance
+- `rstudio-reproducible-analysis`: no explicit license file supplied by the canonical source; consult module provenance
+- `scientific-literature-review`: `LICENSE.txt`
+- `scientific-problem-selection`: `LICENSE.txt`
+- `scvi-tools`: `LICENSE.txt`
+- `single-cell-rna-qc`: `LICENSE.txt`

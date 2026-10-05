@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bioscience Research Router"
+  short_description: "Route reproducible life-science workflows"
+  default_prompt: "Use $bioscience-research-router to route this life-science task to the smallest safe and reproducible workflow."
