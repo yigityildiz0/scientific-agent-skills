@@ -1,3 +1,57 @@
 * text=auto eol=lf
 *.zip binary
 *.svg text eol=lf
+
+# CURRENT PROVIDER PAYLOAD BYTES
+# Packages and checked-out provider sources must have identical bytes on every OS.
+skills/common/academic-presentations/** -text
+skills/codex/academic-presentations/** -text
+skills/claude/academic-presentations/** -text
+skills/common/bio-data-visualization-ggplot2-fundamentals/** -text
+skills/codex/bio-data-visualization-ggplot2-fundamentals/** -text
+skills/claude/bio-data-visualization-ggplot2-fundamentals/** -text
+skills/common/bio-differential-expression-deseq2-basics/** -text
+skills/codex/bio-differential-expression-deseq2-basics/** -text
+skills/claude/bio-differential-expression-deseq2-basics/** -text
+skills/common/bioscience-research-router/** -text
+skills/codex/bioscience-research-router/** -text
+skills/claude/bioscience-research-router/** -text
+skills/common/experimental-design/** -text
+skills/codex/experimental-design/** -text
+skills/claude/experimental-design/** -text
+skills/common/knowledge-base/** -text
+skills/codex/knowledge-base/** -text
+skills/claude/knowledge-base/** -text
+skills/common/molecular-genetics-assay-planning/** -text
+skills/codex/molecular-genetics-assay-planning/** -text
+skills/claude/molecular-genetics-assay-planning/** -text
+skills/common/nextflow-development/** -text
+skills/codex/nextflow-development/** -text
+skills/claude/nextflow-development/** -text
+skills/common/quarto-authoring/** -text
+skills/codex/quarto-authoring/** -text
+skills/claude/quarto-authoring/** -text
+skills/common/r-bioscience-data-wrangling/** -text
+skills/codex/r-bioscience-data-wrangling/** -text
+skills/claude/r-bioscience-data-wrangling/** -text
+skills/common/r-biostatistics-workflow/** -text
+skills/codex/r-biostatistics-workflow/** -text
+skills/claude/r-biostatistics-workflow/** -text
+skills/common/research-synthesis/** -text
+skills/codex/research-synthesis/** -text
+skills/claude/research-synthesis/** -text
+skills/common/rstudio-reproducible-analysis/** -text
+skills/codex/rstudio-reproducible-analysis/** -text
+skills/claude/rstudio-reproducible-analysis/** -text
+skills/common/scientific-literature-review/** -text
+skills/codex/scientific-literature-review/** -text
+skills/claude/scientific-literature-review/** -text
+skills/common/scientific-problem-selection/** -text
+skills/codex/scientific-problem-selection/** -text
+skills/claude/scientific-problem-selection/** -text
+skills/common/scvi-tools/** -text
+skills/codex/scvi-tools/** -text
+skills/claude/scvi-tools/** -text
+skills/common/single-cell-rna-qc/** -text
+skills/codex/single-cell-rna-qc/** -text
+skills/claude/single-cell-rna-qc/** -text
