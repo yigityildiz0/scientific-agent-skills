@@ -6,4 +6,4 @@ Use README and DOWNLOADS for the current edition. Old tags/downloads may contain
 
 Türkçe: Güncel kapsam current-release.json ile tanımlanır. Eski katalog ve kaynaklar izlenebilirlik için korunur; eski sayı ve test iddiaları güncel kapsam değildir. Güncel README/indirmeleri kullan. Eski sürümler farklı sağlayıcı/host varsayımları içerebilir. Gemini Deep Research güncel sürümde yoktur.
 
-[Previous README at the preserved base commit](https://github.com/yigityildiz0/scientific-agent-skills/blob/07cdc9eb82b83910d683c90fb4d49f6e94a520be/README.md).
+[Previous README at the preserved base commit](https://github.com/yigityildiz0/scientific-agent-skills/blob/e998e8cdf20972731238f4ab36971963ac0d37c8/README.md).

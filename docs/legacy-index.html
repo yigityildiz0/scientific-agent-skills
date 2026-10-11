@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scientific Agent Skills — Reproducible research workflows</title>
+  <meta name="description" content="Search and download cross-platform Agent Skills for literature review, experimental design, R, RStudio, DESeq2, single-cell analysis, scVI-tools, Nextflow, Quarto, and scientific communication.">
+  <meta name="theme-color" content="#f3f7f2">
+  <meta property="og:title" content="Scientific Agent Skills">
+  <meta property="og:description" content="Seventeen reproducible research workflows for Claude Code, OpenAI Codex, and OpenCode — with English and Turkish guidance.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yigityildiz0.github.io/scientific-agent-skills/">
+  <link rel="canonical" href="https://yigityildiz0.github.io/scientific-agent-skills/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2317352a'/%3E%3Cpath d='M18 15h28v6l-8 11v15l7 7H19l7-7V32l-8-11z' fill='%23d5ff54'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/site.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Scientific Agent Skills","codeRepository":"https://github.com/yigityildiz0/scientific-agent-skills","description":"Cross-platform Agent Skills for reproducible scientific research.","inLanguage":["en","tr"]}
+  </script>
+</head>
+<body data-repo="scientific-agent-skills" data-kind="science">
+  <a class="skip-link" href="#catalog">Skip to catalog</a>
+  <header class="hero">
+    <nav class="topline" aria-label="Primary">
+      <a class="brand" href="https://github.com/yigityildiz0/scientific-agent-skills">LAB / SKILLS</a>
+      <div class="navlinks">
+        <a href="https://github.com/yigityildiz0/scientific-agent-skills#readme">GitHub</a>
+        <a href="https://github.com/yigityildiz0/scientific-agent-skills/blob/main/INSTALL.md">Install</a>
+        <button class="language" id="language" type="button" aria-label="Switch language">TR</button>
+      </div>
+    </nav>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="kicker" data-i18n="kicker">A bench-to-publication workflow shelf</p>
+        <h1 data-i18n="title">Move from a good question to a defensible result.</h1>
+        <p class="lede" data-i18n="lede">Seventeen focused Agent Skills for evidence, experiments, R, omics, reproducibility, and scientific communication.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#catalog" data-i18n="browse">Browse the skills</a>
+          <a class="secondary-action" href="https://github.com/yigityildiz0/scientific-agent-skills/releases/latest" data-i18n="bundles">Download bundles</a>
+        </div>
+      </div>
+      <div class="pipeline" aria-label="Research workflow: question, evidence, experiment, analysis, report">
+        <div class="pipeline-title"><span>RESEARCH TRACE</span><span>01—05</span></div>
+        <ol>
+          <li><b>01</b><span data-i18n="stage_question">Question</span><i style="--w:42%"></i></li>
+          <li><b>02</b><span data-i18n="stage_evidence">Evidence</span><i style="--w:67%"></i></li>
+          <li><b>03</b><span data-i18n="stage_experiment">Experiment</span><i style="--w:82%"></i></li>
+          <li><b>04</b><span data-i18n="stage_analysis">Analysis</span><i style="--w:91%"></i></li>
+          <li><b>05</b><span data-i18n="stage_report">Report</span><i style="--w:100%"></i></li>
+        </ol>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="principles" aria-labelledby="principles-title">
+      <h2 id="principles-title" data-i18n="principles">What every workflow protects</h2>
+      <div class="principle-grid">
+        <article><span>01</span><h3 data-i18n="p1_title">Traceable evidence</h3><p data-i18n="p1_body">Queries, identifiers, sources, assumptions, and uncertainty stay visible.</p></article>
+        <article><span>02</span><h3 data-i18n="p2_title">Reproducible execution</h3><p data-i18n="p2_body">Raw data stays intact; versions, parameters, seeds, and outputs are recorded.</p></article>
+        <article><span>03</span><h3 data-i18n="p3_title">Human scientific judgment</h3><p data-i18n="p3_body">The agent supports decisions; qualified researchers own interpretation and approval.</p></article>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-heading">
+        <div><p class="kicker" data-i18n="catalog_kicker">The working shelf</p><h2 id="catalog-title" data-i18n="catalog_title">Find the smallest skill that fits.</h2></div>
+        <p class="result-count" id="result-count" aria-live="polite">Loading…</p>
+      </div>
+      <div class="filters" role="search">
+        <label class="search-field"><span data-i18n="search_label">Search skills</span><input id="search" type="search" autocomplete="off" placeholder="literature, DESeq2, RStudio…"></label>
+        <label><span data-i18n="category_label">Category</span><select id="category"><option value="all">All categories</option></select></label>
+        <label><span data-i18n="risk_label">Risk signal</span><select id="risk"><option value="all">Any signal</option><option value="none">No static signal</option><option value="package install">Package install</option><option value="privileged command">Privileged command</option><option value="destructive command">Destructive command</option><option value="network or external service">Network / external service</option></select></label>
+      </div>
+      <div class="platform-filter" aria-label="Filter by platform">
+        <button class="filter-chip active" type="button" data-platform="all" aria-pressed="true">All</button>
+        <button class="filter-chip" type="button" data-platform="claude" aria-pressed="false">Claude Code</button>
+        <button class="filter-chip" type="button" data-platform="codex" aria-pressed="false">OpenAI Codex</button>
+        <button class="filter-chip" type="button" data-platform="opencode" aria-pressed="false">OpenCode</button>
+      </div>
+      <div class="cards" id="cards"></div>
+      <noscript><p>This catalog needs JavaScript for filtering. The complete table is available in the repository README.</p></noscript>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Scientific Agent Skills</strong> · English / Türkçe · <a href="https://github.com/yigityildiz0/scientific-agent-skills">Source and licenses</a></p>
+    <p data-i18n="footer_note">Review every skill before granting tools. Scientific and regulated decisions remain human responsibilities.</p>
+  </footer>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

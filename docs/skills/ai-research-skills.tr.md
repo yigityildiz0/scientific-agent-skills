@@ -39,7 +39,7 @@ Paket model ağırlığı, izin, hesap veya API kredisi sağlamaz. Bu sürüm me
 
 [SKILL.md](../../skills/common/ai-research-skills/SKILL.md) · [Installation](../INSTALL.md) · [License scope](../LICENSE-SCOPE.md)
 
-| Module | Source scope |
+| Modül | Kaynak kapsamı |
 |---|---|
 | [a-evolve](../../skills/common/ai-research-skills/modules/a-evolve/MODULE.md) | Provides guidance for automatically evolving and optimizing AI agents across any domain using LLM-driven evolution algorithms. Use when building self-improving agents, optimizing a |
 | [academic-plotting](../../skills/common/ai-research-skills/modules/academic-plotting/MODULE.md) | Generates publication-quality figures for ML papers from research context. Given a paper section or description, extracts system components and relationships to generate architectu |

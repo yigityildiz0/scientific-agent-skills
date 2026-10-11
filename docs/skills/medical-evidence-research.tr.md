@@ -39,7 +39,7 @@ Paket model ağırlığı, izin, hesap veya API kredisi sağlamaz. Bu sürüm me
 
 [SKILL.md](../../skills/common/medical-evidence-research/SKILL.md) · [Installation](../INSTALL.md) · [License scope](../LICENSE-SCOPE.md)
 
-| Module | Source scope |
+| Modül | Kaynak kapsamı |
 |---|---|
 | [content-access](../../skills/common/medical-evidence-research/modules/content-access/MODULE.md) | Legal methods for paywalled and geo-blocked content. Use for paywalls, academic papers, or open access via Unpaywall. |
 | [physio-evidence-search](../../skills/common/medical-evidence-research/modules/physio-evidence-search/MODULE.md) | Search, synthesize, and clinically translate current physiotherapy and rehabilitation evidence. Use for effectiveness, comparative interventions, harms, dose/frequency, guidelines, |

@@ -39,7 +39,7 @@ Paket model ağırlığı, izin, hesap veya API kredisi sağlamaz. Bu sürüm me
 
 [SKILL.md](../../skills/common/office-docs-qa/SKILL.md) · [Installation](../INSTALL.md) · [License scope](../LICENSE-SCOPE.md)
 
-| Module | Source scope |
+| Modül | Kaynak kapsamı |
 |---|---|
 | [docx-workflow](../../skills/common/office-docs-qa/modules/docx-workflow/MODULE.md) | Apply a preservation-first workflow to read, create, edit, and validate Word DOCX documents while protecting structure, styles, relationships, accessibility, and existing user cont |
 | [file-reading-workflow](../../skills/common/office-docs-qa/modules/file-reading-workflow/MODULE.md) | Apply a safe, bounded workflow for inspecting local or uploaded files without flooding context or treating binary data as text. Use when the user requests this workflow or when an  |

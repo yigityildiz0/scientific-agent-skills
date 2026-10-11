@@ -41,7 +41,7 @@ Video: yerel FFmpeg/ffprobe yardımcısı örnek kare ve zaman damgası üretir.
 
 [SKILL.md](../../skills/common/research-analyst/SKILL.md) · [Installation](../INSTALL.md) · [License scope](../LICENSE-SCOPE.md)
 
-| Module | Source scope |
+| Modül | Kaynak kapsamı |
 |---|---|
 | [competitive-brief](../../skills/common/research-analyst/modules/competitive-brief/MODULE.md) | Research and write a decision-focused competitive brief using current, source-backed evidence. Use for competitor analysis, competitive brief, market comparison, feature comparison |
 | [consumer-resolution](../../skills/common/research-analyst/modules/consumer-resolution/MODULE.md) | Resolve a consumer complaint, return, refund, cancellation, warranty, defective/missing order, subscription, chargeback, or seller/platform dispute with evidence and current jurisd |

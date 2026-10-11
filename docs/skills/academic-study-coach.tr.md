@@ -39,7 +39,7 @@ Paket model ağırlığı, izin, hesap veya API kredisi sağlamaz. Bu sürüm me
 
 [SKILL.md](../../skills/common/academic-study-coach/SKILL.md) · [Installation](../INSTALL.md) · [License scope](../LICENSE-SCOPE.md)
 
-| Module | Source scope |
+| Modül | Kaynak kapsamı |
 |---|---|
 | [academic-presentations](../../skills/common/academic-study-coach/modules/academic-presentations/MODULE.md) | Plan, write, review, or improve academic presentations for thesis defenses, conferences, seminars, lab meetings, grant briefings, and research talks. Use when evidence, argument fl |
 | [academic-writing](../../skills/common/academic-study-coach/modules/academic-writing/MODULE.md) | Scholarly writing and research compliance. Use for CRediT, preregistration, Plan S, Nelson Memo, preprints, ORCID, LLM disclosure. |
