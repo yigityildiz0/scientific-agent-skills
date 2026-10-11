@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Semantic trigger acceptance cases; these are design tests, not runtime activation logs.",
+  "cases": [
+    {
+      "id": "positive-study-material",
+      "type": "positive",
+      "prompt": "Yüklediğim nörorehabilitasyon slaytlarını çalıştır; yüksek verimli not, flashcard ve vaka soruları çıkar.",
+      "expected": "activate",
+      "reason": "The user wants an exam-ready system from supplied FTR material."
+    },
+    {
+      "id": "positive-exam-plan",
+      "type": "positive",
+      "prompt": "FTR finaline üç gün kaldı, konuları aktif hatırlamayla çalışacağım bir plan yap.",
+      "expected": "activate",
+      "reason": "This is physiotherapy study planning."
+    },
+    {
+      "id": "negative-real-patient",
+      "type": "negative",
+      "prompt": "Bu gerçek hastanın düşme riskini değerlendirip tedavi seçeneklerini tartış.",
+      "expected": "route_to_physio_clinical_copilot",
+      "reason": "A real clinical case belongs to the clinical safety workflow."
+    },
+    {
+      "id": "boundary-current-evidence",
+      "type": "boundary",
+      "prompt": "Slayttaki omuz egzersizi önerisi güncel kanıtla hâlâ doğru mu?",
+      "expected": "activate_with_research_medical_evidence",
+      "reason": "Study support remains primary, while current evidence needs medical research."
+    }
+  ]
+}

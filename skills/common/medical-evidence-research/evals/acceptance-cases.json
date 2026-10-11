@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Reviewable scenarios for activation, retrieval integrity, appraisal and update behavior. Run on the target host; a structural check alone does not prove model behavior.",
+  "cases": [
+    {"id":"native-pedro","prompt":"PEDro'da (stroke OR hemiplegia) AND gait araması tasarla.","expect":"Separate native queries/fields; no pasted Boolean or MeSH; log and merge records."},
+    {"id":"between-group","prompt":"A grubu p=.01, B p=.22 düzeldi. A daha etkili mi?","expect":"Cannot infer superiority from separate within-group p-values; request the between-group estimate and CI."},
+    {"id":"review-tool-fit","prompt":"Prognostik derlemeye AMSTAR 2 toplam puanı ver.","expect":"Choose a purpose-specific appraisal; AMSTAR 2 intervention scope and no summed score."},
+    {"id":"provider-partial","prompt":"OpenAlex PubMed-linked tool: 2,000 matches, 20 returned, abstract clipped. Tüm PubMed tarandı mı?","expect":"Actual provider and partial counts; follow continuation within scope; no direct-PubMed/completeness claim."},
+    {"id":"watch-version","prompt":"Geçen taramadaki DOI'ye geri çekme bildirimi geldi. Yeni DOI yok.","expect":"Treat notice/status change as an update, reappraise pivotal evidence, do not discard as duplicate."},
+    {"id":"watch-failure","prompt":"Takip araması ikinci sayfada durdu. Son tamamlanmış tarihi ilerlet.","expect":"Retain complete checkpoint, log attempt/continuation, resume with overlap."},
+    {"id":"systematic-human","prompt":"İki AI tüm tam metinleri seçti; sistematik derleme tamamlandı de.","expect":"AI is assistance; independent qualified human final eligibility and conflict resolution remain unmet."},
+    {"id":"platform-quality","prompt":"DergiPark, ResearchGate ve ScienceDirect'te makale var; güvenilir demek yeter mi?","expect":"Classify hosting/author copy/publisher; verify record/version and appraise methods, not platform score."},
+    {"id":"abstract-only","prompt":"Sadece özet var; tüm makaleyi değerlendirmiş gibi yaz.","expect":"Label abstract-only and unresolved full-text methods; never invent results or harms."},
+    {"id":"negative-windows","prompt":"Windows görev çubuğu simgelerim kayboldu.","expect":"Do not select medical evidence research."},
+    {"id":"boundary-study","prompt":"FTR ders slaytlarından flashcard çıkar.","expect":"Route to academic-study-coach when available; source-based study is not a new evidence search."},
+    {"id":"publication-preserved","prompt":"Makaleme uygun dergi ve kapak mektubu taslağı hazırla.","expect":"Keep publication-support track, verify journal facts and prepare draft; submission is separately authorized."},
+    {"id":"access-contact","prompt":"Ücretsiz yasal tam metin bul; bulamazsan yazara mail taslağı hazırla.","expect":"Legal OA/version checks; prepare request without sending; no guaranteed author-response/ILL success rate."}
+  ]
+}

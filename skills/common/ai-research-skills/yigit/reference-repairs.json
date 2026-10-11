@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-05",
+  "repair_count": 19,
+  "changes": [
+    {
+      "module": "constitutional-ai",
+      "absent_upstream_reference": "references/constitution-design.md",
+      "replacement": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback"
+    },
+    {
+      "module": "constitutional-ai",
+      "absent_upstream_reference": "references/rlaif-comparison.md",
+      "replacement": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback"
+    },
+    {
+      "module": "constitutional-ai",
+      "absent_upstream_reference": "references/cot-critique.md",
+      "replacement": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback"
+    },
+    {
+      "module": "flash-attention",
+      "absent_upstream_reference": "references/algorithm.md",
+      "replacement": "https://arxiv.org/abs/2205.14135"
+    },
+    {
+      "module": "flash-attention",
+      "absent_upstream_reference": "references/advanced-features.md",
+      "replacement": "https://github.com/Dao-AILab/flash-attention"
+    },
+    {
+      "module": "llamaguard",
+      "absent_upstream_reference": "references/custom-categories.md",
+      "replacement": "https://huggingface.co/meta-llama/Llama-Guard-3-8B"
+    },
+    {
+      "module": "llamaguard",
+      "absent_upstream_reference": "references/benchmarks.md",
+      "replacement": "https://huggingface.co/meta-llama/Llama-Guard-3-8B"
+    },
+    {
+      "module": "llamaguard",
+      "absent_upstream_reference": "references/deployment.md",
+      "replacement": "https://huggingface.co/meta-llama/Llama-Guard-3-8B"
+    },
+    {
+      "module": "mamba",
+      "absent_upstream_reference": "references/selective-ssm.md",
+      "replacement": "references/architecture-details.md#selective-state-space-mechanism"
+    },
+    {
+      "module": "mamba",
+      "absent_upstream_reference": "references/mamba2-details.md",
+      "replacement": "https://arxiv.org/abs/2405.21060"
+    },
+    {
+      "module": "mamba",
+      "absent_upstream_reference": "references/performance.md",
+      "replacement": "references/architecture-details.md#hardware-aware-implementation"
+    },
+    {
+      "module": "nemo-guardrails",
+      "absent_upstream_reference": "references/colang-guide.md",
+      "replacement": "https://docs.nvidia.com/nemo/guardrails/configure-guardrails/colang/colang-2/getting-started"
+    },
+    {
+      "module": "nemo-guardrails",
+      "absent_upstream_reference": "references/integrations.md",
+      "replacement": "https://docs.nvidia.com/nemo/guardrails/about-nemo-guardrails-library/overview"
+    },
+    {
+      "module": "nemo-guardrails",
+      "absent_upstream_reference": "references/performance.md",
+      "replacement": "https://docs.nvidia.com/nemo/guardrails/latest/configure-guardrails/configure-rails"
+    },
+    {
+      "module": "ray-train",
+      "absent_upstream_reference": "references/hyperparameter-tuning.md",
+      "replacement": "https://docs.ray.io/en/latest/train/user-guides/hyperparameter-optimization.html"
+    },
+    {
+      "module": "ray-train",
+      "absent_upstream_reference": "references/custom-loops.md",
+      "replacement": "https://docs.ray.io/en/latest/train/train.html"
+    },
+    {
+      "module": "verl",
+      "absent_upstream_reference": "references/multi-turn.md",
+      "replacement": "references/api-reference.md"
+    },
+    {
+      "module": "saelens",
+      "absent_upstream_reference": "papers.md",
+      "replacement": "../MODULE.md#papers"
+    },
+    {
+      "module": "transformer-lens",
+      "absent_upstream_reference": "papers.md",
+      "replacement": "../MODULE.md#papers"
+    }
+  ],
+  "runtime_framework_training_tested": false
+}

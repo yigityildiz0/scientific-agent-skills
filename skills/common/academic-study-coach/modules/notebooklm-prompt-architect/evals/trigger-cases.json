@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Semantic trigger acceptance cases; these are design tests, not runtime activation logs.",
+  "cases": [
+    {
+      "id": "positive-copy-ready-prompt",
+      "type": "positive",
+      "prompt": "NotebookLM'e yüklediğim bütün kaynaklardan sınav odaklı sesli özet çıkarması için ne yazayım?",
+      "expected": "activate",
+      "reason": "The user needs a grounded copy-ready NotebookLM prompt."
+    },
+    {
+      "id": "positive-coverage-contract",
+      "type": "positive",
+      "prompt": "NotebookLM hiçbir PDF'i atlamasın, çelişkileri de göstersin; bana prompt hazırla.",
+      "expected": "activate",
+      "reason": "The request explicitly needs source coverage and conflict rules."
+    },
+    {
+      "id": "negative-direct-summary",
+      "type": "negative",
+      "prompt": "Bu PDF'i burada özetle.",
+      "expected": "do_not_activate",
+      "reason": "A direct document summary is not a NotebookLM prompt request."
+    },
+    {
+      "id": "boundary-interface",
+      "type": "boundary",
+      "prompt": "NotebookLM'de bu özellik şu anda hangi menüde, sonra kullanacağım promptu da yaz.",
+      "expected": "activate_with_current_official_product_research",
+      "reason": "The prompt is owned here, but changing interface facts require official verification."
+    }
+  ]
+}

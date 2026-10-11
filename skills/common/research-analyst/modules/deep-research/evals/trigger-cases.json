@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Semantic trigger and co-activation fixtures; these are design tests, not runtime activation logs.",
+  "cases": [
+    {
+      "id": "positive-explicit-depth",
+      "type": "positive",
+      "prompt": "Bunu çok derin araştır, bütün alakalı kaynakları tara ve yüzeysel olma.",
+      "expected": "activate_deep_research"
+    },
+    {
+      "id": "positive-all-relevant-skills",
+      "type": "positive",
+      "prompt": "Gerekli bütün becerileri de kullan; yalnız deep research ile bırakma.",
+      "expected": "activate_and_compose_smallest_complete_research_team"
+    },
+    {
+      "id": "positive-health-product",
+      "type": "positive",
+      "prompt": "Bu saç serumunun sitesindeki yabancı testleri derin araştır; reklam mı gerçek kanıt mı ayır ve gerekli skilleri kullan.",
+      "expected": "coactivate_health_product_medical_evidence_and_integrity"
+    },
+    {
+      "id": "positive-high-risk-finance",
+      "type": "positive",
+      "prompt": "Cuma gününe kadar en iyi varantı çok daha araştır; emin misin, önceki seçime bağlanma.",
+      "expected": "coactivate_investment_market_forecast_finance_guard_and_red_team"
+    },
+    {
+      "id": "positive-supplied-link-plus-web",
+      "type": "positive",
+      "prompt": "Bu uzun sohbet bağlantısını baştan sona analiz et, sonra internetteki güncel seçeneklerle sentezle.",
+      "expected": "coactivate_deep_reading_deep_research_and_integrity"
+    },
+    {
+      "id": "negative-small-lookup",
+      "type": "negative",
+      "prompt": "Türkiye'den bir sonraki güneş tutulması hangi gün?",
+      "expected": "route_to_quick_research"
+    },
+    {
+      "id": "boundary-short-answer",
+      "type": "boundary",
+      "prompt": "Bilimsel olarak derin araştır ama sonucu çok kısa anlat.",
+      "expected": "keep_deep_verification_and_only_shorten_presentation"
+    },
+    {
+      "id": "boundary-unrelated-all-skills",
+      "type": "boundary",
+      "prompt": "Bütün skilleri kullanarak merhaba de.",
+      "expected": "do_not_activate_research_or_load_unrelated_skills"
+    }
+  ]
+}

@@ -1,0 +1,4046 @@
+{
+  "academic-study-coach": {
+    "source_skill": "academic-study-coach",
+    "split": false,
+    "parts": [
+      "academic-study-coach"
+    ],
+    "modules": [
+      "academic-presentations",
+      "academic-writing",
+      "notebooklm-prompt-architect",
+      "physio-clinical-english",
+      "physio-study-coach"
+    ],
+    "files": {
+      "PORTABLE.md": {
+        "sha256": "1ef57269f64ebf62c91d70aba00d1d1aabfbfc5163019a96fed3dc824826f0c9",
+        "locations": [
+          "academic-study-coach/PORTABLE.md"
+        ]
+      },
+      "SKILL.md": {
+        "sha256": "c58609542f0ad0b9c743df3b583c24c6cc55b6389f1d9b79a67e02532145aa18",
+        "locations": [
+          "academic-study-coach/SKILL.md"
+        ]
+      },
+      "modules/academic-presentations/MODULE.md": {
+        "sha256": "463e11f3885cccfbf4bfd61cdc13fad659064283aeb26f4d017b591bf3f1f1b5",
+        "locations": [
+          "academic-study-coach/modules/academic-presentations/MODULE.md"
+        ]
+      },
+      "modules/academic-writing/LICENSE": {
+        "sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+        "locations": [
+          "academic-study-coach/modules/academic-writing/LICENSE"
+        ]
+      },
+      "modules/academic-writing/MODULE.md": {
+        "sha256": "522332c97d52ad3052f386cb3f6087486f2e4ae7899bcf7583322a0140b8134c",
+        "locations": [
+          "academic-study-coach/modules/academic-writing/MODULE.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/MODULE.md": {
+        "sha256": "9d867bd8b9b0b41328920adbbbeb26185cb825535a7f82c3a06db1a1d80ed487",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/MODULE.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/README.md": {
+        "sha256": "0d3afd3d8bf1420914cdc0d5f9412142b7cbb60d3893d818eafde8496286df2b",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/README.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/SOURCES.md": {
+        "sha256": "6a7468b457122eaeab50f043ee547e7651ace207d8f25e51ec425ed7b8c421f1",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/SOURCES.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/evals/trigger-cases.json": {
+        "sha256": "bf88d50944d4826516f1726801bf3b74fcf9ce1de64745f232cdc362d6238d78",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/evals/trigger-cases.json"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/examples/audio-overview-prompt.md": {
+        "sha256": "8c49ff411349802c06b4494a26e9590da7fb7b6d812171c1a8d4bfc79645ff0d",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/examples/audio-overview-prompt.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/examples/dense-study-note-prompt.md": {
+        "sha256": "047fa9552aa981695795cd641bb08c398f565a7b10cc464ad3567cbcb993ba2e",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/examples/dense-study-note-prompt.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/examples/quiz-clinical-vignette-prompt.md": {
+        "sha256": "f3aff19d6766a089472219d7f0d66bf5ef6f5fdcb07fc426cd711c135622ea97",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/examples/quiz-clinical-vignette-prompt.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/examples/slide-deck-prompt.md": {
+        "sha256": "22856c121b5213654b2ca267b8ce3d768f94be9d1f1885ce2abec26442fb5b61",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/examples/slide-deck-prompt.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/references/notebooklm-artifact-templates.md": {
+        "sha256": "6eb661c44c57cd053ea1a96fa9cd38dc71bfde120a996bf7d275a95519b1ae5d",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/references/notebooklm-artifact-templates.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/references/prompt-architecture.md": {
+        "sha256": "c275a2f81640855c76038c2f5396d44f56206f608de7881e79da262d60e38ffe",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/references/prompt-architecture.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/references/prompt-patterns.md": {
+        "sha256": "18d286de4a97bc645ba3468d7bb7b2bce0231954dd83ce595d667748a932fed3",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/references/prompt-patterns.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/references/quality-checklist.md": {
+        "sha256": "b329468bd91b199e269c1998334fa2c22d24fe88fc76b4cd803a73acc3cd12b9",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/references/quality-checklist.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/references/source-strategy.md": {
+        "sha256": "cc9c57943b0dbda77e3f869f91e114d88f101df50d89fc1c52611cb995cac6f9",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/references/source-strategy.md"
+        ]
+      },
+      "modules/notebooklm-prompt-architect/references/study-exam-playbooks.md": {
+        "sha256": "9f30ca2523f97d11756b088d649bc5320f5389f4c74166ec70023c914d72e3aa",
+        "locations": [
+          "academic-study-coach/modules/notebooklm-prompt-architect/references/study-exam-playbooks.md"
+        ]
+      },
+      "modules/physio-clinical-english/MODULE.md": {
+        "sha256": "ccd89d7469eb7318cce2a168b5702f11a618b8e531e6428b98d15988b920f7e6",
+        "locations": [
+          "academic-study-coach/modules/physio-clinical-english/MODULE.md"
+        ]
+      },
+      "modules/physio-clinical-english/references/contextual-teaching.md": {
+        "sha256": "d04ed1188c9f1f05f19e2eec5a7fef07903402742f46b15121934a9f02ad57aa",
+        "locations": [
+          "academic-study-coach/modules/physio-clinical-english/references/contextual-teaching.md"
+        ]
+      },
+      "modules/physio-clinical-english/references/handoff-contract.md": {
+        "sha256": "536e41f88e463fd17fa002afa0a73d2c9d43df862681a20597e27c0100f272cc",
+        "locations": [
+          "academic-study-coach/modules/physio-clinical-english/references/handoff-contract.md"
+        ]
+      },
+      "modules/physio-clinical-english/references/safety-core.md": {
+        "sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+        "locations": [
+          "academic-study-coach/modules/physio-clinical-english/references/safety-core.md"
+        ]
+      },
+      "modules/physio-clinical-english/references/specialty-safeguards.md": {
+        "sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+        "locations": [
+          "academic-study-coach/modules/physio-clinical-english/references/specialty-safeguards.md"
+        ]
+      },
+      "modules/physio-study-coach/MODULE.md": {
+        "sha256": "645023e45e8fcc11c6b0e091411558acc6153ded7b3d823ed0c007e51d2eab6e",
+        "locations": [
+          "academic-study-coach/modules/physio-study-coach/MODULE.md"
+        ]
+      },
+      "modules/physio-study-coach/evals/trigger-cases.json": {
+        "sha256": "d067428eb154c54e56ec21b2c73566fce9e86a4b73b4ca8f6d6885e8e9a0679a",
+        "locations": [
+          "academic-study-coach/modules/physio-study-coach/evals/trigger-cases.json"
+        ]
+      },
+      "modules/physio-study-coach/references/study-system.md": {
+        "sha256": "08844c08c42f8566f615f8a1a130c91a306a0e915b72f0a0b92284d1c493b4c1",
+        "locations": [
+          "academic-study-coach/modules/physio-study-coach/references/study-system.md"
+        ]
+      },
+      "references/literature-practice.md": {
+        "sha256": "ec69a0fef2767c7abdc5caea3b46714a318e2d1b2b649131e22de9627360145f",
+        "locations": [
+          "academic-study-coach/references/literature-practice.md"
+        ]
+      },
+      "yigit/host-manifest.json": {
+        "sha256": "2b0195c01c4a8eb1a84fef651ba378387bf7208a47537dcfad26966701304172",
+        "locations": [
+          "academic-study-coach/yigit/host-manifest.json"
+        ]
+      },
+      "yigit/host-runtime.md": {
+        "sha256": "7340e97e88e7f03880a60b1d98aece1c9d0ac8ea8b7dcaebe04889699090f6ec",
+        "locations": [
+          "academic-study-coach/yigit/host-runtime.md"
+        ]
+      },
+      "yigit/source-SKILL.md": {
+        "sha256": "f3babfacd400e2a76944bb9799e7021fdbb5808f5824e049239c44fc1c28e9e3",
+        "locations": [
+          "academic-study-coach/yigit/source-SKILL.md"
+        ]
+      }
+    }
+  },
+  "ai-research-skills": {
+    "source_skill": "ai-research-skills",
+    "split": true,
+    "parts": [
+      "ai-research-skills-part-001",
+      "ai-research-skills-part-002",
+      "ai-research-skills-part-003"
+    ],
+    "modules": {
+      "a-evolve": [
+        "ai-research-skills-part-001"
+      ],
+      "academic-plotting": [
+        "ai-research-skills-part-001"
+      ],
+      "accelerate": [
+        "ai-research-skills-part-001"
+      ],
+      "audiocraft": [
+        "ai-research-skills-part-001"
+      ],
+      "autogpt": [
+        "ai-research-skills-part-001"
+      ],
+      "autoresearch": [
+        "ai-research-skills-part-001"
+      ],
+      "awq": [
+        "ai-research-skills-part-001"
+      ],
+      "axolotl": [
+        "ai-research-skills-part-001"
+      ],
+      "bigcode-evaluation-harness": [
+        "ai-research-skills-part-001"
+      ],
+      "bitsandbytes": [
+        "ai-research-skills-part-001"
+      ],
+      "blip-2": [
+        "ai-research-skills-part-001"
+      ],
+      "brainstorming-research-ideas": [
+        "ai-research-skills-part-001"
+      ],
+      "chroma": [
+        "ai-research-skills-part-001"
+      ],
+      "clip": [
+        "ai-research-skills-part-001"
+      ],
+      "compiler": [
+        "ai-research-skills-part-001"
+      ],
+      "constitutional-ai": [
+        "ai-research-skills-part-001"
+      ],
+      "cosmos-policy": [
+        "ai-research-skills-part-001"
+      ],
+      "creative-thinking-for-research": [
+        "ai-research-skills-part-001"
+      ],
+      "crewai": [
+        "ai-research-skills-part-001"
+      ],
+      "deepspeed": [
+        "ai-research-skills-part-001"
+      ],
+      "dspy": [
+        "ai-research-skills-part-001"
+      ],
+      "faiss": [
+        "ai-research-skills-part-001"
+      ],
+      "flash-attention": [
+        "ai-research-skills-part-001"
+      ],
+      "gguf": [
+        "ai-research-skills-part-001"
+      ],
+      "gptq": [
+        "ai-research-skills-part-001"
+      ],
+      "grpo-rl-training": [
+        "ai-research-skills-part-001"
+      ],
+      "guidance": [
+        "ai-research-skills-part-001"
+      ],
+      "hqq": [
+        "ai-research-skills-part-001"
+      ],
+      "huggingface-tokenizers": [
+        "ai-research-skills-part-001"
+      ],
+      "instructor": [
+        "ai-research-skills-part-001"
+      ],
+      "knowledge-distillation": [
+        "ai-research-skills-part-001"
+      ],
+      "lambda-labs": [
+        "ai-research-skills-part-001"
+      ],
+      "langchain": [
+        "ai-research-skills-part-001"
+      ],
+      "langsmith": [
+        "ai-research-skills-part-001"
+      ],
+      "litgpt": [
+        "ai-research-skills-part-001"
+      ],
+      "llama-cpp": [
+        "ai-research-skills-part-001"
+      ],
+      "llama-factory": [
+        "ai-research-skills-part-001"
+      ],
+      "llamaguard": [
+        "ai-research-skills-part-001"
+      ],
+      "llamaindex": [
+        "ai-research-skills-part-001"
+      ],
+      "llava": [
+        "ai-research-skills-part-001"
+      ],
+      "lm-evaluation-harness": [
+        "ai-research-skills-part-001"
+      ],
+      "long-context": [
+        "ai-research-skills-part-001"
+      ],
+      "mamba": [
+        "ai-research-skills-part-001"
+      ],
+      "megatron-core": [
+        "ai-research-skills-part-001"
+      ],
+      "miles": [
+        "ai-research-skills-part-001"
+      ],
+      "ml-paper-writing": [
+        "ai-research-skills-part-002"
+      ],
+      "ml-training-recipes": [
+        "ai-research-skills-part-002"
+      ],
+      "mlflow": [
+        "ai-research-skills-part-002"
+      ],
+      "modal": [
+        "ai-research-skills-part-002"
+      ],
+      "model-merging": [
+        "ai-research-skills-part-002"
+      ],
+      "model-pruning": [
+        "ai-research-skills-part-002"
+      ],
+      "moe-training": [
+        "ai-research-skills-part-002"
+      ],
+      "nanogpt": [
+        "ai-research-skills-part-002"
+      ],
+      "nemo-curator": [
+        "ai-research-skills-part-002"
+      ],
+      "nemo-evaluator": [
+        "ai-research-skills-part-002"
+      ],
+      "nemo-guardrails": [
+        "ai-research-skills-part-002"
+      ],
+      "nnsight": [
+        "ai-research-skills-part-002"
+      ],
+      "openpi": [
+        "ai-research-skills-part-002"
+      ],
+      "openrlhf": [
+        "ai-research-skills-part-002"
+      ],
+      "openvla-oft": [
+        "ai-research-skills-part-002"
+      ],
+      "outlines": [
+        "ai-research-skills-part-002"
+      ],
+      "peft": [
+        "ai-research-skills-part-002"
+      ],
+      "phoenix": [
+        "ai-research-skills-part-002"
+      ],
+      "pinecone": [
+        "ai-research-skills-part-002"
+      ],
+      "presenting-conference-talks": [
+        "ai-research-skills-part-002"
+      ],
+      "prompt-guard": [
+        "ai-research-skills-part-002"
+      ],
+      "pytorch-fsdp2": [
+        "ai-research-skills-part-002"
+      ],
+      "pytorch-lightning": [
+        "ai-research-skills-part-002"
+      ],
+      "pyvene": [
+        "ai-research-skills-part-002"
+      ],
+      "qdrant": [
+        "ai-research-skills-part-002"
+      ],
+      "ray-data": [
+        "ai-research-skills-part-002"
+      ],
+      "ray-train": [
+        "ai-research-skills-part-002"
+      ],
+      "research-manager": [
+        "ai-research-skills-part-002"
+      ],
+      "rigor-reviewer": [
+        "ai-research-skills-part-002"
+      ],
+      "rwkv": [
+        "ai-research-skills-part-002"
+      ],
+      "saelens": [
+        "ai-research-skills-part-002"
+      ],
+      "segment-anything": [
+        "ai-research-skills-part-002"
+      ],
+      "sentence-transformers": [
+        "ai-research-skills-part-002"
+      ],
+      "sentencepiece": [
+        "ai-research-skills-part-002"
+      ],
+      "sglang": [
+        "ai-research-skills-part-002"
+      ],
+      "simpo": [
+        "ai-research-skills-part-002"
+      ],
+      "skypilot": [
+        "ai-research-skills-part-002"
+      ],
+      "slime": [
+        "ai-research-skills-part-003"
+      ],
+      "speculative-decoding": [
+        "ai-research-skills-part-003"
+      ],
+      "stable-diffusion": [
+        "ai-research-skills-part-003"
+      ],
+      "swanlab": [
+        "ai-research-skills-part-003"
+      ],
+      "systems-paper-writing": [
+        "ai-research-skills-part-003"
+      ],
+      "tensorboard": [
+        "ai-research-skills-part-003"
+      ],
+      "tensorrt-llm": [
+        "ai-research-skills-part-003"
+      ],
+      "torchforge": [
+        "ai-research-skills-part-003"
+      ],
+      "torchtitan": [
+        "ai-research-skills-part-003"
+      ],
+      "transformer-lens": [
+        "ai-research-skills-part-003"
+      ],
+      "trl-fine-tuning": [
+        "ai-research-skills-part-003"
+      ],
+      "unsloth": [
+        "ai-research-skills-part-003"
+      ],
+      "verl": [
+        "ai-research-skills-part-003"
+      ],
+      "vllm": [
+        "ai-research-skills-part-003"
+      ],
+      "weights-and-biases": [
+        "ai-research-skills-part-003"
+      ],
+      "whisper": [
+        "ai-research-skills-part-003"
+      ]
+    },
+    "files": {
+      "LICENSE": {
+        "sha256": "643d327cf8aefe47de791ed5a6562a18d5ff0001ab014730bd59be38f80dcf9a",
+        "locations": [
+          "ai-research-skills-part-001/LICENSE",
+          "ai-research-skills-part-002/LICENSE",
+          "ai-research-skills-part-003/LICENSE"
+        ]
+      },
+      "PORTABLE.md": {
+        "sha256": "1ef57269f64ebf62c91d70aba00d1d1aabfbfc5163019a96fed3dc824826f0c9",
+        "locations": [
+          "ai-research-skills-part-001/PORTABLE.md",
+          "ai-research-skills-part-002/PORTABLE.md",
+          "ai-research-skills-part-003/PORTABLE.md"
+        ]
+      },
+      "SKILL.md": {
+        "sha256": "880203f4f2b08c57a21ad66b1f74613e34d6f4acd87bd21c8ec91d0b3a0a740e",
+        "locations": [
+          "ai-research-skills-part-001/yigit/complete-host-entrypoint.md",
+          "ai-research-skills-part-002/yigit/complete-host-entrypoint.md",
+          "ai-research-skills-part-003/yigit/complete-host-entrypoint.md"
+        ]
+      },
+      "modules/a-evolve/MODULE.md": {
+        "sha256": "fbe66b8800da00703d8b81de1c73c48f8fdbf07261ab675769909f9653493c3a",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/MODULE.md"
+        ]
+      },
+      "modules/a-evolve/references/README.md": {
+        "sha256": "554621017bcda67d3ad1a76882b23a60dd7650aa952e6a29c76d0c6b9a757c91",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/references/README.md"
+        ]
+      },
+      "modules/a-evolve/references/api.md": {
+        "sha256": "997967ef3c530dd9e544fdf1a510aa9b38b858273dabe85f4a1e1110d3acddd3",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/references/api.md"
+        ]
+      },
+      "modules/a-evolve/references/architecture.md": {
+        "sha256": "41f915c7cf35652ec0eeae6a65cbc16ffc7536b9807a5a3ad33154808ad7653c",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/references/architecture.md"
+        ]
+      },
+      "modules/a-evolve/references/design-patterns.md": {
+        "sha256": "f07252c0bc48c403e9b6705468ddeb70d47c0bf7326d5bcff134d1ce3cc989e7",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/references/design-patterns.md"
+        ]
+      },
+      "modules/a-evolve/references/examples.md": {
+        "sha256": "e2100f7d77a7a154b8e5b193ac18f686c37558a93d5af374269a8105d4cfa1c2",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/references/examples.md"
+        ]
+      },
+      "modules/a-evolve/references/issues.md": {
+        "sha256": "4f8688b66f5739f298cdb9229a8f3210ceda28b63809a89bdf75ee938db0a3fb",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/references/issues.md"
+        ]
+      },
+      "modules/a-evolve/references/releases.md": {
+        "sha256": "35014b3e2f94ce6890bbc8e909de4b7eb07acaddca4e77219716201294c78acd",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/references/releases.md"
+        ]
+      },
+      "modules/a-evolve/references/tutorials.md": {
+        "sha256": "2efc8ad1c5130ef42d16f36adaa6bc9cdcff7ddd450686bbd8909022ee51344c",
+        "locations": [
+          "ai-research-skills-part-001/modules/a-evolve/references/tutorials.md"
+        ]
+      },
+      "modules/academic-plotting/MODULE.md": {
+        "sha256": "d9d41008fa29c7759d89b9ad7cbb58b214ca2d0426206110a90d3480a9f4a1f9",
+        "locations": [
+          "ai-research-skills-part-001/modules/academic-plotting/MODULE.md"
+        ]
+      },
+      "modules/academic-plotting/references/data-visualization.md": {
+        "sha256": "0b037d9e9fcd03252604a86cb995b04d32ba9d9cf6e455af0bf1b6a72e88605b",
+        "locations": [
+          "ai-research-skills-part-001/modules/academic-plotting/references/data-visualization.md"
+        ]
+      },
+      "modules/academic-plotting/references/diagram-generation.md": {
+        "sha256": "1ab923d509761b8a52fbc9acac70a1a5a42b7b4e1789a924f943ab3d5f02a754",
+        "locations": [
+          "ai-research-skills-part-001/modules/academic-plotting/references/diagram-generation.md"
+        ]
+      },
+      "modules/academic-plotting/references/style-guide.md": {
+        "sha256": "3b7619d17daf41883d2866cfa072e3d0352ee790b1caa673019fc4831d385f1c",
+        "locations": [
+          "ai-research-skills-part-001/modules/academic-plotting/references/style-guide.md"
+        ]
+      },
+      "modules/accelerate/MODULE.md": {
+        "sha256": "83833d62efd4a6896632bcf53e1d18d2c1ddcda963229e1731c520cde47299d3",
+        "locations": [
+          "ai-research-skills-part-001/modules/accelerate/MODULE.md"
+        ]
+      },
+      "modules/accelerate/references/custom-plugins.md": {
+        "sha256": "b61a7d29e4307c8b4bc65d2a5d3929616ee46f2d3d8808b56de770111e49bb73",
+        "locations": [
+          "ai-research-skills-part-001/modules/accelerate/references/custom-plugins.md"
+        ]
+      },
+      "modules/accelerate/references/megatron-integration.md": {
+        "sha256": "c534ddc0978a5cf544213e3258a2aab87174d800769c8c1300e12f163d30b458",
+        "locations": [
+          "ai-research-skills-part-001/modules/accelerate/references/megatron-integration.md"
+        ]
+      },
+      "modules/accelerate/references/performance.md": {
+        "sha256": "6cf7bab859b085919db0a2cefdaf1bcb9b317803f32a13a7578630cf97a9a710",
+        "locations": [
+          "ai-research-skills-part-001/modules/accelerate/references/performance.md"
+        ]
+      },
+      "modules/audiocraft/MODULE.md": {
+        "sha256": "8b176cc823ad24a6c4759706efc6cf33935ce24d3d3a99b4a2888083788b1a06",
+        "locations": [
+          "ai-research-skills-part-001/modules/audiocraft/MODULE.md"
+        ]
+      },
+      "modules/audiocraft/references/advanced-usage.md": {
+        "sha256": "62d1b429dc48ac3c78c0019ce4154b14120893ece3a9cfa7eebc320c17ac97c4",
+        "locations": [
+          "ai-research-skills-part-001/modules/audiocraft/references/advanced-usage.md"
+        ]
+      },
+      "modules/audiocraft/references/troubleshooting.md": {
+        "sha256": "87fac89d4b97fd9def44a51ffb36d091ea4ad2d29e34b47e21fb0ed83f3b9049",
+        "locations": [
+          "ai-research-skills-part-001/modules/audiocraft/references/troubleshooting.md"
+        ]
+      },
+      "modules/autogpt/MODULE.md": {
+        "sha256": "a3db6d26dc07a495598304ce9cf8dc1ae44b8cbffd411536fd6e8e4b25a55020",
+        "locations": [
+          "ai-research-skills-part-001/modules/autogpt/MODULE.md"
+        ]
+      },
+      "modules/autogpt/references/advanced-usage.md": {
+        "sha256": "f960c2d92e782538792b67185bbb868346e09c871961daff4ab1d58ceed77f65",
+        "locations": [
+          "ai-research-skills-part-001/modules/autogpt/references/advanced-usage.md"
+        ]
+      },
+      "modules/autogpt/references/troubleshooting.md": {
+        "sha256": "66a6ccedafc0a4bfa40dd96cf333b6cc551abe0103dcb9f9f8e7847062f8d443",
+        "locations": [
+          "ai-research-skills-part-001/modules/autogpt/references/troubleshooting.md"
+        ]
+      },
+      "modules/autoresearch/MODULE.md": {
+        "sha256": "7c3729802eecc3c13a2b6568947dd0b92431d137ee1646f97ead88426a989113",
+        "locations": [
+          "ai-research-skills-part-001/modules/autoresearch/MODULE.md"
+        ]
+      },
+      "modules/autoresearch/references/agent-continuity.md": {
+        "sha256": "9a933a015aebf6518bda72dff94e487228dfcb964f723ac1ebe86af62f785e8e",
+        "locations": [
+          "ai-research-skills-part-001/modules/autoresearch/references/agent-continuity.md"
+        ]
+      },
+      "modules/autoresearch/references/progress-reporting.md": {
+        "sha256": "3fe61dfcbb852191f1b97f73733085265c84cc6bfe5476592fac4fa01c4d9336",
+        "locations": [
+          "ai-research-skills-part-001/modules/autoresearch/references/progress-reporting.md"
+        ]
+      },
+      "modules/autoresearch/references/skill-routing.md": {
+        "sha256": "5f54427046a35b127a8663ddfe53bfbf6a5cd15458c4105d45d00f9a3b3ce15f",
+        "locations": [
+          "ai-research-skills-part-001/modules/autoresearch/references/skill-routing.md"
+        ]
+      },
+      "modules/autoresearch/templates/findings.md": {
+        "sha256": "5b7e0eb1b237283c7051d034b165a36d2a22d58665f0d53d9ea47ee9ac6c048c",
+        "locations": [
+          "ai-research-skills-part-001/modules/autoresearch/templates/findings.md"
+        ]
+      },
+      "modules/autoresearch/templates/progress-presentation.html": {
+        "sha256": "5a6f05a502e106e0179eeb6f6c37a430b46823559d737b553a8abfe94dbf08a9",
+        "locations": [
+          "ai-research-skills-part-001/modules/autoresearch/templates/progress-presentation.html"
+        ]
+      },
+      "modules/autoresearch/templates/research-log.md": {
+        "sha256": "cb14de60fd2876358db1f1be65707f850e5a748e0d3d70e44ea2182e701b0575",
+        "locations": [
+          "ai-research-skills-part-001/modules/autoresearch/templates/research-log.md"
+        ]
+      },
+      "modules/autoresearch/templates/research-state.yaml": {
+        "sha256": "8fcaa736a52cc50a940694340790102c873cb01281952bc0fe0299c3e97b0ed4",
+        "locations": [
+          "ai-research-skills-part-001/modules/autoresearch/templates/research-state.yaml"
+        ]
+      },
+      "modules/awq/MODULE.md": {
+        "sha256": "d1cba1675e843e3359be8e274256d26441bc120b5097820ece90ac32b886593d",
+        "locations": [
+          "ai-research-skills-part-001/modules/awq/MODULE.md"
+        ]
+      },
+      "modules/awq/references/advanced-usage.md": {
+        "sha256": "8d4a280e9046c25aa91795a97c8e1a77d915c3534fe310a4d4fb147c3cae8140",
+        "locations": [
+          "ai-research-skills-part-001/modules/awq/references/advanced-usage.md"
+        ]
+      },
+      "modules/awq/references/troubleshooting.md": {
+        "sha256": "85fe7ae0aba1f593261a85b3d503600cc194ff11401560ebab1f9de3144f4cc4",
+        "locations": [
+          "ai-research-skills-part-001/modules/awq/references/troubleshooting.md"
+        ]
+      },
+      "modules/axolotl/MODULE.md": {
+        "sha256": "f75063210bde705c15d7c94d22263c42c78ec9ae9b0c505976595fe416650a17",
+        "locations": [
+          "ai-research-skills-part-001/modules/axolotl/MODULE.md"
+        ]
+      },
+      "modules/axolotl/references/api.md": {
+        "sha256": "5983df3125a5b91ed7f097eb78fc2f62cfc5482ae36aaacec3f78eccb1ab8b21",
+        "locations": [
+          "ai-research-skills-part-001/modules/axolotl/references/api.md"
+        ]
+      },
+      "modules/axolotl/references/dataset-formats.md": {
+        "sha256": "1818a556f91bc44ed6513c4c3ea85a1afc50bad7e0c29e945afba3d5c36b5619",
+        "locations": [
+          "ai-research-skills-part-001/modules/axolotl/references/dataset-formats.md"
+        ]
+      },
+      "modules/axolotl/references/index.md": {
+        "sha256": "df32ad6412327bfc28d42cd7c93ec6a6407c20da748cdcdfdb44cd8affb08cc8",
+        "locations": [
+          "ai-research-skills-part-001/modules/axolotl/references/index.md"
+        ]
+      },
+      "modules/axolotl/references/other.md": {
+        "sha256": "c0aa5279f64b3e11c67b370fb274eefae888b72796f2fdb0387527a187e1ee02",
+        "locations": [
+          "ai-research-skills-part-001/modules/axolotl/references/other.md"
+        ]
+      },
+      "modules/bigcode-evaluation-harness/MODULE.md": {
+        "sha256": "e465dee25c4c9e1c2842f9f1d2ab1b812ff03b205f453ede72a78126e4a7b2f3",
+        "locations": [
+          "ai-research-skills-part-001/modules/bigcode-evaluation-harness/MODULE.md"
+        ]
+      },
+      "modules/bigcode-evaluation-harness/references/benchmarks.md": {
+        "sha256": "0c587a78866978a8de9b736a5942157c22f9f1283b806fd15ad26528d58aa30a",
+        "locations": [
+          "ai-research-skills-part-001/modules/bigcode-evaluation-harness/references/benchmarks.md"
+        ]
+      },
+      "modules/bigcode-evaluation-harness/references/custom-tasks.md": {
+        "sha256": "10201bf44a2a8a7f7350f203ccdc805c8578483a341c7e7ee25866a1ad268887",
+        "locations": [
+          "ai-research-skills-part-001/modules/bigcode-evaluation-harness/references/custom-tasks.md"
+        ]
+      },
+      "modules/bigcode-evaluation-harness/references/issues.md": {
+        "sha256": "f61265f5a1ff6123aad17f2a06e229982b08b98197e80e1ba5901551d55d25ad",
+        "locations": [
+          "ai-research-skills-part-001/modules/bigcode-evaluation-harness/references/issues.md"
+        ]
+      },
+      "modules/bitsandbytes/MODULE.md": {
+        "sha256": "57c0f7c94776ba47f889f75c8899a79a4c23008f96a125cbecf6fa2237a35a5c",
+        "locations": [
+          "ai-research-skills-part-001/modules/bitsandbytes/MODULE.md"
+        ]
+      },
+      "modules/bitsandbytes/references/memory-optimization.md": {
+        "sha256": "753f69636039440082eb27a94cb59f79b96ba5e03c1053dd3c85de6f0ed002ff",
+        "locations": [
+          "ai-research-skills-part-001/modules/bitsandbytes/references/memory-optimization.md"
+        ]
+      },
+      "modules/bitsandbytes/references/qlora-training.md": {
+        "sha256": "e3dc6086179ed2f00e82e65ba20f7cd25275130147e18e1e0e4f04cc6631d5a6",
+        "locations": [
+          "ai-research-skills-part-001/modules/bitsandbytes/references/qlora-training.md"
+        ]
+      },
+      "modules/bitsandbytes/references/quantization-formats.md": {
+        "sha256": "6014c05003fd8d0557ab4368e62dacde6a709966a7206a551a8e991b4e76143b",
+        "locations": [
+          "ai-research-skills-part-001/modules/bitsandbytes/references/quantization-formats.md"
+        ]
+      },
+      "modules/blip-2/MODULE.md": {
+        "sha256": "d5ffd304cd94b9f71fae5b3a9408951d98ce6570cb15127ecb989377f26c16e9",
+        "locations": [
+          "ai-research-skills-part-001/modules/blip-2/MODULE.md"
+        ]
+      },
+      "modules/blip-2/references/advanced-usage.md": {
+        "sha256": "069fa17425086caceefd6093f1ebc1e538f5f63917401f7fe1acb2152af8dcca",
+        "locations": [
+          "ai-research-skills-part-001/modules/blip-2/references/advanced-usage.md"
+        ]
+      },
+      "modules/blip-2/references/troubleshooting.md": {
+        "sha256": "52aba948c7b16eb73c2e27bf8e3838fc1389f35299e66c110cfcda483586fdcb",
+        "locations": [
+          "ai-research-skills-part-001/modules/blip-2/references/troubleshooting.md"
+        ]
+      },
+      "modules/brainstorming-research-ideas/MODULE.md": {
+        "sha256": "a717f036082cc5c96e1e2c4648e3fc024085e87339ad0f6ca7ce007394bf6d75",
+        "locations": [
+          "ai-research-skills-part-001/modules/brainstorming-research-ideas/MODULE.md"
+        ]
+      },
+      "modules/chroma/MODULE.md": {
+        "sha256": "e7a0f2fd254af2e12a4dcf71c4e11649eb2e1cf0c1c72e81856cf8a2cb7a6a83",
+        "locations": [
+          "ai-research-skills-part-001/modules/chroma/MODULE.md"
+        ]
+      },
+      "modules/chroma/references/integration.md": {
+        "sha256": "e79c701b83a14bd310ff7d254525598c780aa3ef1442825de36d50a171865bdc",
+        "locations": [
+          "ai-research-skills-part-001/modules/chroma/references/integration.md"
+        ]
+      },
+      "modules/clip/MODULE.md": {
+        "sha256": "90cc0290ea0ffda4c8cddad1778d1cf4abb0ca225219c25cb996f6edefab3b81",
+        "locations": [
+          "ai-research-skills-part-001/modules/clip/MODULE.md"
+        ]
+      },
+      "modules/clip/references/applications.md": {
+        "sha256": "78bc8fa75df65bbc13e1fecc6659b1721ca6ba8875309d7b828232821eebf47a",
+        "locations": [
+          "ai-research-skills-part-001/modules/clip/references/applications.md"
+        ]
+      },
+      "modules/compiler/MODULE.md": {
+        "sha256": "53e90a352f00dc4084792a66a55db38769e4401d33a79a2067386de9d2349c78",
+        "locations": [
+          "ai-research-skills-part-001/modules/compiler/MODULE.md"
+        ]
+      },
+      "modules/compiler/references/ara-schema.md": {
+        "sha256": "9e76a3d1f851d4a420ce7039cd7e9256f7508b56c9ee19d278043b6d6428da64",
+        "locations": [
+          "ai-research-skills-part-001/modules/compiler/references/ara-schema.md"
+        ]
+      },
+      "modules/compiler/references/exploration-tree-spec.md": {
+        "sha256": "78666ce12adf45af54333bdb4869ec5e7677a5dadd9dfa15730b5f211767bf44",
+        "locations": [
+          "ai-research-skills-part-001/modules/compiler/references/exploration-tree-spec.md"
+        ]
+      },
+      "modules/compiler/references/validation-checklist.md": {
+        "sha256": "2018e88f5d0bcceecc345e0042160106b7b20eec5dce133f600fc21327d02e24",
+        "locations": [
+          "ai-research-skills-part-001/modules/compiler/references/validation-checklist.md"
+        ]
+      },
+      "modules/constitutional-ai/MODULE.md": {
+        "sha256": "7f78acf2e127a6533d45aff47240b8d5e7534ca2d49ca80733c34e68c5e7e185",
+        "locations": [
+          "ai-research-skills-part-001/modules/constitutional-ai/MODULE.md"
+        ]
+      },
+      "modules/cosmos-policy/MODULE.md": {
+        "sha256": "77b5b7a1d0a55b4455bd8e1e800ffd705abcb9047e97bc31b768a8db38fc465c",
+        "locations": [
+          "ai-research-skills-part-001/modules/cosmos-policy/MODULE.md"
+        ]
+      },
+      "modules/cosmos-policy/references/libero-commands.md": {
+        "sha256": "cd0e8639fd5423f44449ab384d0f5cff531b2707553509e6126bb73176f178c9",
+        "locations": [
+          "ai-research-skills-part-001/modules/cosmos-policy/references/libero-commands.md"
+        ]
+      },
+      "modules/cosmos-policy/references/robocasa-commands.md": {
+        "sha256": "3af4dd5bb84ad441f8a618ab44de78c8e4fdf6dfcc54c98d2913dc617e1b3e42",
+        "locations": [
+          "ai-research-skills-part-001/modules/cosmos-policy/references/robocasa-commands.md"
+        ]
+      },
+      "modules/creative-thinking-for-research/MODULE.md": {
+        "sha256": "015abc9a10f2064a02236931370c425780f49adaee7bd682da66a2e6abaf44a9",
+        "locations": [
+          "ai-research-skills-part-001/modules/creative-thinking-for-research/MODULE.md"
+        ]
+      },
+      "modules/crewai/MODULE.md": {
+        "sha256": "d058dba812cf6986266d22e61f82d301aa6ca4140ea5330323eb27620c002056",
+        "locations": [
+          "ai-research-skills-part-001/modules/crewai/MODULE.md"
+        ]
+      },
+      "modules/crewai/references/flows.md": {
+        "sha256": "27e8453c521359b2f6be525ffa0854afbd4422e6ebae39d53426bea096d405b7",
+        "locations": [
+          "ai-research-skills-part-001/modules/crewai/references/flows.md"
+        ]
+      },
+      "modules/crewai/references/safe_calculator.py": {
+        "sha256": "689734c83f5b7e79948c108a939b313b9ab445d3aa0df751cf9e0f0d92752a56",
+        "locations": [
+          "ai-research-skills-part-001/modules/crewai/references/safe_calculator.py"
+        ]
+      },
+      "modules/crewai/references/tools.md": {
+        "sha256": "fc2aeb3cf9529eec0e6fb15399df987b76bbe48d2d66957c1cd6ac096f545a3f",
+        "locations": [
+          "ai-research-skills-part-001/modules/crewai/references/tools.md"
+        ]
+      },
+      "modules/crewai/references/troubleshooting.md": {
+        "sha256": "cdc28127629c30b6032920906fc25a2b7e2b1a65066f2a94b4347e97e6684a8d",
+        "locations": [
+          "ai-research-skills-part-001/modules/crewai/references/troubleshooting.md"
+        ]
+      },
+      "modules/deepspeed/MODULE.md": {
+        "sha256": "2ad2857963b4a10b9835cfed7e9e8452e1779fc9f29aedf2ff887726358fdae2",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/MODULE.md"
+        ]
+      },
+      "modules/deepspeed/references/08.md": {
+        "sha256": "aa5ecbd6d21ab287cbe0f8d46e3f958845cce291e6add8df1a18b3a57702c6cf",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/08.md"
+        ]
+      },
+      "modules/deepspeed/references/09.md": {
+        "sha256": "9cc52aec2db83637009eeb82c917fe96c04a3abae06ce46e1211599f24b2c48a",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/09.md"
+        ]
+      },
+      "modules/deepspeed/references/2020.md": {
+        "sha256": "7e081b61be17e62186ebad42056f3b823fbd110189cb91554bb1ba9287684549",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/2020.md"
+        ]
+      },
+      "modules/deepspeed/references/2023.md": {
+        "sha256": "7aeae3917b3fb3a899f5e5a507d06db3cff67e888dc2aa72d7357202de4b7221",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/2023.md"
+        ]
+      },
+      "modules/deepspeed/references/assets.md": {
+        "sha256": "d0fbd4ee7c4ec160d2356f8f9c35c02bb4555fd4b5de92099b08f2a630aa6fbb",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/assets.md"
+        ]
+      },
+      "modules/deepspeed/references/index.md": {
+        "sha256": "5844b14499f7ebb28dbef591a60dd3b348d5726874738373df7fde98dfdcc79f",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/index.md"
+        ]
+      },
+      "modules/deepspeed/references/legacy-extracted-overview.md": {
+        "sha256": "1d6022296e3a1df3f53d9f5f2ad3778d99af48bcc9ba1478d0467203454a9ba0",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/legacy-extracted-overview.md"
+        ]
+      },
+      "modules/deepspeed/references/mii.md": {
+        "sha256": "aa249e6750c069e05a5e172717e0106e7ae8dfe6297ddbd77eacff4ef061d6c5",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/mii.md"
+        ]
+      },
+      "modules/deepspeed/references/other.md": {
+        "sha256": "51e5c5a849d7254dd5948f8e889a1b0ae9403c452b0bdf11f2aa5cb023651329",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/other.md"
+        ]
+      },
+      "modules/deepspeed/references/tutorials.md": {
+        "sha256": "5bddc2ac701cc38cfe59d0ae5f21919b45fe504d10b9c1bee7fac814be7d0c69",
+        "locations": [
+          "ai-research-skills-part-001/modules/deepspeed/references/tutorials.md"
+        ]
+      },
+      "modules/dspy/MODULE.md": {
+        "sha256": "0f6e2e83bb795a3171ab62f0f5915d91256f67693a9846de0af30b3fd4e30932",
+        "locations": [
+          "ai-research-skills-part-001/modules/dspy/MODULE.md"
+        ]
+      },
+      "modules/dspy/references/examples.md": {
+        "sha256": "d7c3a170c0759e9ae2daca84beaa9e3425dd8204a61ad210c73081c98610db8d",
+        "locations": [
+          "ai-research-skills-part-001/modules/dspy/references/examples.md"
+        ]
+      },
+      "modules/dspy/references/modules.md": {
+        "sha256": "9c305c33f299d03bc550af82d9a78faa0fcf0634ce8b95f28a12823230d4ce23",
+        "locations": [
+          "ai-research-skills-part-001/modules/dspy/references/modules.md"
+        ]
+      },
+      "modules/dspy/references/optimizers.md": {
+        "sha256": "feac224649048a863f9b762f222d17905f3b7e44d28f9b0b47ba7d8b23248b57",
+        "locations": [
+          "ai-research-skills-part-001/modules/dspy/references/optimizers.md"
+        ]
+      },
+      "modules/faiss/MODULE.md": {
+        "sha256": "71ded453a106d82575c5f3a1e86e498f499e4d31ce4992337d5769b80f27777b",
+        "locations": [
+          "ai-research-skills-part-001/modules/faiss/MODULE.md"
+        ]
+      },
+      "modules/faiss/references/index_types.md": {
+        "sha256": "25b2413ba79477c71f8eeb4b302c5e73012777710fc960910921554544ea5685",
+        "locations": [
+          "ai-research-skills-part-001/modules/faiss/references/index_types.md"
+        ]
+      },
+      "modules/flash-attention/MODULE.md": {
+        "sha256": "4d17a84ef38d58843656d8b006cfc0cf3f6870ed4991a0e9abf451eebb8f733a",
+        "locations": [
+          "ai-research-skills-part-001/modules/flash-attention/MODULE.md"
+        ]
+      },
+      "modules/flash-attention/references/benchmarks.md": {
+        "sha256": "5beb4f33571b960d64bd2fc43b4871d03cc4807c1a6648e120ce4d0e80ff5154",
+        "locations": [
+          "ai-research-skills-part-001/modules/flash-attention/references/benchmarks.md"
+        ]
+      },
+      "modules/flash-attention/references/transformers-integration.md": {
+        "sha256": "aa3ac475b36f22d11a1e75224e8270f998068697b6eecd2e4dd0128c15d99a71",
+        "locations": [
+          "ai-research-skills-part-001/modules/flash-attention/references/transformers-integration.md"
+        ]
+      },
+      "modules/gguf/MODULE.md": {
+        "sha256": "c169b89c1fc8e315f45eb47cc1dbdd1862ea9d734cbbdd7fb74b8650cdc63391",
+        "locations": [
+          "ai-research-skills-part-001/modules/gguf/MODULE.md"
+        ]
+      },
+      "modules/gguf/references/advanced-usage.md": {
+        "sha256": "ffe60c729b0a65db4a0a76992bb3bafbc3f2edf45fb1b1a68a9c429338d39971",
+        "locations": [
+          "ai-research-skills-part-001/modules/gguf/references/advanced-usage.md"
+        ]
+      },
+      "modules/gguf/references/troubleshooting.md": {
+        "sha256": "0fa41ffc63c8f505ef0c6b0f24ac8a91cf551aba955f8ac6afce5fed7a884688",
+        "locations": [
+          "ai-research-skills-part-001/modules/gguf/references/troubleshooting.md"
+        ]
+      },
+      "modules/gptq/MODULE.md": {
+        "sha256": "327409b8fd6330604519196ca66311cd065c5d6c8294107a2dd394ef972672e0",
+        "locations": [
+          "ai-research-skills-part-001/modules/gptq/MODULE.md"
+        ]
+      },
+      "modules/gptq/references/calibration.md": {
+        "sha256": "a7d8490cf8495fed2491b14472da768f62e8fa5c38cb6f5af45dbfe775cf437b",
+        "locations": [
+          "ai-research-skills-part-001/modules/gptq/references/calibration.md"
+        ]
+      },
+      "modules/gptq/references/integration.md": {
+        "sha256": "483900a991a78be291c4fbc91dc368be77893e97dc86a4f5707232f92ebfcd49",
+        "locations": [
+          "ai-research-skills-part-001/modules/gptq/references/integration.md"
+        ]
+      },
+      "modules/gptq/references/troubleshooting.md": {
+        "sha256": "5a7d23462c01f7c9d52107603bcc5a91a38afb72207a4f11ac5541658f201c13",
+        "locations": [
+          "ai-research-skills-part-001/modules/gptq/references/troubleshooting.md"
+        ]
+      },
+      "modules/grpo-rl-training/MODULE.md": {
+        "sha256": "6400fcb07b43c5ac1d3ddf6b17ab7bad5a68cd4795f00985b6328f91eb9701cf",
+        "locations": [
+          "ai-research-skills-part-001/modules/grpo-rl-training/MODULE.md"
+        ]
+      },
+      "modules/grpo-rl-training/README.md": {
+        "sha256": "617ad88d3cc255c80991e27ba9beadbcf67a9ca9817f89885aa90ffb9aaa5fef",
+        "locations": [
+          "ai-research-skills-part-001/modules/grpo-rl-training/README.md"
+        ]
+      },
+      "modules/grpo-rl-training/examples/reward_functions_library.py": {
+        "sha256": "270ca4639df8c84328979e4bbc6b4096457cd86739945f99e08396e767153f74",
+        "locations": [
+          "ai-research-skills-part-001/modules/grpo-rl-training/examples/reward_functions_library.py"
+        ]
+      },
+      "modules/grpo-rl-training/templates/basic_grpo_training.py": {
+        "sha256": "773e0218cc9ed654c612b756342f3c916e6943b893d72fabbcd4fb6d5680230c",
+        "locations": [
+          "ai-research-skills-part-001/modules/grpo-rl-training/templates/basic_grpo_training.py"
+        ]
+      },
+      "modules/guidance/MODULE.md": {
+        "sha256": "4146c713ca879561b720d58e6563998d2cfdf45adfd5c82c49bfeb96ead71df7",
+        "locations": [
+          "ai-research-skills-part-001/modules/guidance/MODULE.md"
+        ]
+      },
+      "modules/guidance/references/backends.md": {
+        "sha256": "a836591d52a9154b555180aaca78b3a0b2d12cef3402d4d520575ae8fb59cf09",
+        "locations": [
+          "ai-research-skills-part-001/modules/guidance/references/backends.md"
+        ]
+      },
+      "modules/guidance/references/constraints.md": {
+        "sha256": "f477ecce1d7cec6203406fde2b613b0b04ccf7ff608d7efa58405270d2f4239c",
+        "locations": [
+          "ai-research-skills-part-001/modules/guidance/references/constraints.md"
+        ]
+      },
+      "modules/guidance/references/examples.md": {
+        "sha256": "f9fead1aab3f4276c1d516c184f982ebf3d855ca14474edf6c22110c60838642",
+        "locations": [
+          "ai-research-skills-part-001/modules/guidance/references/examples.md"
+        ]
+      },
+      "modules/hqq/MODULE.md": {
+        "sha256": "dac6102c4d0f088b776f0d90f9ccd361c5657dba1daf60fb11a1b28eda9d65d9",
+        "locations": [
+          "ai-research-skills-part-001/modules/hqq/MODULE.md"
+        ]
+      },
+      "modules/hqq/references/advanced-usage.md": {
+        "sha256": "cd9e453b5864bb1e70dfffa4934a6857a13cf130e80ac13b57fb3f71dc8d9308",
+        "locations": [
+          "ai-research-skills-part-001/modules/hqq/references/advanced-usage.md"
+        ]
+      },
+      "modules/hqq/references/troubleshooting.md": {
+        "sha256": "84a4c2841752a4886c1a52c1151c1d0e61a4cbb6239e5044bbd6f6e41de95855",
+        "locations": [
+          "ai-research-skills-part-001/modules/hqq/references/troubleshooting.md"
+        ]
+      },
+      "modules/huggingface-tokenizers/MODULE.md": {
+        "sha256": "e9c3e6fd061e975e165fac72444e997969aa7d52890fc2a3c799966f9330faa9",
+        "locations": [
+          "ai-research-skills-part-001/modules/huggingface-tokenizers/MODULE.md"
+        ]
+      },
+      "modules/huggingface-tokenizers/references/algorithms.md": {
+        "sha256": "383f6f67acbc04939ca3ae4601ecf389f371e95c0b5d78348c6a9c7f639fe362",
+        "locations": [
+          "ai-research-skills-part-001/modules/huggingface-tokenizers/references/algorithms.md"
+        ]
+      },
+      "modules/huggingface-tokenizers/references/integration.md": {
+        "sha256": "c36329f1b68908047aa844121b39d430cbe949651eaa6fb062a4cd886b4e6506",
+        "locations": [
+          "ai-research-skills-part-001/modules/huggingface-tokenizers/references/integration.md"
+        ]
+      },
+      "modules/huggingface-tokenizers/references/pipeline.md": {
+        "sha256": "3e74e49f85906f9a2ecb4749274976577fda75de1f523db8746dcb063a39fa30",
+        "locations": [
+          "ai-research-skills-part-001/modules/huggingface-tokenizers/references/pipeline.md"
+        ]
+      },
+      "modules/huggingface-tokenizers/references/training.md": {
+        "sha256": "708753328ac0427a83094846b15a660ea56fd27968c48becf6fec2c931d7f42a",
+        "locations": [
+          "ai-research-skills-part-001/modules/huggingface-tokenizers/references/training.md"
+        ]
+      },
+      "modules/instructor/MODULE.md": {
+        "sha256": "4ff1089c7c08b67b04701db7ba1177375cfaa27ac3a8b650be4a39623419c9ec",
+        "locations": [
+          "ai-research-skills-part-001/modules/instructor/MODULE.md"
+        ]
+      },
+      "modules/instructor/references/examples.md": {
+        "sha256": "148791b246105e54e2cda793d52fc6dd3eebc4ddda34819d7b7b691213e089f0",
+        "locations": [
+          "ai-research-skills-part-001/modules/instructor/references/examples.md"
+        ]
+      },
+      "modules/instructor/references/providers.md": {
+        "sha256": "2adb6aaa74c6772dd41b19f2bdb80e1d4064d3acc6f53f0aea131c06a7da8848",
+        "locations": [
+          "ai-research-skills-part-001/modules/instructor/references/providers.md"
+        ]
+      },
+      "modules/instructor/references/validation.md": {
+        "sha256": "db1e18df2d6793d1917d31226476162fd9e775f8d8de899bf1f35397dd691b81",
+        "locations": [
+          "ai-research-skills-part-001/modules/instructor/references/validation.md"
+        ]
+      },
+      "modules/knowledge-distillation/MODULE.md": {
+        "sha256": "1422a38b17ca73faf4756c81704acf763aceea94fcc687fc70b5073de09e4af9",
+        "locations": [
+          "ai-research-skills-part-001/modules/knowledge-distillation/MODULE.md"
+        ]
+      },
+      "modules/knowledge-distillation/references/minillm.md": {
+        "sha256": "ec16231b59887a4a111eb8e3dcd5c13d957d2773ff3d34b29f586343022b8a1b",
+        "locations": [
+          "ai-research-skills-part-001/modules/knowledge-distillation/references/minillm.md"
+        ]
+      },
+      "modules/lambda-labs/MODULE.md": {
+        "sha256": "31af827a2e2f9f2ff650d7a8568b5248c2cb89a1f9450780062b17b21789275e",
+        "locations": [
+          "ai-research-skills-part-001/modules/lambda-labs/MODULE.md"
+        ]
+      },
+      "modules/lambda-labs/references/advanced-usage.md": {
+        "sha256": "a3882412117a1d2bbc0a544a47d4d3b2e1a70cd6687d8b5c664c2af131a3559a",
+        "locations": [
+          "ai-research-skills-part-001/modules/lambda-labs/references/advanced-usage.md"
+        ]
+      },
+      "modules/lambda-labs/references/troubleshooting.md": {
+        "sha256": "d418e011c1d944b7f816ecfdbe70f5b397efbe49885b01ce2af68f49b16f4706",
+        "locations": [
+          "ai-research-skills-part-001/modules/lambda-labs/references/troubleshooting.md"
+        ]
+      },
+      "modules/langchain/MODULE.md": {
+        "sha256": "3f0dd46837bd9e2a5cda391505bcd4db73239aea6d5f607b9b7920a68817f919",
+        "locations": [
+          "ai-research-skills-part-001/modules/langchain/MODULE.md"
+        ]
+      },
+      "modules/langchain/references/agents.md": {
+        "sha256": "f7337b52ad412db72644a30b37827a3b85a6b424936ad4839d59b198fa7c01bb",
+        "locations": [
+          "ai-research-skills-part-001/modules/langchain/references/agents.md"
+        ]
+      },
+      "modules/langchain/references/integration.md": {
+        "sha256": "6b49b046c444bfbbaf38e94b1cc1b09bad36e6c545cc5f8cddb9bd84e2a830fd",
+        "locations": [
+          "ai-research-skills-part-001/modules/langchain/references/integration.md"
+        ]
+      },
+      "modules/langchain/references/rag.md": {
+        "sha256": "0877ec881a98134f3c7444f217f33f143fa3e1757da6dab3e31ca232b237f6be",
+        "locations": [
+          "ai-research-skills-part-001/modules/langchain/references/rag.md"
+        ]
+      },
+      "modules/langsmith/MODULE.md": {
+        "sha256": "06f438f7246f64c49c2a056a2016032720ddedf67885dfc800d914e3afe9ccd5",
+        "locations": [
+          "ai-research-skills-part-001/modules/langsmith/MODULE.md"
+        ]
+      },
+      "modules/langsmith/references/advanced-usage.md": {
+        "sha256": "b345e096cb84bdf96b2e65b58a03288ae3271d59fd00a8619bf1133c209cf15f",
+        "locations": [
+          "ai-research-skills-part-001/modules/langsmith/references/advanced-usage.md"
+        ]
+      },
+      "modules/langsmith/references/troubleshooting.md": {
+        "sha256": "c0b08e24a86fd0c783237783b19f31c0e8ed3952eccc9d98648ae9328cf2bd57",
+        "locations": [
+          "ai-research-skills-part-001/modules/langsmith/references/troubleshooting.md"
+        ]
+      },
+      "modules/litgpt/MODULE.md": {
+        "sha256": "6b3d72d497f9640258bb05cb10ddc9cd481b5d4801b5719be892fa87c2c84b23",
+        "locations": [
+          "ai-research-skills-part-001/modules/litgpt/MODULE.md"
+        ]
+      },
+      "modules/litgpt/references/custom-models.md": {
+        "sha256": "f9848e37295f9f8105efa3fb41e682c31d1f0d71b9d2f6b16b33cb15fd94809c",
+        "locations": [
+          "ai-research-skills-part-001/modules/litgpt/references/custom-models.md"
+        ]
+      },
+      "modules/litgpt/references/distributed-training.md": {
+        "sha256": "a5fe747c64f20fdaf33d4e061d3371f297110f9c797e0ae94de8fa837a5b80e1",
+        "locations": [
+          "ai-research-skills-part-001/modules/litgpt/references/distributed-training.md"
+        ]
+      },
+      "modules/litgpt/references/supported-models.md": {
+        "sha256": "958c3ea7b914df5d4aa5ec0be3edd8e3aa8ab3b2e366875b344d3e23f4831c5e",
+        "locations": [
+          "ai-research-skills-part-001/modules/litgpt/references/supported-models.md"
+        ]
+      },
+      "modules/litgpt/references/training-recipes.md": {
+        "sha256": "9564e3618e35995ce7a8b34e11cd053d9f61c02e6f7fa700ca9af490b5a8e383",
+        "locations": [
+          "ai-research-skills-part-001/modules/litgpt/references/training-recipes.md"
+        ]
+      },
+      "modules/llama-cpp/MODULE.md": {
+        "sha256": "6ae8a8ba5c1bc4d15a3226d524ced281f94146adf5f8fa8b0410e62f748cdce9",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-cpp/MODULE.md"
+        ]
+      },
+      "modules/llama-cpp/references/optimization.md": {
+        "sha256": "f6f7ed8fd4847c6eef41724257fde20ab5b9da9d1669969f972adb45902e8c69",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-cpp/references/optimization.md"
+        ]
+      },
+      "modules/llama-cpp/references/quantization.md": {
+        "sha256": "abd461714e2bd49a57e792da59979798f9698da43b85651073ce958161f70adc",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-cpp/references/quantization.md"
+        ]
+      },
+      "modules/llama-cpp/references/server.md": {
+        "sha256": "9c3b09d33c7c77f0859c29d5f0b23ab50067401a5a630aff22a11222fef9024d",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-cpp/references/server.md"
+        ]
+      },
+      "modules/llama-factory/MODULE.md": {
+        "sha256": "0f772dabd0e1c84c5ab22724abd7e9d7a35ddc52f0b952bbd7cfc702457ba6df",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-factory/MODULE.md"
+        ]
+      },
+      "modules/llama-factory/references/_images.md": {
+        "sha256": "d7d07e1cebe8de70b4cc197d77de9210f0a4c9bd7fda95120056e70043e9ea19",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-factory/references/_images.md"
+        ]
+      },
+      "modules/llama-factory/references/advanced.md": {
+        "sha256": "111ac599bff247bd0ac80a2dbec91edb0feee327467eb968ffc427bdc85aea47",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-factory/references/advanced.md"
+        ]
+      },
+      "modules/llama-factory/references/getting_started.md": {
+        "sha256": "eb8635ff357063519f45e2e83964c2944bda28a9855efcbaf5be396c98084d3e",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-factory/references/getting_started.md"
+        ]
+      },
+      "modules/llama-factory/references/index.md": {
+        "sha256": "d6c2d04c9e60e51246c98ddb638bcc3331b1b023bb44704a30e466a6f21fe5c2",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-factory/references/index.md"
+        ]
+      },
+      "modules/llama-factory/references/other.md": {
+        "sha256": "f02f1c3f3855a2d39384e9a895e21bbe6bd470e9b6b4a3016a314ad771dc1a5d",
+        "locations": [
+          "ai-research-skills-part-001/modules/llama-factory/references/other.md"
+        ]
+      },
+      "modules/llamaguard/MODULE.md": {
+        "sha256": "344e81894ead9eb7754939a9ed6022bda1a4cff5fc49e6f8af1aea6bcf0d25bf",
+        "locations": [
+          "ai-research-skills-part-001/modules/llamaguard/MODULE.md"
+        ]
+      },
+      "modules/llamaindex/MODULE.md": {
+        "sha256": "e43ba4166190d8b1e3326324103a5a8286a2f82a4abc9e05ca4d1b524198f27e",
+        "locations": [
+          "ai-research-skills-part-001/modules/llamaindex/MODULE.md"
+        ]
+      },
+      "modules/llamaindex/references/agents.md": {
+        "sha256": "11e885ae23eedb48c9b035cf8d45b9f8bb97c95f9f47c37a6c15235440e00016",
+        "locations": [
+          "ai-research-skills-part-001/modules/llamaindex/references/agents.md"
+        ]
+      },
+      "modules/llamaindex/references/data_connectors.md": {
+        "sha256": "3cce0923697fd88719bacd422e4a169bf67cba7352952a5d5082dab69f963567",
+        "locations": [
+          "ai-research-skills-part-001/modules/llamaindex/references/data_connectors.md"
+        ]
+      },
+      "modules/llamaindex/references/query_engines.md": {
+        "sha256": "7cbfcb9bf451da9408c4a1a3ba17cf35aa55020e1c7d845a1690bc2486c558d6",
+        "locations": [
+          "ai-research-skills-part-001/modules/llamaindex/references/query_engines.md"
+        ]
+      },
+      "modules/llava/MODULE.md": {
+        "sha256": "f1005239fc413a10fabc66789cce4d2e2c6471c40d123b387ba76ff29411413b",
+        "locations": [
+          "ai-research-skills-part-001/modules/llava/MODULE.md"
+        ]
+      },
+      "modules/llava/references/training.md": {
+        "sha256": "32c4ce15a54708cb147f54c0b5e1e41569f6ff70477f2b8b5dce3ba6b4d7a8d8",
+        "locations": [
+          "ai-research-skills-part-001/modules/llava/references/training.md"
+        ]
+      },
+      "modules/lm-evaluation-harness/MODULE.md": {
+        "sha256": "f34fc78316e06a8e524e1e38baf7f01f67b9664cd43d384f01e26e65930f6986",
+        "locations": [
+          "ai-research-skills-part-001/modules/lm-evaluation-harness/MODULE.md"
+        ]
+      },
+      "modules/lm-evaluation-harness/references/api-evaluation.md": {
+        "sha256": "58e284d419dd341bd4bdc86a1977bd6b4fdc9e085112feca2cc93c7b33e107da",
+        "locations": [
+          "ai-research-skills-part-001/modules/lm-evaluation-harness/references/api-evaluation.md"
+        ]
+      },
+      "modules/lm-evaluation-harness/references/benchmark-guide.md": {
+        "sha256": "6fc44338940d91c21f6008e5e4afa85892a6cb8cce192aefa89104f2a9793ee5",
+        "locations": [
+          "ai-research-skills-part-001/modules/lm-evaluation-harness/references/benchmark-guide.md"
+        ]
+      },
+      "modules/lm-evaluation-harness/references/custom-tasks.md": {
+        "sha256": "6dbdc516e0aef62c6250d8dac7d32ee49898fede9c02e973cc4682dd4b8f383c",
+        "locations": [
+          "ai-research-skills-part-001/modules/lm-evaluation-harness/references/custom-tasks.md"
+        ]
+      },
+      "modules/lm-evaluation-harness/references/distributed-eval.md": {
+        "sha256": "72e6860e4308aa6490e6eca3153e02205f7cd013c41201c7d676354e57c17400",
+        "locations": [
+          "ai-research-skills-part-001/modules/lm-evaluation-harness/references/distributed-eval.md"
+        ]
+      },
+      "modules/long-context/MODULE.md": {
+        "sha256": "33c64d9e42266f966e60bc6970847e7a17ec20a2f88d669d88bdaf86b7f5f850",
+        "locations": [
+          "ai-research-skills-part-001/modules/long-context/MODULE.md"
+        ]
+      },
+      "modules/long-context/references/extension_methods.md": {
+        "sha256": "b57a83eb2d2012df7f0d59ecbf91025aa65ce307ee8df0dc78877c9b11c0b4cc",
+        "locations": [
+          "ai-research-skills-part-001/modules/long-context/references/extension_methods.md"
+        ]
+      },
+      "modules/long-context/references/fine_tuning.md": {
+        "sha256": "cacd2ffb5bc5984365210393a6c71d8d8a8f1c870fac031f43e5d1f0d4e055ab",
+        "locations": [
+          "ai-research-skills-part-001/modules/long-context/references/fine_tuning.md"
+        ]
+      },
+      "modules/long-context/references/rope.md": {
+        "sha256": "b0efabd257424e07faee51b94f3d417e376389abec9d39dec7d3c0c14a5ab68c",
+        "locations": [
+          "ai-research-skills-part-001/modules/long-context/references/rope.md"
+        ]
+      },
+      "modules/mamba/MODULE.md": {
+        "sha256": "5f7499d3a9b6f1e9938d7e981c5a650a792d232a5e6ee8483b41b384d5a0e9b0",
+        "locations": [
+          "ai-research-skills-part-001/modules/mamba/MODULE.md"
+        ]
+      },
+      "modules/mamba/references/architecture-details.md": {
+        "sha256": "0b5edfb994426671c90e4a6238159e7a5a9390e76fbf5ab1468e57647da2d06e",
+        "locations": [
+          "ai-research-skills-part-001/modules/mamba/references/architecture-details.md"
+        ]
+      },
+      "modules/mamba/references/benchmarks.md": {
+        "sha256": "4a11a37c41d63bede20154a644b12214c32a812676ec709873213a7f067c00bd",
+        "locations": [
+          "ai-research-skills-part-001/modules/mamba/references/benchmarks.md"
+        ]
+      },
+      "modules/mamba/references/training-guide.md": {
+        "sha256": "b296fdc074d57c472566872a15df546d2607666807bcda50c36c70ce27774a3d",
+        "locations": [
+          "ai-research-skills-part-001/modules/mamba/references/training-guide.md"
+        ]
+      },
+      "modules/megatron-core/MODULE.md": {
+        "sha256": "a0087bcb751cf11a2c35c39e12c7f781e8dd29f7c862fb6740c45cb9233e053c",
+        "locations": [
+          "ai-research-skills-part-001/modules/megatron-core/MODULE.md"
+        ]
+      },
+      "modules/megatron-core/references/benchmarks.md": {
+        "sha256": "925346bc79f4c262510ea346a634e49c9f6755be2d9bfd413771c0334208ed16",
+        "locations": [
+          "ai-research-skills-part-001/modules/megatron-core/references/benchmarks.md"
+        ]
+      },
+      "modules/megatron-core/references/parallelism-guide.md": {
+        "sha256": "6eb92dc6c73995d64a09fb5fc9e28e2c65b8608aefac8d41325834747339903c",
+        "locations": [
+          "ai-research-skills-part-001/modules/megatron-core/references/parallelism-guide.md"
+        ]
+      },
+      "modules/megatron-core/references/production-examples.md": {
+        "sha256": "c69ce2fb33428d7bb11f581cda33839327307451c6b5702e6193168d931bd9b7",
+        "locations": [
+          "ai-research-skills-part-001/modules/megatron-core/references/production-examples.md"
+        ]
+      },
+      "modules/megatron-core/references/training-recipes.md": {
+        "sha256": "c5edf040e3fca3d33fab951b9103eea7d543dd319dab5a5a1f2a8e309b713213",
+        "locations": [
+          "ai-research-skills-part-001/modules/megatron-core/references/training-recipes.md"
+        ]
+      },
+      "modules/miles/MODULE.md": {
+        "sha256": "cba1731c1fa3948270fcbdcf1413dad23196ca72e4ae35bb7a8254636cdaaa8e",
+        "locations": [
+          "ai-research-skills-part-001/modules/miles/MODULE.md"
+        ]
+      },
+      "modules/miles/references/api-reference.md": {
+        "sha256": "1693c60fbc4cc225824a034b0226bf038440ede08341e977387cb6c1ad610b89",
+        "locations": [
+          "ai-research-skills-part-001/modules/miles/references/api-reference.md"
+        ]
+      },
+      "modules/miles/references/troubleshooting.md": {
+        "sha256": "d4c42fdab1be1c7bd3c21b4f6deb5311d55c6577104c870533b6b43b29f37b66",
+        "locations": [
+          "ai-research-skills-part-001/modules/miles/references/troubleshooting.md"
+        ]
+      },
+      "modules/ml-paper-writing/MODULE.md": {
+        "sha256": "a55bc2237929435015829e471bca53ce9fb810a99e1bd2f8a019ed868b2fc824",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/MODULE.md"
+        ]
+      },
+      "modules/ml-paper-writing/references/checklists.md": {
+        "sha256": "f611d8894fa630a97a7da20c3dacc4e410677ed20daaf8965247cf63d9a98920",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/references/checklists.md"
+        ]
+      },
+      "modules/ml-paper-writing/references/citation-workflow.md": {
+        "sha256": "098c9458d66e7696cd65fed23c431c130c93516adf35e5f1b921c0d9ea90e5da",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/references/citation-workflow.md"
+        ]
+      },
+      "modules/ml-paper-writing/references/reviewer-guidelines.md": {
+        "sha256": "49a9e495b33ce803d686014567b3c616e7408c965a3826bd47ff8a32bfa5fa05",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/references/reviewer-guidelines.md"
+        ]
+      },
+      "modules/ml-paper-writing/references/sources.md": {
+        "sha256": "5efcc9f6be9f115dc7bb09b223febdd196ea7ec6964a91a4fec8a117f1ba6ac6",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/references/sources.md"
+        ]
+      },
+      "modules/ml-paper-writing/references/writing-guide.md": {
+        "sha256": "7c5ac1a38494759c6b003ad22faac29efe2b5d56cfcc81d6bd5cf7d31603de69",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/references/writing-guide.md"
+        ]
+      },
+      "modules/ml-paper-writing/templates/README.md": {
+        "sha256": "6824443b277a746fefa9639c9dc8d778c7b2b13de564c55ce780c409a15f0895",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/README.md"
+        ]
+      },
+      "modules/ml-paper-writing/templates/aaai2026/README.md": {
+        "sha256": "42dd10c4003ad283099e799433c440f4b2fa737c18725ab10e75d52f8ea512ca",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/aaai2026/README.md"
+        ]
+      },
+      "modules/ml-paper-writing/templates/aaai2026/aaai2026-unified-supp.tex": {
+        "sha256": "3de3288b31f2fc1e11fc0bc559c64349b05377db478e338fd300a451d3fcf67a",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/aaai2026/aaai2026-unified-supp.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/aaai2026/aaai2026-unified-template.tex": {
+        "sha256": "9a1901d171e6d4f2c901b7b236d0aee95f7890e59608c18011ed04e0092c42e8",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/aaai2026/aaai2026-unified-template.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/aaai2026/aaai2026.bib": {
+        "sha256": "e1bc589f7c7199943dedfc72a404bd26f133ce18c843fd533dd265e7047d1583",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/aaai2026/aaai2026.bib"
+        ]
+      },
+      "modules/ml-paper-writing/templates/aaai2026/aaai2026.bst": {
+        "sha256": "0e4e27293650f9e3b947f396d6499c0fea8c54296a041da1fda3ff091921cbce",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/aaai2026/aaai2026.bst"
+        ]
+      },
+      "modules/ml-paper-writing/templates/aaai2026/aaai2026.sty": {
+        "sha256": "fbb66f511e5fe2e7b126cea811998157b1d883c956ad47076164b7d568fa2529",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/aaai2026/aaai2026.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/acl/README.md": {
+        "sha256": "7f0970ab91d24d235a5d3eeaba2f665c63f25d78c845dd086e3ead4c1c4775cd",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/acl/README.md"
+        ]
+      },
+      "modules/ml-paper-writing/templates/acl/acl.sty": {
+        "sha256": "7def961ac900a2bbcc091da0ee71796b277e6d14a707c9eed52b76ef5d25ae2a",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/acl/acl.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/acl/acl_latex.tex": {
+        "sha256": "636a4efc7e85e2821b3250df4cef2aca59d2a6f0ad5b053bb0aba781ce39c3db",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/acl/acl_latex.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/acl/acl_lualatex.tex": {
+        "sha256": "33e00ac41678aa9b4ed658f275e54fa92bd546299870c8cc4207e5c95cdec0d7",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/acl/acl_lualatex.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/acl/acl_natbib.bst": {
+        "sha256": "859df36cb29eb8243730a7bb6f77308055d5a80c614bb20348a84358f8aabab6",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/acl/acl_natbib.bst"
+        ]
+      },
+      "modules/ml-paper-writing/templates/acl/anthology.bib.txt": {
+        "sha256": "8c46ed0e8516e3d96caba9fffda9d2fc2054becf08245ff9032cbde82bdf0927",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/acl/anthology.bib.txt"
+        ]
+      },
+      "modules/ml-paper-writing/templates/acl/custom.bib": {
+        "sha256": "bf30640bf2986cd0a4f398956ef4d90119450de0a05e0e3a9ea80a7068ed7a82",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/acl/custom.bib"
+        ]
+      },
+      "modules/ml-paper-writing/templates/acl/formatting.md": {
+        "sha256": "72594081d13b0a1495b7e2caf1bf3f661c94d24aefc468b4290d54f4b146cae4",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/acl/formatting.md"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/README.md": {
+        "sha256": "53ee1b5cee8e28e93d8ad36b8c70c3611ac6d011bdf173a161be4e7b32d53a40",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/README.md"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/colm2025_conference.bib": {
+        "sha256": "c1f73bacdf55589f3608a3f09bcba40fcdad7936776a3f6e63e4e77f87616268",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/colm2025_conference.bib"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/colm2025_conference.bst": {
+        "sha256": "197ad2cfb04152d92ac4574404bff746017fb5035b7ca93a970c8dc52fd25865",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/colm2025_conference.bst"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/colm2025_conference.pdf": {
+        "sha256": "d8b3d74bc81aec9ba9d6b739b4922adc93ae002d7c82522b9c6064014bec1d16",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/colm2025_conference.pdf"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/colm2025_conference.sty": {
+        "sha256": "4d0331a919a58b788839379ac327a0096f49d61e18005be4ae25eb90fe304aee",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/colm2025_conference.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/colm2025_conference.tex": {
+        "sha256": "8dc748d297247963434ee993a09a08ea9bea22c3ad67d2963ede541e8f751d06",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/colm2025_conference.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/fancyhdr.sty": {
+        "sha256": "b2fe599152ac8018b4fb9fd15d23a2a4333edc43b6289200afa3199b13048f54",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/fancyhdr.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/math_commands.tex": {
+        "sha256": "0983e802ae604694ebb7d68a6a0382a7cfb3593f1894c06f24f294c344ee25b3",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/math_commands.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/colm2025/natbib.sty": {
+        "sha256": "086e8f22ceb634025a3a48a423b1cd4a9417ab00243f520c02a77f97c263ee2c",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/colm2025/natbib.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/iclr2026/fancyhdr.sty": {
+        "sha256": "b2fe599152ac8018b4fb9fd15d23a2a4333edc43b6289200afa3199b13048f54",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/iclr2026/fancyhdr.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.bib": {
+        "sha256": "e0fa2c1bd3391e9f33b26df832180552d8f3500d60c37ccadfe9b114bed4a961",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.bib"
+        ]
+      },
+      "modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.bst": {
+        "sha256": "197ad2cfb04152d92ac4574404bff746017fb5035b7ca93a970c8dc52fd25865",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.bst"
+        ]
+      },
+      "modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.pdf": {
+        "sha256": "cb3d414cfa4702d52de94de1c8123c34b2cf46b7a5510df49dcc1014a6c266cf",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.pdf"
+        ]
+      },
+      "modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.sty": {
+        "sha256": "d2314567b524f08695ea24b79f17f327dfbf3baad76d22036123f165d35a6ff5",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.tex": {
+        "sha256": "b8544e08b0c586753215c33fe22478ea0b463fcae03012d3961181ec9f8d2215",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/iclr2026/iclr2026_conference.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/iclr2026/math_commands.tex": {
+        "sha256": "0983e802ae604694ebb7d68a6a0382a7cfb3593f1894c06f24f294c344ee25b3",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/iclr2026/math_commands.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/iclr2026/natbib.sty": {
+        "sha256": "086e8f22ceb634025a3a48a423b1cd4a9417ab00243f520c02a77f97c263ee2c",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/iclr2026/natbib.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/algorithm.sty": {
+        "sha256": "ab166def454ffae005796a1fbe46f52932a07476d64ea82f3c837a70a3ec71c2",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/algorithm.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/algorithmic.sty": {
+        "sha256": "cefd7a1195973a8404b12f201ead97af3e6983dac32d5b54efb976f54cda31d5",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/algorithmic.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/example_paper.bib": {
+        "sha256": "5a783bbe17ea5bbfa29b3624aa7d1e252107e78daec42955d6572f22ca72abba",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/example_paper.bib"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/example_paper.pdf": {
+        "sha256": "3e8fe0e952de8702ca4697dba09ca52e83bd649767b92a8340d34a591caa4d1b",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/example_paper.pdf"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/example_paper.tex": {
+        "sha256": "f5317520e85d05a3e29f985d5640e38bb3472c545f43520403daf7447b3dda0c",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/example_paper.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/fancyhdr.sty": {
+        "sha256": "73b7c09b519d60006b117f3fe38aa86a86bb13ab9c35311cb290c5281cf71a78",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/fancyhdr.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/icml2026.bst": {
+        "sha256": "14b55b60bf53e1a04e633d87d1c57503d511a0f3db578172d8e59b2b6d2f92cf",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/icml2026.bst"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/icml2026.sty": {
+        "sha256": "04bd0a76913fcb4084e60223afd51686dc81fdeff913bfd86f23940b4bb877c3",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/icml2026.sty"
+        ]
+      },
+      "modules/ml-paper-writing/templates/icml2026/icml_numpapers.pdf": {
+        "sha256": "d34e8da982296363627996e6e18850c11fbd616e6946061237051e7a8f7080bb",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/icml2026/icml_numpapers.pdf"
+        ]
+      },
+      "modules/ml-paper-writing/templates/neurips2025/Makefile": {
+        "sha256": "3816c6b7b4b8f17d48adb8fc9f35ba48f069702f418dbae3ba66d20a9a606961",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/neurips2025/Makefile"
+        ]
+      },
+      "modules/ml-paper-writing/templates/neurips2025/extra_pkgs.tex": {
+        "sha256": "975db5cdb08dbec4fede12dcb912a36275ba881e22e918ee135991f8d5f68099",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/neurips2025/extra_pkgs.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/neurips2025/main.tex": {
+        "sha256": "5c484b8484e4ca97e4a95424eb4f7c7712a590c75f7b4dd0d0dfbc277c545183",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/neurips2025/main.tex"
+        ]
+      },
+      "modules/ml-paper-writing/templates/neurips2025/neurips.sty": {
+        "sha256": "f7fab8207141e5a5441d7a912c7fa2115b877dba328a1c7b06e2ae739a04e959",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-paper-writing/templates/neurips2025/neurips.sty"
+        ]
+      },
+      "modules/ml-training-recipes/MODULE.md": {
+        "sha256": "98c5667699ff9463beadfd13288c6bac182a6492f1a13b9492ef901a862856ac",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-training-recipes/MODULE.md"
+        ]
+      },
+      "modules/ml-training-recipes/references/architecture.md": {
+        "sha256": "ac384a12b750c49ed461ba2a884653ff8b3591e74b89c30af3096f350f301ce8",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-training-recipes/references/architecture.md"
+        ]
+      },
+      "modules/ml-training-recipes/references/biomedical.md": {
+        "sha256": "0b70d206f2818ac4b62b42b86570fe82be9570de31f9cc8727b83414b8f2654e",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-training-recipes/references/biomedical.md"
+        ]
+      },
+      "modules/ml-training-recipes/references/domain-specific.md": {
+        "sha256": "ca27f6d6b57d3c8ed08f1f047def6dc0891c02b42cbda5f3f96e3580a0508eb8",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-training-recipes/references/domain-specific.md"
+        ]
+      },
+      "modules/ml-training-recipes/references/experiment-loop.md": {
+        "sha256": "c508e70f173464347a0ec4de36a80541f17b429ceeedbf65aec53ae9afc4f12a",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-training-recipes/references/experiment-loop.md"
+        ]
+      },
+      "modules/ml-training-recipes/references/optimizers.md": {
+        "sha256": "9f06866c66fb2626b61988c615d822cac6efd10668a825c7b6ce22252d630d90",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-training-recipes/references/optimizers.md"
+        ]
+      },
+      "modules/ml-training-recipes/references/scaling-and-selection.md": {
+        "sha256": "62eb5df8a9aef21c74f262570cdf21967d7e791d9b363118ed1028ecbc3d9aa2",
+        "locations": [
+          "ai-research-skills-part-002/modules/ml-training-recipes/references/scaling-and-selection.md"
+        ]
+      },
+      "modules/mlflow/MODULE.md": {
+        "sha256": "5d79243226a2cbebc5347103a920ee73a0e0955fdedf4bd33d0b401c20ad8a89",
+        "locations": [
+          "ai-research-skills-part-002/modules/mlflow/MODULE.md"
+        ]
+      },
+      "modules/mlflow/references/deployment.md": {
+        "sha256": "b087a698fe5debc0f5280a949df0b8531d0b16d0b505bdd0d6fca3284c74d2d8",
+        "locations": [
+          "ai-research-skills-part-002/modules/mlflow/references/deployment.md"
+        ]
+      },
+      "modules/mlflow/references/model-registry.md": {
+        "sha256": "ec53cfa210f4345f7c04e27bb0c730d76759b0879110452b98c8da8461c14a25",
+        "locations": [
+          "ai-research-skills-part-002/modules/mlflow/references/model-registry.md"
+        ]
+      },
+      "modules/mlflow/references/tracking.md": {
+        "sha256": "689bf3eb859879cf68ad97cbae4776817f392db65c4376e5d09e6a7a05c66520",
+        "locations": [
+          "ai-research-skills-part-002/modules/mlflow/references/tracking.md"
+        ]
+      },
+      "modules/modal/MODULE.md": {
+        "sha256": "8c0e0e7cec96168053e9b56bf4522c76f577de72fb69f907fc9f2c26ecaceaba",
+        "locations": [
+          "ai-research-skills-part-002/modules/modal/MODULE.md"
+        ]
+      },
+      "modules/modal/references/advanced-usage.md": {
+        "sha256": "758a196189d14ae57900d34e5cc5c461ba1e66584b1bbdd71c37afc84b2ff25a",
+        "locations": [
+          "ai-research-skills-part-002/modules/modal/references/advanced-usage.md"
+        ]
+      },
+      "modules/modal/references/troubleshooting.md": {
+        "sha256": "8076cd87cc949679efe0a8c80a13a1c4a813605340ac6f3f35a7b8e9f24f2308",
+        "locations": [
+          "ai-research-skills-part-002/modules/modal/references/troubleshooting.md"
+        ]
+      },
+      "modules/model-merging/MODULE.md": {
+        "sha256": "3d75500d93df0620154ab1778b224f18cb398d66c08ba8a0e47b849308259a7e",
+        "locations": [
+          "ai-research-skills-part-002/modules/model-merging/MODULE.md"
+        ]
+      },
+      "modules/model-merging/references/coefficient-tuning.md": {
+        "sha256": "85ff94852284a926d5cdd4d566d95bed04b34dc5407cdffc2d7525105ae59663",
+        "locations": [
+          "ai-research-skills-part-002/modules/model-merging/references/coefficient-tuning.md"
+        ]
+      },
+      "modules/model-merging/references/evaluation.md": {
+        "sha256": "dcc227ef8dd808ce79dd205094d3d7762fde42b50c231c1ac8f6563ba16e3551",
+        "locations": [
+          "ai-research-skills-part-002/modules/model-merging/references/evaluation.md"
+        ]
+      },
+      "modules/model-merging/references/examples.md": {
+        "sha256": "6e2558dd06bd0c52be65dade8a6493fca6380e88535ab0b641e86b5cfd500f15",
+        "locations": [
+          "ai-research-skills-part-002/modules/model-merging/references/examples.md"
+        ]
+      },
+      "modules/model-merging/references/methods.md": {
+        "sha256": "db881a43830744fb21f979d4784cc6ce558be8b4833af8eb7d09bbc286d52f27",
+        "locations": [
+          "ai-research-skills-part-002/modules/model-merging/references/methods.md"
+        ]
+      },
+      "modules/model-pruning/MODULE.md": {
+        "sha256": "f315e61ea3d7e956873dd8ebc225f403139e95a19f037186da8d303898765892",
+        "locations": [
+          "ai-research-skills-part-002/modules/model-pruning/MODULE.md"
+        ]
+      },
+      "modules/model-pruning/references/wanda.md": {
+        "sha256": "c1130f12b095ffe85c634575432319c26ccb370dacebd07eeb76488b84016124",
+        "locations": [
+          "ai-research-skills-part-002/modules/model-pruning/references/wanda.md"
+        ]
+      },
+      "modules/moe-training/MODULE.md": {
+        "sha256": "ecf91e06df99f3832bdbdf886d04559a344e8b9f3e1fcb8c6503f68bd4bd4c37",
+        "locations": [
+          "ai-research-skills-part-002/modules/moe-training/MODULE.md"
+        ]
+      },
+      "modules/moe-training/references/architectures.md": {
+        "sha256": "0b273eec9802636cdace8e7af0d630ca4a11604faa5e9decf4626e35173f31dc",
+        "locations": [
+          "ai-research-skills-part-002/modules/moe-training/references/architectures.md"
+        ]
+      },
+      "modules/moe-training/references/inference.md": {
+        "sha256": "a2593365643ad6f7fa212ad59df131ea8f5fe7fde36d0278d9683aa526147778",
+        "locations": [
+          "ai-research-skills-part-002/modules/moe-training/references/inference.md"
+        ]
+      },
+      "modules/moe-training/references/training.md": {
+        "sha256": "5d6cbda657fd1d52cd9051372028db9b8de92f749014761dfb1fd01b3fd3bcda",
+        "locations": [
+          "ai-research-skills-part-002/modules/moe-training/references/training.md"
+        ]
+      },
+      "modules/nanogpt/MODULE.md": {
+        "sha256": "c46cd36c0452a2bfa423e526abd8b7a3ea74d1cb012384b17b0ee6523ae9437b",
+        "locations": [
+          "ai-research-skills-part-002/modules/nanogpt/MODULE.md"
+        ]
+      },
+      "modules/nanogpt/references/architecture.md": {
+        "sha256": "9935149499333cf87ad24053c6a132fd2c3400e3cd386ac0bc165463e654fced",
+        "locations": [
+          "ai-research-skills-part-002/modules/nanogpt/references/architecture.md"
+        ]
+      },
+      "modules/nanogpt/references/data.md": {
+        "sha256": "f1928fc47fd201a75c2c04ad83d9683fab821ad20f3e84376bfe0832d7dae6a8",
+        "locations": [
+          "ai-research-skills-part-002/modules/nanogpt/references/data.md"
+        ]
+      },
+      "modules/nanogpt/references/training.md": {
+        "sha256": "6a6321a810efc844fbc442430201307e297f1af4af9dcc3ef6bf604141205da5",
+        "locations": [
+          "ai-research-skills-part-002/modules/nanogpt/references/training.md"
+        ]
+      },
+      "modules/nemo-curator/MODULE.md": {
+        "sha256": "87a983223d93af6e0270035454c1baf9da844eb652322edf0df56ad35afa42cd",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-curator/MODULE.md"
+        ]
+      },
+      "modules/nemo-curator/references/deduplication.md": {
+        "sha256": "9a7cd819fc042efcf3fa027a29f30595133c85df831bbfd5ece6f892c21180a1",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-curator/references/deduplication.md"
+        ]
+      },
+      "modules/nemo-curator/references/filtering.md": {
+        "sha256": "f495d93b074a468ffbd3eda6a4a1ba9ded548cf966e0776f42e669667f597599",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-curator/references/filtering.md"
+        ]
+      },
+      "modules/nemo-evaluator/MODULE.md": {
+        "sha256": "29d62c5f16918b0952daf6a19251b2229fbbd45b31d35fb03b3603dba9484648",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-evaluator/MODULE.md"
+        ]
+      },
+      "modules/nemo-evaluator/references/adapter-system.md": {
+        "sha256": "91e4210434f3fe8f7997611271f9aa8ea71d8ebdee31f8f2bd292698b3bd7479",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-evaluator/references/adapter-system.md"
+        ]
+      },
+      "modules/nemo-evaluator/references/configuration.md": {
+        "sha256": "1af53ebd15f79a36d886c034ac027942a9c9c3a7db5a634484b31b55370efc27",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-evaluator/references/configuration.md"
+        ]
+      },
+      "modules/nemo-evaluator/references/custom-benchmarks.md": {
+        "sha256": "d3ea2756dcb3c55c7bb4bfc2b9f98d7872be4aa07e9dc542b726c8bb3db4354a",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-evaluator/references/custom-benchmarks.md"
+        ]
+      },
+      "modules/nemo-evaluator/references/execution-backends.md": {
+        "sha256": "3ef8aa9f39e965f4587a6991279bf5cb40d8f9acb38218f45443a3ef9a332c91",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-evaluator/references/execution-backends.md"
+        ]
+      },
+      "modules/nemo-guardrails/MODULE.md": {
+        "sha256": "5325eb43cc77d4dad41b23ae3fc6864079b54df1ffc85c504ee3f4445a0a6983",
+        "locations": [
+          "ai-research-skills-part-002/modules/nemo-guardrails/MODULE.md"
+        ]
+      },
+      "modules/nnsight/MODULE.md": {
+        "sha256": "2e714f8f630ad56f93f224b6d762c9b14ace8695919a65416c7c9cc76ff25748",
+        "locations": [
+          "ai-research-skills-part-002/modules/nnsight/MODULE.md"
+        ]
+      },
+      "modules/nnsight/references/README.md": {
+        "sha256": "12e12b313d5f46d8bca8867b4139d566f14f8463e5b72d8d38c378ccc3129b89",
+        "locations": [
+          "ai-research-skills-part-002/modules/nnsight/references/README.md"
+        ]
+      },
+      "modules/nnsight/references/api.md": {
+        "sha256": "82bd96e71990177448aba9477a75f3b0ec2c748fe5e3159405c1bad9ad6d39fa",
+        "locations": [
+          "ai-research-skills-part-002/modules/nnsight/references/api.md"
+        ]
+      },
+      "modules/nnsight/references/tutorials.md": {
+        "sha256": "fb81b6a1855b492a80b705d91c2d9020e3f25c8b7b15c3ad81772cb74d3206b9",
+        "locations": [
+          "ai-research-skills-part-002/modules/nnsight/references/tutorials.md"
+        ]
+      },
+      "modules/openpi/MODULE.md": {
+        "sha256": "8bc11e0335ca0f02730d1748b469911f9d0c30049f21451bef291c1726746823",
+        "locations": [
+          "ai-research-skills-part-002/modules/openpi/MODULE.md"
+        ]
+      },
+      "modules/openpi/references/checkpoints-and-env-map.md": {
+        "sha256": "f7f4e43a052299d2a849d3bd7fdcf61cd982b359d08279fdb9a22eb7f92d3252",
+        "locations": [
+          "ai-research-skills-part-002/modules/openpi/references/checkpoints-and-env-map.md"
+        ]
+      },
+      "modules/openpi/references/config-recipes.md": {
+        "sha256": "ce095936a8ffc0fec05a6780be492c8c51e647023a43508bc3b1559ad7104597",
+        "locations": [
+          "ai-research-skills-part-002/modules/openpi/references/config-recipes.md"
+        ]
+      },
+      "modules/openpi/references/pytorch-gotchas.md": {
+        "sha256": "ff822b786ece507df0ffe3165e1afc85d33349a8820c5a70c8675874358b9055",
+        "locations": [
+          "ai-research-skills-part-002/modules/openpi/references/pytorch-gotchas.md"
+        ]
+      },
+      "modules/openpi/references/remote-client-pattern.md": {
+        "sha256": "8d349005a0f2d9ce5053b5aa2a8a6b3e2d55a0f22e41916444afb4f563f7e6a1",
+        "locations": [
+          "ai-research-skills-part-002/modules/openpi/references/remote-client-pattern.md"
+        ]
+      },
+      "modules/openpi/references/training-debugging.md": {
+        "sha256": "5a847ed2cb33ea385386e8f2060817b44cb37276a8f2358f08368c467c31910a",
+        "locations": [
+          "ai-research-skills-part-002/modules/openpi/references/training-debugging.md"
+        ]
+      },
+      "modules/openrlhf/MODULE.md": {
+        "sha256": "50c140d61506172500a2362c5a0d2c5f9a96c5477c6e92eced1d833e39082008",
+        "locations": [
+          "ai-research-skills-part-002/modules/openrlhf/MODULE.md"
+        ]
+      },
+      "modules/openrlhf/references/algorithm-comparison.md": {
+        "sha256": "85ed031a495db8fc1be9d5e7b8c485ab9b4a43f60ee9a6da97a1a7f43ea219f0",
+        "locations": [
+          "ai-research-skills-part-002/modules/openrlhf/references/algorithm-comparison.md"
+        ]
+      },
+      "modules/openrlhf/references/custom-rewards.md": {
+        "sha256": "4ca83d7219408e9f1f482599c1ae1976c68bcc37c95af4ddf02963b87411cabe",
+        "locations": [
+          "ai-research-skills-part-002/modules/openrlhf/references/custom-rewards.md"
+        ]
+      },
+      "modules/openrlhf/references/hybrid-engine.md": {
+        "sha256": "cb476dd85cc3f996f4fc624b1c3ecc58402f0d395e20b9d672848bdf31350e14",
+        "locations": [
+          "ai-research-skills-part-002/modules/openrlhf/references/hybrid-engine.md"
+        ]
+      },
+      "modules/openrlhf/references/multi-node-training.md": {
+        "sha256": "9f06f5200d69a181c5f274811191d11339f85963114d19c7be7c94dad2dbbad1",
+        "locations": [
+          "ai-research-skills-part-002/modules/openrlhf/references/multi-node-training.md"
+        ]
+      },
+      "modules/openvla-oft/MODULE.md": {
+        "sha256": "6f2848f1adc57808e801f1d099056f8cb76449e7f3ed40c2811c736630c3fe1a",
+        "locations": [
+          "ai-research-skills-part-002/modules/openvla-oft/MODULE.md"
+        ]
+      },
+      "modules/openvla-oft/references/aloha-workflow.md": {
+        "sha256": "a94e75b4077ae84c723b0ba7b18a9995b3561d72ed219917f1952b5bccb4a10c",
+        "locations": [
+          "ai-research-skills-part-002/modules/openvla-oft/references/aloha-workflow.md"
+        ]
+      },
+      "modules/openvla-oft/references/config-troubleshooting.md": {
+        "sha256": "f792819fa24806542e8d488f4b5ad16276cad7d54afb7d37aa64d9d2b0be9275",
+        "locations": [
+          "ai-research-skills-part-002/modules/openvla-oft/references/config-troubleshooting.md"
+        ]
+      },
+      "modules/openvla-oft/references/libero-workflow.md": {
+        "sha256": "1fa4219ebc494dd2a7601cb49394797954d990d261eade11ce9cab633963fc06",
+        "locations": [
+          "ai-research-skills-part-002/modules/openvla-oft/references/libero-workflow.md"
+        ]
+      },
+      "modules/openvla-oft/references/paper-and-checkpoints.md": {
+        "sha256": "c409d34723822a53cb57d09540a64dadb09b9d6f91f814b70ca9c99044558356",
+        "locations": [
+          "ai-research-skills-part-002/modules/openvla-oft/references/paper-and-checkpoints.md"
+        ]
+      },
+      "modules/outlines/MODULE.md": {
+        "sha256": "fbebb0343917fbf793ed90c6fefc9c27b5eb711d70fba20bf2510d23ae929969",
+        "locations": [
+          "ai-research-skills-part-002/modules/outlines/MODULE.md"
+        ]
+      },
+      "modules/outlines/references/backends.md": {
+        "sha256": "ee0901d922682da94ffd724cab0a32b1cf07a9ef8ea50c244a679e5cc8e66e0f",
+        "locations": [
+          "ai-research-skills-part-002/modules/outlines/references/backends.md"
+        ]
+      },
+      "modules/outlines/references/examples.md": {
+        "sha256": "cda506287ee8308b3097c91321c65cb720a61705ab7bd74a85e556935234fa9f",
+        "locations": [
+          "ai-research-skills-part-002/modules/outlines/references/examples.md"
+        ]
+      },
+      "modules/outlines/references/json_generation.md": {
+        "sha256": "b3d5f562e1c4a258a1d29c41787868a3f78a3123d29b3a8bce2dfafd3dd04c59",
+        "locations": [
+          "ai-research-skills-part-002/modules/outlines/references/json_generation.md"
+        ]
+      },
+      "modules/peft/MODULE.md": {
+        "sha256": "a1671cb80050d6910a702941f7f551fa323394ec1326040f04122b53b68b37a3",
+        "locations": [
+          "ai-research-skills-part-002/modules/peft/MODULE.md"
+        ]
+      },
+      "modules/peft/references/advanced-usage.md": {
+        "sha256": "2b65513e8db6a61639f6d2ea1a4d9be789c6bd80e9113a3030a6f868b715035d",
+        "locations": [
+          "ai-research-skills-part-002/modules/peft/references/advanced-usage.md"
+        ]
+      },
+      "modules/peft/references/troubleshooting.md": {
+        "sha256": "7d79de73dc537ba2595dedaf9e2384f2378ba653cbdc48f391eb40eaad3cd386",
+        "locations": [
+          "ai-research-skills-part-002/modules/peft/references/troubleshooting.md"
+        ]
+      },
+      "modules/phoenix/MODULE.md": {
+        "sha256": "e104e89ac27d16f5e956cda2d0548293790a860ded18cbbbc9b343411d98ba67",
+        "locations": [
+          "ai-research-skills-part-002/modules/phoenix/MODULE.md"
+        ]
+      },
+      "modules/phoenix/references/advanced-usage.md": {
+        "sha256": "6d7fcd06bed8a3c75fa447c3eef50fc62e937df468d5b6091c450372c32a636e",
+        "locations": [
+          "ai-research-skills-part-002/modules/phoenix/references/advanced-usage.md"
+        ]
+      },
+      "modules/phoenix/references/troubleshooting.md": {
+        "sha256": "dffd647697fc039768a61731278da3eb8f432bcb05b565e1abd6c42f5e593fc6",
+        "locations": [
+          "ai-research-skills-part-002/modules/phoenix/references/troubleshooting.md"
+        ]
+      },
+      "modules/pinecone/MODULE.md": {
+        "sha256": "443d8c071f1826155ba2668b7b6662c2cd773ed72a569d39923c31a78637369e",
+        "locations": [
+          "ai-research-skills-part-002/modules/pinecone/MODULE.md"
+        ]
+      },
+      "modules/pinecone/references/deployment.md": {
+        "sha256": "8b955328cd03915fea5d33c7d68f9556eafaf142d5b72713fee756d5d742a5d4",
+        "locations": [
+          "ai-research-skills-part-002/modules/pinecone/references/deployment.md"
+        ]
+      },
+      "modules/presenting-conference-talks/MODULE.md": {
+        "sha256": "694775ea696ca4a78daaeef967e0d933a0c4bb79542d5c5d00fc7055d8f4f0fe",
+        "locations": [
+          "ai-research-skills-part-002/modules/presenting-conference-talks/MODULE.md"
+        ]
+      },
+      "modules/presenting-conference-talks/references/slide-templates.md": {
+        "sha256": "799fa82e7f8463228a1685a77b9a68bac740b433a07f0a7f5ac1722582ca6db5",
+        "locations": [
+          "ai-research-skills-part-002/modules/presenting-conference-talks/references/slide-templates.md"
+        ]
+      },
+      "modules/prompt-guard/MODULE.md": {
+        "sha256": "3d5201e98317dec0bd050fa92813a007452cee1d5b0dd958e67f91ec1a1c558f",
+        "locations": [
+          "ai-research-skills-part-002/modules/prompt-guard/MODULE.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/MODULE.md": {
+        "sha256": "8b7790f1f2e1e82e1b80dd178b69f40e600716b146ce337ee686ce08160fab34",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/MODULE.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_dcp_async_recipe.md": {
+        "sha256": "4d995c8cde5773cf3cce2e14133f73effb55f6c95148b6c1a7ea708a271f7c14",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_dcp_async_recipe.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_dcp_overview.md": {
+        "sha256": "0283e7b58a603daedc0ac2fecdb0bacb01531241b004b6d6fc27952036a09ac4",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_dcp_overview.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_dcp_recipe.md": {
+        "sha256": "cfcf7ac2e264bd1015db13317cc1f59dc2b88ccb9b2c7190a23c4e53626d8eb8",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_dcp_recipe.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_ddp_notes.md": {
+        "sha256": "77e4869971d8c14d628581a287511ad8ff8af8fd6ebce4e8b680e6330cdf2f1a",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_ddp_notes.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_device_mesh_tutorial.md": {
+        "sha256": "ab2cd014db064685751defba07039dc1cf92e6b2cc38b88a04aec9efa932d4cd",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_device_mesh_tutorial.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_examples_fsdp2.md": {
+        "sha256": "4f818c35a637f96a9b778488ec68847f8f01504bdc8307c2472b77e302a1545a",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_examples_fsdp2.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_fsdp1_api.md": {
+        "sha256": "ca156b83adf3df18c23a1a9f3a3414c94f11cfedfe0415c2a3dd48257c978c66",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_fsdp1_api.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_fsdp2_tutorial.md": {
+        "sha256": "6764d81d3c50ed09927340fb3b059734981f0019607a5ddbc2b9446727991bb6",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_fsdp2_tutorial.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_fully_shard_api.md": {
+        "sha256": "52a3e4cdb40f00841c7c851c04d5760d69c19dfbe685b3854d37a683a4da3783",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_fully_shard_api.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/pytorch_tp_tutorial.md": {
+        "sha256": "bed1f6971f977a7d7c26e3d30cf0353fa448091dfc56e67c838bdbff9243ff3b",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/pytorch_tp_tutorial.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/ray_train_fsdp2_example.md": {
+        "sha256": "31356d01f4a59924bf2dfcdfa3043c10b86f45159e690008c55e1ee2498b0f22",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/ray_train_fsdp2_example.md"
+        ]
+      },
+      "modules/pytorch-fsdp2/references/torchtitan_fsdp_notes.md": {
+        "sha256": "1a63af898222505487cc82204720df3ad6e01a12014f801eabbad347cbc11cb8",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-fsdp2/references/torchtitan_fsdp_notes.md"
+        ]
+      },
+      "modules/pytorch-lightning/MODULE.md": {
+        "sha256": "e35776e94827d3673395f700485c4af5e68c1f52467ebe36142abc327331f880",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-lightning/MODULE.md"
+        ]
+      },
+      "modules/pytorch-lightning/references/callbacks.md": {
+        "sha256": "0df237dbbdb6d045211f9975be9657a8a0cec6065b82e5f305e4cd76f0c0c9b3",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-lightning/references/callbacks.md"
+        ]
+      },
+      "modules/pytorch-lightning/references/distributed.md": {
+        "sha256": "4353a9a1c64a40d208359b14273dae6505503676de459cee8b4f25cae455615f",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-lightning/references/distributed.md"
+        ]
+      },
+      "modules/pytorch-lightning/references/hyperparameter-tuning.md": {
+        "sha256": "344aca503327b1914a48edfbe9aa3e41471aff570ad1ca4521114f0fd0889bbc",
+        "locations": [
+          "ai-research-skills-part-002/modules/pytorch-lightning/references/hyperparameter-tuning.md"
+        ]
+      },
+      "modules/pyvene/MODULE.md": {
+        "sha256": "16fc833039f576726eec68a75fb5dcfc2803b4a78e7bf28dda580a97fbd18e6e",
+        "locations": [
+          "ai-research-skills-part-002/modules/pyvene/MODULE.md"
+        ]
+      },
+      "modules/pyvene/references/README.md": {
+        "sha256": "fc081d1976341ca87f45b61c5d6c6ebf417f0a80d42821b1049a6dea2095cf93",
+        "locations": [
+          "ai-research-skills-part-002/modules/pyvene/references/README.md"
+        ]
+      },
+      "modules/pyvene/references/api.md": {
+        "sha256": "f27cccb4bd9ae9f8e8b28bc52318c25cd196075d252106edbd4b9144fdf3b95a",
+        "locations": [
+          "ai-research-skills-part-002/modules/pyvene/references/api.md"
+        ]
+      },
+      "modules/pyvene/references/tutorials.md": {
+        "sha256": "5513ba8d9dc45139f2bb7b5ef06e616ad5692f2e33e31cea8e312799650a3465",
+        "locations": [
+          "ai-research-skills-part-002/modules/pyvene/references/tutorials.md"
+        ]
+      },
+      "modules/qdrant/MODULE.md": {
+        "sha256": "75c83f25efd47e83e3b6903649cb54e148826a56a75521dee72998e4a9461a83",
+        "locations": [
+          "ai-research-skills-part-002/modules/qdrant/MODULE.md"
+        ]
+      },
+      "modules/qdrant/references/advanced-usage.md": {
+        "sha256": "c91b6c884557819318e7f5b4da6ae67812b5a45ef4d517bc658a3e486f1251f7",
+        "locations": [
+          "ai-research-skills-part-002/modules/qdrant/references/advanced-usage.md"
+        ]
+      },
+      "modules/qdrant/references/troubleshooting.md": {
+        "sha256": "f692bb85f1328a5cdc61a86a802f174cfa4c9620aabf35a934b16a73438a980b",
+        "locations": [
+          "ai-research-skills-part-002/modules/qdrant/references/troubleshooting.md"
+        ]
+      },
+      "modules/ray-data/MODULE.md": {
+        "sha256": "c0eaba2e5ad71c4959710d52d188802d8baf5a5f95a037fd2496ea41a871e744",
+        "locations": [
+          "ai-research-skills-part-002/modules/ray-data/MODULE.md"
+        ]
+      },
+      "modules/ray-data/references/integration.md": {
+        "sha256": "2f2dd0b1a62597bb53204025711581490f571ddd436b617505cfee6cdd90d937",
+        "locations": [
+          "ai-research-skills-part-002/modules/ray-data/references/integration.md"
+        ]
+      },
+      "modules/ray-data/references/transformations.md": {
+        "sha256": "9087b47440bde4e044018ee4dab71254338ec02a68415c380cec1ad79fefe3d5",
+        "locations": [
+          "ai-research-skills-part-002/modules/ray-data/references/transformations.md"
+        ]
+      },
+      "modules/ray-train/MODULE.md": {
+        "sha256": "94be1cec924646da48b6d196b32616cff794da237f8c76e1192de942aeb28861",
+        "locations": [
+          "ai-research-skills-part-002/modules/ray-train/MODULE.md"
+        ]
+      },
+      "modules/ray-train/references/multi-node.md": {
+        "sha256": "297d1136580e56b464479f7bc49ed281f3a8d343c88a8f6286d028f51760877e",
+        "locations": [
+          "ai-research-skills-part-002/modules/ray-train/references/multi-node.md"
+        ]
+      },
+      "modules/research-manager/MODULE.md": {
+        "sha256": "2e2a02ede736941c2ee0e1b51a3a7423ed996492179beb0ac33034a231970d4e",
+        "locations": [
+          "ai-research-skills-part-002/modules/research-manager/MODULE.md"
+        ]
+      },
+      "modules/research-manager/references/event-taxonomy.md": {
+        "sha256": "6972b9eab96372e91fd30b4abc94f8997157aaab0e1d2bcb3923757aa05e8039",
+        "locations": [
+          "ai-research-skills-part-002/modules/research-manager/references/event-taxonomy.md"
+        ]
+      },
+      "modules/research-manager/references/provenance-tags.md": {
+        "sha256": "ccd3795990e68feb7481c70c5064a060d94b2360aee1ac3cb89c31d6dfb0a9e2",
+        "locations": [
+          "ai-research-skills-part-002/modules/research-manager/references/provenance-tags.md"
+        ]
+      },
+      "modules/research-manager/references/session-protocol.md": {
+        "sha256": "bd50b1c165c862a353e83a3112e0608bfa24e8e1726e5d60b68492691475c870",
+        "locations": [
+          "ai-research-skills-part-002/modules/research-manager/references/session-protocol.md"
+        ]
+      },
+      "modules/rigor-reviewer/MODULE.md": {
+        "sha256": "dd9c07288792f2d3e1b5f6473821941c2ddbd1c55e3e4a7c4bd9ce2bea4604fc",
+        "locations": [
+          "ai-research-skills-part-002/modules/rigor-reviewer/MODULE.md"
+        ]
+      },
+      "modules/rigor-reviewer/references/review-dimensions.md": {
+        "sha256": "5b4c01f446d9528ecf774a6a9eb86c79264676a755b0ffbc7b64579edfb2d00c",
+        "locations": [
+          "ai-research-skills-part-002/modules/rigor-reviewer/references/review-dimensions.md"
+        ]
+      },
+      "modules/rwkv/MODULE.md": {
+        "sha256": "d6bb06b473275cfd4d62ab9f3ceac21d4b7c0aa314b28a977ccda262d974176f",
+        "locations": [
+          "ai-research-skills-part-002/modules/rwkv/MODULE.md"
+        ]
+      },
+      "modules/rwkv/references/architecture-details.md": {
+        "sha256": "7662965c372d6e072fd2ce0f99bc4a6cc4f3d896aa1383e125415e2193cda99d",
+        "locations": [
+          "ai-research-skills-part-002/modules/rwkv/references/architecture-details.md"
+        ]
+      },
+      "modules/rwkv/references/rwkv7.md": {
+        "sha256": "6eff88db2f16e3b9172aa8851dbbeaa363fcc7726abbb346118baaaf64992909",
+        "locations": [
+          "ai-research-skills-part-002/modules/rwkv/references/rwkv7.md"
+        ]
+      },
+      "modules/rwkv/references/state-management.md": {
+        "sha256": "6ba8244d7b1e588c144201dbb0d538631211c736726fbf2f4c226d7290f699c1",
+        "locations": [
+          "ai-research-skills-part-002/modules/rwkv/references/state-management.md"
+        ]
+      },
+      "modules/saelens/MODULE.md": {
+        "sha256": "b5f5e9a351bb90bfa5862ef287d799247759ed0f973f7c845579f6ba1c7e33b9",
+        "locations": [
+          "ai-research-skills-part-002/modules/saelens/MODULE.md"
+        ]
+      },
+      "modules/saelens/references/README.md": {
+        "sha256": "06d7ad14b1e6f0e2cd3af3fbc58b9ff5c82ce3e06796160583ef985e4432d68b",
+        "locations": [
+          "ai-research-skills-part-002/modules/saelens/references/README.md"
+        ]
+      },
+      "modules/saelens/references/api.md": {
+        "sha256": "00c54698a57b948e0b0a6d8a46105d5c2ed55acf176bde114e5e6327886ec024",
+        "locations": [
+          "ai-research-skills-part-002/modules/saelens/references/api.md"
+        ]
+      },
+      "modules/saelens/references/tutorials.md": {
+        "sha256": "859cebc8aa291368243ada6f1f8dba32bf5ff3788b249b195f432fc357ff5d9a",
+        "locations": [
+          "ai-research-skills-part-002/modules/saelens/references/tutorials.md"
+        ]
+      },
+      "modules/segment-anything/MODULE.md": {
+        "sha256": "db3d87e792036cd3443c76501b81e3fd4dea5f53a8c4a79ac22a59fff6eaa6c7",
+        "locations": [
+          "ai-research-skills-part-002/modules/segment-anything/MODULE.md"
+        ]
+      },
+      "modules/segment-anything/references/advanced-usage.md": {
+        "sha256": "ad11eff9f0f3108f52d152998248f37ad0783f9d1691bd2448ad68fd556529cf",
+        "locations": [
+          "ai-research-skills-part-002/modules/segment-anything/references/advanced-usage.md"
+        ]
+      },
+      "modules/segment-anything/references/troubleshooting.md": {
+        "sha256": "3fdad9dd9af73cbcc05323ea4f7639738529a69aaf6a0fbf0cb8a5a55f58bae6",
+        "locations": [
+          "ai-research-skills-part-002/modules/segment-anything/references/troubleshooting.md"
+        ]
+      },
+      "modules/sentence-transformers/MODULE.md": {
+        "sha256": "66e77570d97e91f9905a8eb6541461fd6c77c9747aeb605286e79a87804b0185",
+        "locations": [
+          "ai-research-skills-part-002/modules/sentence-transformers/MODULE.md"
+        ]
+      },
+      "modules/sentence-transformers/references/models.md": {
+        "sha256": "12138d012236639b84e435230890a4c6d92f35fb6d92d3840c90608a4741d1e4",
+        "locations": [
+          "ai-research-skills-part-002/modules/sentence-transformers/references/models.md"
+        ]
+      },
+      "modules/sentencepiece/MODULE.md": {
+        "sha256": "427d50a991162b30737491951e15360f04a4ee3aab9b22d863d5d22892d89ac0",
+        "locations": [
+          "ai-research-skills-part-002/modules/sentencepiece/MODULE.md"
+        ]
+      },
+      "modules/sentencepiece/references/algorithms.md": {
+        "sha256": "2f5ad46d31f557eac34ac8ddbce9c329a5f639d860465c7ff5ec98dc5dbe1ded",
+        "locations": [
+          "ai-research-skills-part-002/modules/sentencepiece/references/algorithms.md"
+        ]
+      },
+      "modules/sentencepiece/references/training.md": {
+        "sha256": "3c09c9f2ef612263b8f56c2b83d7443d00a4cf117a034e3953b98dc0903b2c49",
+        "locations": [
+          "ai-research-skills-part-002/modules/sentencepiece/references/training.md"
+        ]
+      },
+      "modules/sglang/MODULE.md": {
+        "sha256": "4bd01b9c649e32fdba4d40580283b11d5364700201fe9af89101d7e185b86774",
+        "locations": [
+          "ai-research-skills-part-002/modules/sglang/MODULE.md"
+        ]
+      },
+      "modules/sglang/references/deployment.md": {
+        "sha256": "5d113f25c4db17f8291e87eb76fd4d07f87ae00dc5ec7087c7dd0e8a2abef05e",
+        "locations": [
+          "ai-research-skills-part-002/modules/sglang/references/deployment.md"
+        ]
+      },
+      "modules/sglang/references/radix-attention.md": {
+        "sha256": "b4534a656722dc96e0624ae31642c0568ef9b786bb85b14254cd67eb30de3a49",
+        "locations": [
+          "ai-research-skills-part-002/modules/sglang/references/radix-attention.md"
+        ]
+      },
+      "modules/sglang/references/structured-generation.md": {
+        "sha256": "21e75435452c9da8c476ae6852dd2871a572c72757020ab09218f7a0239fba4b",
+        "locations": [
+          "ai-research-skills-part-002/modules/sglang/references/structured-generation.md"
+        ]
+      },
+      "modules/simpo/MODULE.md": {
+        "sha256": "07376de65c987aeba5d2f629aeafe24fa98c195666ea8d6cb2bac0bd4003c162",
+        "locations": [
+          "ai-research-skills-part-002/modules/simpo/MODULE.md"
+        ]
+      },
+      "modules/simpo/references/datasets.md": {
+        "sha256": "ec33881978fcf8b809cd6842457236746e7beecadd93cb3ac5dd606db6a8ef77",
+        "locations": [
+          "ai-research-skills-part-002/modules/simpo/references/datasets.md"
+        ]
+      },
+      "modules/simpo/references/hyperparameters.md": {
+        "sha256": "6c4c343b9a774493ff425d094a2dff9f6bf5d35b97b028826276c1e4a81a3318",
+        "locations": [
+          "ai-research-skills-part-002/modules/simpo/references/hyperparameters.md"
+        ]
+      },
+      "modules/simpo/references/loss-functions.md": {
+        "sha256": "c87513b7614313c2b5189fb6abce78db800aca5407c9dd0743776e7ba588aec3",
+        "locations": [
+          "ai-research-skills-part-002/modules/simpo/references/loss-functions.md"
+        ]
+      },
+      "modules/skypilot/MODULE.md": {
+        "sha256": "cebb8f48cd0a20475426bb358892c8bd5883297048639b26c61f3a9a2a751747",
+        "locations": [
+          "ai-research-skills-part-002/modules/skypilot/MODULE.md"
+        ]
+      },
+      "modules/skypilot/references/advanced-usage.md": {
+        "sha256": "a4738a62752a8c3ef45b4a59fb0f202af8b167dcb14e55d92dc3c19dd9e0af73",
+        "locations": [
+          "ai-research-skills-part-002/modules/skypilot/references/advanced-usage.md"
+        ]
+      },
+      "modules/skypilot/references/troubleshooting.md": {
+        "sha256": "71889b9beec814446beb8ff85a41eb416aabbbf23a10d84ebb7bfd23f2b2befd",
+        "locations": [
+          "ai-research-skills-part-002/modules/skypilot/references/troubleshooting.md"
+        ]
+      },
+      "modules/slime/MODULE.md": {
+        "sha256": "a74ba06ead5ba55b9a255b1f6a0a3e16986fd4a0a3c3312da5721188cf9f1264",
+        "locations": [
+          "ai-research-skills-part-003/modules/slime/MODULE.md"
+        ]
+      },
+      "modules/slime/references/api-reference.md": {
+        "sha256": "f21e7fcd370f22a85a23ca2d0eddd66171f330d69dbd89a2c24b6cbf3417f983",
+        "locations": [
+          "ai-research-skills-part-003/modules/slime/references/api-reference.md"
+        ]
+      },
+      "modules/slime/references/troubleshooting.md": {
+        "sha256": "ed9089f2bcf8cea3192dd5e5039cf2f70a6fb84959337b9f1a2cec4789e59f4f",
+        "locations": [
+          "ai-research-skills-part-003/modules/slime/references/troubleshooting.md"
+        ]
+      },
+      "modules/speculative-decoding/MODULE.md": {
+        "sha256": "66afab9df8ac93ff03e069c07303eb7583ce32e228d90a9334ecbc04ea75bcf3",
+        "locations": [
+          "ai-research-skills-part-003/modules/speculative-decoding/MODULE.md"
+        ]
+      },
+      "modules/speculative-decoding/references/lookahead.md": {
+        "sha256": "86e4fad1a087d40345f3c8e75a6453fde237ecc6381fe704bb328b827dfc2a54",
+        "locations": [
+          "ai-research-skills-part-003/modules/speculative-decoding/references/lookahead.md"
+        ]
+      },
+      "modules/speculative-decoding/references/medusa.md": {
+        "sha256": "1c2a341c12079d9111b9f83fc79e59923bad3e9df03db360c3e7729cf3ccba58",
+        "locations": [
+          "ai-research-skills-part-003/modules/speculative-decoding/references/medusa.md"
+        ]
+      },
+      "modules/stable-diffusion/MODULE.md": {
+        "sha256": "e3dbfb068cb7440b2408d626eda2d5ad25b6f3cc953b6f59b51ceced3d06548a",
+        "locations": [
+          "ai-research-skills-part-003/modules/stable-diffusion/MODULE.md"
+        ]
+      },
+      "modules/stable-diffusion/references/advanced-usage.md": {
+        "sha256": "5bb5109f4274cb751700d20a0e57860b5ccadab16078c33f9d04b7e7c462ab8e",
+        "locations": [
+          "ai-research-skills-part-003/modules/stable-diffusion/references/advanced-usage.md"
+        ]
+      },
+      "modules/stable-diffusion/references/troubleshooting.md": {
+        "sha256": "5edb8e9498d43a9bd43264a553b53d216bbb1c307a7046afd31b8c28468a8092",
+        "locations": [
+          "ai-research-skills-part-003/modules/stable-diffusion/references/troubleshooting.md"
+        ]
+      },
+      "modules/swanlab/MODULE.md": {
+        "sha256": "b193086e6be8595d4aca0f2d433bbd6cdaa3dcb3664c3f2dd487dca40fa699ef",
+        "locations": [
+          "ai-research-skills-part-003/modules/swanlab/MODULE.md"
+        ]
+      },
+      "modules/swanlab/references/integrations.md": {
+        "sha256": "d83dca09b42e68f8e0034a27bcb5b0bcbb7b6cd8faa70df0779ed4fe9185cb47",
+        "locations": [
+          "ai-research-skills-part-003/modules/swanlab/references/integrations.md"
+        ]
+      },
+      "modules/swanlab/references/visualization.md": {
+        "sha256": "9d200d6f2b807b0f2a39158760ad6788752156e56c65dee88bf4134256780a93",
+        "locations": [
+          "ai-research-skills-part-003/modules/swanlab/references/visualization.md"
+        ]
+      },
+      "modules/systems-paper-writing/MODULE.md": {
+        "sha256": "7a823b2ab1819e4d24b7099245e6748ff0debdb8a68b5ecc84acb9191034f6fa",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/MODULE.md"
+        ]
+      },
+      "modules/systems-paper-writing/references/checklist.md": {
+        "sha256": "c25e19a0df718919bacad7cc579d2877e7eb35c46309a388db7022d509ddea6f",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/references/checklist.md"
+        ]
+      },
+      "modules/systems-paper-writing/references/reviewer-guidelines.md": {
+        "sha256": "150e8ad22f9a245cb34fe9da7cf309e4c78daa2e806d7f81dc5d0b9a117a7977",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/references/reviewer-guidelines.md"
+        ]
+      },
+      "modules/systems-paper-writing/references/section-blueprints.md": {
+        "sha256": "ce1001c541615b5b3ad4460b0810a589412b8276607dbfe951d348645b8851fc",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/references/section-blueprints.md"
+        ]
+      },
+      "modules/systems-paper-writing/references/systems-conferences.md": {
+        "sha256": "6efd6107720543d475b28da2015aef256df2c4df4341b55befecf69e198e0f8a",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/references/systems-conferences.md"
+        ]
+      },
+      "modules/systems-paper-writing/references/writing-patterns.md": {
+        "sha256": "fb1ef424efb30f56d4cb0dddbf53f8384bdd4ec6abf0db8556abe2ae79613a80",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/references/writing-patterns.md"
+        ]
+      },
+      "modules/systems-paper-writing/templates/asplos2027/main.tex": {
+        "sha256": "4cd4a3a70f184011047524ac9d2a7591f100db767f040c9d2989c118120011a6",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/asplos2027/main.tex"
+        ]
+      },
+      "modules/systems-paper-writing/templates/asplos2027/references.bib": {
+        "sha256": "f42f90418f0ac80e99498a789a51679c051203154bbe653ff29d8a2e5264cb3e",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/asplos2027/references.bib"
+        ]
+      },
+      "modules/systems-paper-writing/templates/nsdi2027/main.tex": {
+        "sha256": "c3dcb5400961bed7faa5d20c750c81333b68e9c8278c6b4e63405830cbd5c8d7",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/nsdi2027/main.tex"
+        ]
+      },
+      "modules/systems-paper-writing/templates/nsdi2027/references.bib": {
+        "sha256": "44e445f58893809ce73a45650b96bdf135e96fea80854cde2b426e1d259e8fa0",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/nsdi2027/references.bib"
+        ]
+      },
+      "modules/systems-paper-writing/templates/nsdi2027/usenix-2020-09.sty": {
+        "sha256": "8f2d192f27ab68e56106a69ac92b8d55bc77c28dd3c70a6ad45584319cbb5bea",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/nsdi2027/usenix-2020-09.sty"
+        ]
+      },
+      "modules/systems-paper-writing/templates/osdi2026/main.tex": {
+        "sha256": "592dfdbff95bc2fcce1b0233e4b42e341aa88eba23d697c08e3bd04c795a6162",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/osdi2026/main.tex"
+        ]
+      },
+      "modules/systems-paper-writing/templates/osdi2026/references.bib": {
+        "sha256": "c35a59326ddec53986f8f20e4a4912087da0e7e545c998b820aeae6ed5b35d55",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/osdi2026/references.bib"
+        ]
+      },
+      "modules/systems-paper-writing/templates/osdi2026/usenix-2020-09.sty": {
+        "sha256": "8f2d192f27ab68e56106a69ac92b8d55bc77c28dd3c70a6ad45584319cbb5bea",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/osdi2026/usenix-2020-09.sty"
+        ]
+      },
+      "modules/systems-paper-writing/templates/sosp2026/main.tex": {
+        "sha256": "62150aaa57422c8a84863f8a52370ac6e2fba502eabe962487f9c0f34bc94673",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/sosp2026/main.tex"
+        ]
+      },
+      "modules/systems-paper-writing/templates/sosp2026/references.bib": {
+        "sha256": "c9869058fcee8b212f96f30481f51ba2f10b7436e7230d41ffe6ff62709774cd",
+        "locations": [
+          "ai-research-skills-part-003/modules/systems-paper-writing/templates/sosp2026/references.bib"
+        ]
+      },
+      "modules/tensorboard/MODULE.md": {
+        "sha256": "3299a2398dbd7de91d29f252cc8f36dbeeb64d49a32a3a88ae342a8fd0641eec",
+        "locations": [
+          "ai-research-skills-part-003/modules/tensorboard/MODULE.md"
+        ]
+      },
+      "modules/tensorboard/references/integrations.md": {
+        "sha256": "c581181f3272c9cc06582dd715ff90e1e5f3b22ff8a1d4487731aaa74664ad9d",
+        "locations": [
+          "ai-research-skills-part-003/modules/tensorboard/references/integrations.md"
+        ]
+      },
+      "modules/tensorboard/references/profiling.md": {
+        "sha256": "a14b3aeb558d4380a564330386eab54eaeeba5a9980ccbb8d0938f24fb16a0c7",
+        "locations": [
+          "ai-research-skills-part-003/modules/tensorboard/references/profiling.md"
+        ]
+      },
+      "modules/tensorboard/references/visualization.md": {
+        "sha256": "6beb768d7dc5bcd5cd4792fc607d824c527df55f704f0ae0a659d22e8d8e2b70",
+        "locations": [
+          "ai-research-skills-part-003/modules/tensorboard/references/visualization.md"
+        ]
+      },
+      "modules/tensorrt-llm/MODULE.md": {
+        "sha256": "db8e5cbf53ac4e3f9055f85e7b2012f61af51232e6382ba1e574b0883a9e6f76",
+        "locations": [
+          "ai-research-skills-part-003/modules/tensorrt-llm/MODULE.md"
+        ]
+      },
+      "modules/tensorrt-llm/references/multi-gpu.md": {
+        "sha256": "5183650f105a1f844246c7633dfac048fbf8cd92f618bc9cc31e25a7e6e65f15",
+        "locations": [
+          "ai-research-skills-part-003/modules/tensorrt-llm/references/multi-gpu.md"
+        ]
+      },
+      "modules/tensorrt-llm/references/optimization.md": {
+        "sha256": "41f5dc90b496dc116ae49f0e6ba6854e8eed9585097e6a06757f57ef40014485",
+        "locations": [
+          "ai-research-skills-part-003/modules/tensorrt-llm/references/optimization.md"
+        ]
+      },
+      "modules/tensorrt-llm/references/serving.md": {
+        "sha256": "941d505fec050647819226675af8e21d322c8001347168a4f4e3c8701c54638e",
+        "locations": [
+          "ai-research-skills-part-003/modules/tensorrt-llm/references/serving.md"
+        ]
+      },
+      "modules/torchforge/MODULE.md": {
+        "sha256": "a4feb2711cc6b952d8d6ba66f30c25da66e7e04009b8c7ee42ecaa701cd17ea3",
+        "locations": [
+          "ai-research-skills-part-003/modules/torchforge/MODULE.md"
+        ]
+      },
+      "modules/torchforge/references/api-reference.md": {
+        "sha256": "2fb69336d171a57baf77074c741c8c383935f7da82bbb11fc6d6c9771e9c0156",
+        "locations": [
+          "ai-research-skills-part-003/modules/torchforge/references/api-reference.md"
+        ]
+      },
+      "modules/torchforge/references/troubleshooting.md": {
+        "sha256": "95a1e144c591a5c1a63f1386bff15b60a09ed93106bda09d8809776cd25bf0c5",
+        "locations": [
+          "ai-research-skills-part-003/modules/torchforge/references/troubleshooting.md"
+        ]
+      },
+      "modules/torchtitan/MODULE.md": {
+        "sha256": "0c86b8a7de9857644a5bff28470dec61d5a9a6ecfaa5f55c1ea6619de44227ec",
+        "locations": [
+          "ai-research-skills-part-003/modules/torchtitan/MODULE.md"
+        ]
+      },
+      "modules/torchtitan/references/checkpoint.md": {
+        "sha256": "a6b04e36e220ae9acecbcf73d018a6736cd27f60c24d5662bbef4bf6ae36b8fb",
+        "locations": [
+          "ai-research-skills-part-003/modules/torchtitan/references/checkpoint.md"
+        ]
+      },
+      "modules/torchtitan/references/custom-models.md": {
+        "sha256": "933edff25dc75edb7189f60298fab723136d477f93052cb04e446b27f34f0900",
+        "locations": [
+          "ai-research-skills-part-003/modules/torchtitan/references/custom-models.md"
+        ]
+      },
+      "modules/torchtitan/references/float8.md": {
+        "sha256": "4837ac23c3867d7649ea92933ea7d62a2ed84a9664194f509bdd5ae36e387692",
+        "locations": [
+          "ai-research-skills-part-003/modules/torchtitan/references/float8.md"
+        ]
+      },
+      "modules/torchtitan/references/fsdp.md": {
+        "sha256": "d12b4ed6f95885531aaca2037cc39e58f992423a0cbd48fbb6bb4c653a4ec0f4",
+        "locations": [
+          "ai-research-skills-part-003/modules/torchtitan/references/fsdp.md"
+        ]
+      },
+      "modules/transformer-lens/MODULE.md": {
+        "sha256": "3e8524ffa91f1acf4e58087897b0f4d34725e39a692986603a9b55aec7abbb59",
+        "locations": [
+          "ai-research-skills-part-003/modules/transformer-lens/MODULE.md"
+        ]
+      },
+      "modules/transformer-lens/references/README.md": {
+        "sha256": "cf4d409c3811792aa9576aabf62c98c5c8e3fcbb27527b4ae44c3d7c09a2199b",
+        "locations": [
+          "ai-research-skills-part-003/modules/transformer-lens/references/README.md"
+        ]
+      },
+      "modules/transformer-lens/references/api.md": {
+        "sha256": "7a57ad048cd63a8576a13046344c15fdbf1466ea933482ca89b8a2b63c672465",
+        "locations": [
+          "ai-research-skills-part-003/modules/transformer-lens/references/api.md"
+        ]
+      },
+      "modules/transformer-lens/references/tutorials.md": {
+        "sha256": "3bc77ce2fda86c1cd083b82dbe95a9ef2eed759e32cf2ecd17675eb10ac0812f",
+        "locations": [
+          "ai-research-skills-part-003/modules/transformer-lens/references/tutorials.md"
+        ]
+      },
+      "modules/trl-fine-tuning/MODULE.md": {
+        "sha256": "5a408e6f2295b8dc0c9a939eb8167857b224cf7f3a7ba3de808ed8f47cfd5950",
+        "locations": [
+          "ai-research-skills-part-003/modules/trl-fine-tuning/MODULE.md"
+        ]
+      },
+      "modules/trl-fine-tuning/references/dpo-variants.md": {
+        "sha256": "08924658d0887c529e8283ce88bf27fdcc6f0baa0a0f3d5989723be0a5a33368",
+        "locations": [
+          "ai-research-skills-part-003/modules/trl-fine-tuning/references/dpo-variants.md"
+        ]
+      },
+      "modules/trl-fine-tuning/references/online-rl.md": {
+        "sha256": "a4948cf2a348d19c83597cebb463d47aab8f23f07f25f95f0b6a58852e998a65",
+        "locations": [
+          "ai-research-skills-part-003/modules/trl-fine-tuning/references/online-rl.md"
+        ]
+      },
+      "modules/trl-fine-tuning/references/reward-modeling.md": {
+        "sha256": "ea87f1955f321b4c03e9e3394fb28a4a8ab5a4b4c8ff93b682bb9ccb411ab1cb",
+        "locations": [
+          "ai-research-skills-part-003/modules/trl-fine-tuning/references/reward-modeling.md"
+        ]
+      },
+      "modules/trl-fine-tuning/references/sft-training.md": {
+        "sha256": "c3a9a3bff2f095e283b58807024340858a7cd2d40a2fc5278037903b3dc1b54a",
+        "locations": [
+          "ai-research-skills-part-003/modules/trl-fine-tuning/references/sft-training.md"
+        ]
+      },
+      "modules/unsloth/MODULE.md": {
+        "sha256": "310abad4869c95bde82189a5886a4067b4e30ec9619eb5845be2bb41880afbed",
+        "locations": [
+          "ai-research-skills-part-003/modules/unsloth/MODULE.md"
+        ]
+      },
+      "modules/unsloth/references/index.md": {
+        "sha256": "3069d441942e1624453dbf3d35bd9be3adb17047b407e4b3e8e03f7db531ba99",
+        "locations": [
+          "ai-research-skills-part-003/modules/unsloth/references/index.md"
+        ]
+      },
+      "modules/unsloth/references/llms-full.md": {
+        "sha256": "47a34548ff9ec7a39ee5df6f2ceb7974300b2ccec91cb78c24376999a5ae3d2a",
+        "locations": [
+          "ai-research-skills-part-003/modules/unsloth/references/llms-full.md"
+        ]
+      },
+      "modules/unsloth/references/llms-txt.md": {
+        "sha256": "641772ae2d7b15adad12b3c5fd971c8576e71500b3de2c432a7bf96a5c037ac5",
+        "locations": [
+          "ai-research-skills-part-003/modules/unsloth/references/llms-txt.md"
+        ]
+      },
+      "modules/unsloth/references/llms.md": {
+        "sha256": "cf1c30f35aea9e0f0d0c0a56b703e768150aab725622f557a64f4b2b12718a65",
+        "locations": [
+          "ai-research-skills-part-003/modules/unsloth/references/llms.md"
+        ]
+      },
+      "modules/verl/MODULE.md": {
+        "sha256": "ad0450548877564a170460b58b92d4af7d3ef9488e51973644e153db1c8c314d",
+        "locations": [
+          "ai-research-skills-part-003/modules/verl/MODULE.md"
+        ]
+      },
+      "modules/verl/references/api-reference.md": {
+        "sha256": "68650a4085d8e7f03e917e0a1aa1dc9c2d900d02f3a2db8c4e585c67d0a6de1d",
+        "locations": [
+          "ai-research-skills-part-003/modules/verl/references/api-reference.md"
+        ]
+      },
+      "modules/verl/references/troubleshooting.md": {
+        "sha256": "7d3bb6a1df2de2f1415ced3225643749e070b13df732845e65c8c145b23b194d",
+        "locations": [
+          "ai-research-skills-part-003/modules/verl/references/troubleshooting.md"
+        ]
+      },
+      "modules/vllm/MODULE.md": {
+        "sha256": "6505e248808e970480f6e8b51fdb037b535eaea5e2981ec4aa75ddf15bb460c4",
+        "locations": [
+          "ai-research-skills-part-003/modules/vllm/MODULE.md"
+        ]
+      },
+      "modules/vllm/references/optimization.md": {
+        "sha256": "bf9a0539012d2a87f7b832a066a9d8de90324c07cb9181046851c6a8cc9fce76",
+        "locations": [
+          "ai-research-skills-part-003/modules/vllm/references/optimization.md"
+        ]
+      },
+      "modules/vllm/references/quantization.md": {
+        "sha256": "c16b434bf96945a99d6c6786cb32a3bef7e24befa6c53db8035e091ae50d2a0e",
+        "locations": [
+          "ai-research-skills-part-003/modules/vllm/references/quantization.md"
+        ]
+      },
+      "modules/vllm/references/server-deployment.md": {
+        "sha256": "eb6f58d5daaabdda7be7347ae5f6d6925f739145eabece38659bb14c8cd8595c",
+        "locations": [
+          "ai-research-skills-part-003/modules/vllm/references/server-deployment.md"
+        ]
+      },
+      "modules/vllm/references/troubleshooting.md": {
+        "sha256": "d8b7cd83194878142d53aa1d380c2e78a7ba4d2f817e26cfc7f0b835676e0df9",
+        "locations": [
+          "ai-research-skills-part-003/modules/vllm/references/troubleshooting.md"
+        ]
+      },
+      "modules/weights-and-biases/MODULE.md": {
+        "sha256": "5156d73ce39ea19a9c6217006eca8ecf99beca52a284ab8867b2ebbeb99486a5",
+        "locations": [
+          "ai-research-skills-part-003/modules/weights-and-biases/MODULE.md"
+        ]
+      },
+      "modules/weights-and-biases/references/artifacts.md": {
+        "sha256": "d2c9d7cd119ba205dc56b8e0adda5c1c7f6562ddd6721742a176a0b1e3074d72",
+        "locations": [
+          "ai-research-skills-part-003/modules/weights-and-biases/references/artifacts.md"
+        ]
+      },
+      "modules/weights-and-biases/references/integrations.md": {
+        "sha256": "7326a0c0fa6c557c40ae2bb1af923b0ca1149308925b249649c01af7f4bfe447",
+        "locations": [
+          "ai-research-skills-part-003/modules/weights-and-biases/references/integrations.md"
+        ]
+      },
+      "modules/weights-and-biases/references/sweeps.md": {
+        "sha256": "d41e65de1f4a9fce040a5d882e02b98b5d497fb375066e7626c337a04c26a681",
+        "locations": [
+          "ai-research-skills-part-003/modules/weights-and-biases/references/sweeps.md"
+        ]
+      },
+      "modules/whisper/MODULE.md": {
+        "sha256": "0bcde7c712fd34516f93a45b918dc4ee9bc74488b2144525b427eb45f8840b9a",
+        "locations": [
+          "ai-research-skills-part-003/modules/whisper/MODULE.md"
+        ]
+      },
+      "modules/whisper/references/languages.md": {
+        "sha256": "3a8f1de14d2f887569618a48ca4ab042a7ecab11aea556ca022a76a8209b2173",
+        "locations": [
+          "ai-research-skills-part-003/modules/whisper/references/languages.md"
+        ]
+      },
+      "yigit/execution-protocol.md": {
+        "sha256": "5db7604b628648653a237cd53813e2992cd49bf1932351ec4cdec6331174b4d5",
+        "locations": [
+          "ai-research-skills-part-001/yigit/execution-protocol.md",
+          "ai-research-skills-part-002/yigit/execution-protocol.md",
+          "ai-research-skills-part-003/yigit/execution-protocol.md"
+        ]
+      },
+      "yigit/host-manifest.json": {
+        "sha256": "09f09fc57a4c6e665ac295c84b5a024591e0a0f4c1aa6915ffc87bef53006020",
+        "locations": [
+          "ai-research-skills-part-001/yigit/host-manifest.json",
+          "ai-research-skills-part-002/yigit/host-manifest.json",
+          "ai-research-skills-part-003/yigit/host-manifest.json"
+        ]
+      },
+      "yigit/host-runtime.md": {
+        "sha256": "7340e97e88e7f03880a60b1d98aece1c9d0ac8ea8b7dcaebe04889699090f6ec",
+        "locations": [
+          "ai-research-skills-part-001/yigit/host-runtime.md",
+          "ai-research-skills-part-002/yigit/host-runtime.md",
+          "ai-research-skills-part-003/yigit/host-runtime.md"
+        ]
+      },
+      "yigit/reference-repairs.json": {
+        "sha256": "3541aec56f6d8e8449aee1929a38218f8c86dcd0c51ba249e6c5a400b7eef73a",
+        "locations": [
+          "ai-research-skills-part-001/yigit/reference-repairs.json",
+          "ai-research-skills-part-002/yigit/reference-repairs.json",
+          "ai-research-skills-part-003/yigit/reference-repairs.json"
+        ]
+      },
+      "yigit/research-quality.md": {
+        "sha256": "6313f98a5457892ec8d156ee3de8e43d28da1de2ae4b65fd2172901b08f6d97a",
+        "locations": [
+          "ai-research-skills-part-001/yigit/research-quality.md",
+          "ai-research-skills-part-002/yigit/research-quality.md",
+          "ai-research-skills-part-003/yigit/research-quality.md"
+        ]
+      },
+      "yigit/resource-profiles.md": {
+        "sha256": "ac2938b5e38fe28f15d415c06056350cc0a36e394ae457616b0c4661b6627e04",
+        "locations": [
+          "ai-research-skills-part-001/yigit/resource-profiles.md",
+          "ai-research-skills-part-002/yigit/resource-profiles.md",
+          "ai-research-skills-part-003/yigit/resource-profiles.md"
+        ]
+      },
+      "yigit/source-SKILL.md": {
+        "sha256": "a8bc2ffcd5f9a4d992d9b6c782331b377f58e3184a563b493bad92559d2ef3bb",
+        "locations": [
+          "ai-research-skills-part-001/yigit/source-SKILL.md",
+          "ai-research-skills-part-002/yigit/source-SKILL.md",
+          "ai-research-skills-part-003/yigit/source-SKILL.md"
+        ]
+      }
+    }
+  },
+  "data-analyst": {
+    "source_skill": "data-analyst",
+    "split": false,
+    "parts": [
+      "data-analyst"
+    ],
+    "modules": [
+      "data-analysis",
+      "data-context",
+      "data-dashboard",
+      "data-visualization-playbook",
+      "sql-analytics-workflow"
+    ],
+    "files": {
+      "PORTABLE.md": {
+        "sha256": "1ef57269f64ebf62c91d70aba00d1d1aabfbfc5163019a96fed3dc824826f0c9",
+        "locations": [
+          "data-analyst/PORTABLE.md"
+        ]
+      },
+      "SKILL.md": {
+        "sha256": "8e4da9fb9ad469e2d87e12bfb2624d30e4b04c9dba52435b03f372b02b74fb94",
+        "locations": [
+          "data-analyst/SKILL.md"
+        ]
+      },
+      "modules/data-analysis/MODULE.md": {
+        "sha256": "fec87b0b0fc41dc55c6cf86a460b9be9795450bffd5a7ed34d670e4c078aac7b",
+        "locations": [
+          "data-analyst/modules/data-analysis/MODULE.md"
+        ]
+      },
+      "modules/data-context/MODULE.md": {
+        "sha256": "e1695401c28d03706ba2a411472e6ec1721182c93eeb6eeaf601bf7c34216157",
+        "locations": [
+          "data-analyst/modules/data-context/MODULE.md"
+        ]
+      },
+      "modules/data-dashboard/MODULE.md": {
+        "sha256": "dd0cacd5e399efa9f61020f5c614a273b9c2dac120fd072f78c8a39958599c66",
+        "locations": [
+          "data-analyst/modules/data-dashboard/MODULE.md"
+        ]
+      },
+      "modules/data-visualization-playbook/MODULE.md": {
+        "sha256": "446041a958a4e02e06b75d61d9f09cfbe275dd186c2027f10e00f346685b411d",
+        "locations": [
+          "data-analyst/modules/data-visualization-playbook/MODULE.md"
+        ]
+      },
+      "modules/sql-analytics-workflow/MODULE.md": {
+        "sha256": "a3f984af3f0f3b3ad9b2c815e44bf1755c4a0734ce5671a66fac125e02ecb4ff",
+        "locations": [
+          "data-analyst/modules/sql-analytics-workflow/MODULE.md"
+        ]
+      },
+      "yigit/host-manifest.json": {
+        "sha256": "93e0971df35ae120efe730e9fb9977788bea558b1c2b4f0a8927b154235ec936",
+        "locations": [
+          "data-analyst/yigit/host-manifest.json"
+        ]
+      },
+      "yigit/host-runtime.md": {
+        "sha256": "7340e97e88e7f03880a60b1d98aece1c9d0ac8ea8b7dcaebe04889699090f6ec",
+        "locations": [
+          "data-analyst/yigit/host-runtime.md"
+        ]
+      },
+      "yigit/source-SKILL.md": {
+        "sha256": "6a2346743e441cefbcfd521a468aee9bd6db871b6044b0e8d17f6907fae2f933",
+        "locations": [
+          "data-analyst/yigit/source-SKILL.md"
+        ]
+      }
+    }
+  },
+  "medical-evidence-research": {
+    "source_skill": "medical-evidence-research",
+    "split": false,
+    "parts": [
+      "medical-evidence-research"
+    ],
+    "modules": [
+      "content-access",
+      "physio-evidence-search",
+      "physio-study-appraisal",
+      "scientific-literature-review"
+    ],
+    "files": {
+      "PORTABLE.md": {
+        "sha256": "1ef57269f64ebf62c91d70aba00d1d1aabfbfc5163019a96fed3dc824826f0c9",
+        "locations": [
+          "medical-evidence-research/PORTABLE.md"
+        ]
+      },
+      "SKILL.md": {
+        "sha256": "08776a0a09c91eec45f2836da47b69e2c215c7b1df45c6f217f869125da8d08d",
+        "locations": [
+          "medical-evidence-research/SKILL.md"
+        ]
+      },
+      "assets/icon.svg": {
+        "sha256": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+        "locations": [
+          "medical-evidence-research/assets/icon.svg"
+        ]
+      },
+      "evals/acceptance-cases.json": {
+        "sha256": "5d25ed51c0c590a86d2440060441df59c5b5ed4a44d8c35f98dc66e16fd32b6d",
+        "locations": [
+          "medical-evidence-research/evals/acceptance-cases.json"
+        ]
+      },
+      "modules/content-access/LICENSE": {
+        "sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+        "locations": [
+          "medical-evidence-research/modules/content-access/LICENSE"
+        ]
+      },
+      "modules/content-access/MODULE.md": {
+        "sha256": "b4eeb7f0e5ef6d2a89617b1b243129deebaef51a8412dadc5e9e33c329e70137",
+        "locations": [
+          "medical-evidence-research/modules/content-access/MODULE.md"
+        ]
+      },
+      "modules/physio-evidence-search/MODULE.md": {
+        "sha256": "d7cb66dd809e3bf82ed0e74df4c124bce3b29ed7169e528238b24ca1fa892e88",
+        "locations": [
+          "medical-evidence-research/modules/physio-evidence-search/MODULE.md"
+        ]
+      },
+      "modules/physio-evidence-search/references/handoff-contract.md": {
+        "sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+        "locations": [
+          "medical-evidence-research/modules/physio-evidence-search/references/handoff-contract.md"
+        ]
+      },
+      "modules/physio-evidence-search/references/methods-and-sources.md": {
+        "sha256": "5bd2870e8d27b1e7448632627dfbf9843e20252ac623e6b0dede3c80b90dcff5",
+        "locations": [
+          "medical-evidence-research/modules/physio-evidence-search/references/methods-and-sources.md"
+        ]
+      },
+      "modules/physio-evidence-search/references/safety-core.md": {
+        "sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+        "locations": [
+          "medical-evidence-research/modules/physio-evidence-search/references/safety-core.md"
+        ]
+      },
+      "modules/physio-evidence-search/references/specialty-safeguards.md": {
+        "sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+        "locations": [
+          "medical-evidence-research/modules/physio-evidence-search/references/specialty-safeguards.md"
+        ]
+      },
+      "modules/physio-study-appraisal/MODULE.md": {
+        "sha256": "f5320731803b6bd2e9ed92b23c9db4c24fb52b468bac7505d9be0efd5df9a210",
+        "locations": [
+          "medical-evidence-research/modules/physio-study-appraisal/MODULE.md"
+        ]
+      },
+      "modules/physio-study-appraisal/references/design-and-appraisal.md": {
+        "sha256": "87393f526106a39e6fa3b9e488784d4d2fab39fc1677db7cf377d57cba438801",
+        "locations": [
+          "medical-evidence-research/modules/physio-study-appraisal/references/design-and-appraisal.md"
+        ]
+      },
+      "modules/physio-study-appraisal/references/handoff-contract.md": {
+        "sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+        "locations": [
+          "medical-evidence-research/modules/physio-study-appraisal/references/handoff-contract.md"
+        ]
+      },
+      "modules/physio-study-appraisal/references/safety-core.md": {
+        "sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+        "locations": [
+          "medical-evidence-research/modules/physio-study-appraisal/references/safety-core.md"
+        ]
+      },
+      "modules/physio-study-appraisal/references/specialty-safeguards.md": {
+        "sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+        "locations": [
+          "medical-evidence-research/modules/physio-study-appraisal/references/specialty-safeguards.md"
+        ]
+      },
+      "modules/scientific-literature-review/LICENSE.txt": {
+        "sha256": "5c793d8fe1c553d49c305f3c178ac360b6d32607bdf1bca06b10d3ba9881d78f",
+        "locations": [
+          "medical-evidence-research/modules/scientific-literature-review/LICENSE.txt"
+        ]
+      },
+      "modules/scientific-literature-review/MODULE.md": {
+        "sha256": "c1a780672d85d0c3722a96b412ffeeff5487356f192ad39c1b83514e142b03e6",
+        "locations": [
+          "medical-evidence-research/modules/scientific-literature-review/MODULE.md"
+        ]
+      },
+      "modules/scientific-literature-review/agents/openai.yaml": {
+        "sha256": "5efd939412a24b7239faab3bece0e27bdf36b17bd165f59374ad505606a1da7e",
+        "locations": [
+          "medical-evidence-research/modules/scientific-literature-review/agents/openai.yaml"
+        ]
+      },
+      "modules/scientific-literature-review/references/citation-verification.md": {
+        "sha256": "ac632d4c3b2a9e9f1d7d01e496f0613b91f3713587682f18c68c4ba7935f31a2",
+        "locations": [
+          "medical-evidence-research/modules/scientific-literature-review/references/citation-verification.md"
+        ]
+      },
+      "modules/scientific-literature-review/references/database-search.md": {
+        "sha256": "6a673674596336ccba63fb8f09cd9ea8334231ba71dd5a5a759ddad768753c7d",
+        "locations": [
+          "medical-evidence-research/modules/scientific-literature-review/references/database-search.md"
+        ]
+      },
+      "modules/scientific-literature-review/references/evidence-appraisal.md": {
+        "sha256": "7fd38e60eeeea35b569798528f7139ea0461fa91bf95b1e09e290f8f24fabc40",
+        "locations": [
+          "medical-evidence-research/modules/scientific-literature-review/references/evidence-appraisal.md"
+        ]
+      },
+      "references/appraisal-and-synthesis.md": {
+        "sha256": "ecebab1db8dbbf3b546e0e958fabb43bcd66cd65c2dbd28b7365df8855542956",
+        "locations": [
+          "medical-evidence-research/references/appraisal-and-synthesis.md"
+        ]
+      },
+      "references/literature-watch.md": {
+        "sha256": "fc1721ee757f7420f6e05dfb17c146dac8afd64576f1c2627e67018f7bde35fd",
+        "locations": [
+          "medical-evidence-research/references/literature-watch.md"
+        ]
+      },
+      "references/publication-workflow.md": {
+        "sha256": "503acd47ab425dde3519a45498ad887712aac025c2d9fd253bfcd7e03875c66b",
+        "locations": [
+          "medical-evidence-research/references/publication-workflow.md"
+        ]
+      },
+      "references/search-strategy.md": {
+        "sha256": "b12f7f4ce48d2e750778fd05153f037772ce4bf5d56339ba1d342ead05575226",
+        "locations": [
+          "medical-evidence-research/references/search-strategy.md"
+        ]
+      },
+      "references/source-map.md": {
+        "sha256": "18cb2b4f93e46575bc783d7fa3801424642a84096aa14d4ae5287c21e2c7010d",
+        "locations": [
+          "medical-evidence-research/references/source-map.md"
+        ]
+      },
+      "references/tool-routing.md": {
+        "sha256": "44dbf9bc868202b5e21efded3fb1b63d501edd705c0231e6d1ebd87cf9653098",
+        "locations": [
+          "medical-evidence-research/references/tool-routing.md"
+        ]
+      },
+      "references/turkey-applicability.md": {
+        "sha256": "8830feec3fbcefcb548d4b655f95ddea66b1e6214d87459ef00022d664aced35",
+        "locations": [
+          "medical-evidence-research/references/turkey-applicability.md"
+        ]
+      },
+      "yigit/host-manifest.json": {
+        "sha256": "969531fad4092a20ef964d59404d5d908b1260325e79286b7bf5be0774e987a6",
+        "locations": [
+          "medical-evidence-research/yigit/host-manifest.json"
+        ]
+      },
+      "yigit/host-runtime.md": {
+        "sha256": "7340e97e88e7f03880a60b1d98aece1c9d0ac8ea8b7dcaebe04889699090f6ec",
+        "locations": [
+          "medical-evidence-research/yigit/host-runtime.md"
+        ]
+      },
+      "yigit/source-SKILL.md": {
+        "sha256": "a27dc9c3069ff71e2cfced71549603c0320c25087d92b859292b5de46d74c50f",
+        "locations": [
+          "medical-evidence-research/yigit/source-SKILL.md"
+        ]
+      }
+    }
+  },
+  "office-docs-qa": {
+    "source_skill": "office-docs-qa",
+    "split": false,
+    "parts": [
+      "office-docs-qa"
+    ],
+    "modules": [
+      "docx-workflow",
+      "file-reading-workflow",
+      "knowledge-base",
+      "pdf-workflow",
+      "workflow-visualizer",
+      "xlsx-workflow"
+    ],
+    "files": {
+      "PORTABLE.md": {
+        "sha256": "1ef57269f64ebf62c91d70aba00d1d1aabfbfc5163019a96fed3dc824826f0c9",
+        "locations": [
+          "office-docs-qa/PORTABLE.md"
+        ]
+      },
+      "SKILL.md": {
+        "sha256": "c9c334634d2e4bff1819a599dabf01b79b2fc7089c519f97cc0e1f2d5d44bc62",
+        "locations": [
+          "office-docs-qa/SKILL.md"
+        ]
+      },
+      "modules/docx-workflow/MODULE.md": {
+        "sha256": "636fcbbf6d69d8d18c5f5f87667a59d3548c8662efb0baabf6060f7dcbbf0d49",
+        "locations": [
+          "office-docs-qa/modules/docx-workflow/MODULE.md"
+        ]
+      },
+      "modules/file-reading-workflow/MODULE.md": {
+        "sha256": "7946f4800d9ae0cc2bfea02567f2befe19adbe68f07c77e7ce817806e1d859e9",
+        "locations": [
+          "office-docs-qa/modules/file-reading-workflow/MODULE.md"
+        ]
+      },
+      "modules/knowledge-base/MODULE.md": {
+        "sha256": "8f83ff845c1e5234397def13d008378bbd78d76cab90906b53fac9dff174987b",
+        "locations": [
+          "office-docs-qa/modules/knowledge-base/MODULE.md"
+        ]
+      },
+      "modules/pdf-workflow/MODULE.md": {
+        "sha256": "5e7529fa1b724561f1d94be54674c3c962e1cac4b9b4e8eae0ece39face55735",
+        "locations": [
+          "office-docs-qa/modules/pdf-workflow/MODULE.md"
+        ]
+      },
+      "modules/workflow-visualizer/MODULE.md": {
+        "sha256": "5c4e6844b7a6f36b462f4b044cceb5518826e3fcef306a21f88db82acf8042bb",
+        "locations": [
+          "office-docs-qa/modules/workflow-visualizer/MODULE.md"
+        ]
+      },
+      "modules/workflow-visualizer/references/interactive-html-diagrams.md": {
+        "sha256": "e2bb33e77ef9bd854c71113caf66bdc4aeb4c817534c70be1d94c06aea87eadb",
+        "locations": [
+          "office-docs-qa/modules/workflow-visualizer/references/interactive-html-diagrams.md"
+        ]
+      },
+      "modules/xlsx-workflow/MODULE.md": {
+        "sha256": "fe5f94c96e9d9eac5de52d5457fbadce7bce4fd108ec6518093d99ac744c1800",
+        "locations": [
+          "office-docs-qa/modules/xlsx-workflow/MODULE.md"
+        ]
+      },
+      "yigit/host-manifest.json": {
+        "sha256": "2731ad0a2f5e1a63a7998223a98f700af0ccf8b6d4e8eb23e626ed737831685d",
+        "locations": [
+          "office-docs-qa/yigit/host-manifest.json"
+        ]
+      },
+      "yigit/host-runtime.md": {
+        "sha256": "7340e97e88e7f03880a60b1d98aece1c9d0ac8ea8b7dcaebe04889699090f6ec",
+        "locations": [
+          "office-docs-qa/yigit/host-runtime.md"
+        ]
+      },
+      "yigit/source-SKILL.md": {
+        "sha256": "83eb3462ad7e409d35b6a0aa14c263eebfdd22d8bc19062539166a10ff090ef7",
+        "locations": [
+          "office-docs-qa/yigit/source-SKILL.md"
+        ]
+      }
+    }
+  },
+  "research-analyst": {
+    "source_skill": "research-analyst",
+    "split": false,
+    "parts": [
+      "research-analyst"
+    ],
+    "modules": [
+      "competitive-brief",
+      "consumer-resolution",
+      "decision-council",
+      "deep-reading-analyst",
+      "deep-research",
+      "deep-research-compilation",
+      "evidence-integrity-guard",
+      "fact-check-workflow",
+      "firecrawl",
+      "firecrawl-search",
+      "legal-research",
+      "quick-research",
+      "research-synthesis",
+      "source-driven-development",
+      "source-verification",
+      "trend-research",
+      "vendor-review",
+      "video-understanding",
+      "web-archiving",
+      "weizhena-research",
+      "weizhena-research-add-fields",
+      "weizhena-research-add-items",
+      "weizhena-research-deep",
+      "weizhena-research-report"
+    ],
+    "files": {
+      "PORTABLE.md": {
+        "sha256": "1ef57269f64ebf62c91d70aba00d1d1aabfbfc5163019a96fed3dc824826f0c9",
+        "locations": [
+          "research-analyst/PORTABLE.md"
+        ]
+      },
+      "SKILL.md": {
+        "sha256": "a4d04a4ad9611603c757b291be09f54f2be07226e38ea4a32f17af8cd328a945",
+        "locations": [
+          "research-analyst/SKILL.md"
+        ]
+      },
+      "modules/competitive-brief/MODULE.md": {
+        "sha256": "5cc69ea3c98872b68d6669aeaebfb57912125a85d328c0bc228fb68647755636",
+        "locations": [
+          "research-analyst/modules/competitive-brief/MODULE.md"
+        ]
+      },
+      "modules/consumer-resolution/MODULE.md": {
+        "sha256": "d2f4fe399821445d064f617dbde2fe3a3b0017a4f7d670d671d3c4671a29539f",
+        "locations": [
+          "research-analyst/modules/consumer-resolution/MODULE.md"
+        ]
+      },
+      "modules/decision-council/MODULE.md": {
+        "sha256": "f98dbc91df05f306e18f062073f9748bbdcd21e8daae3cdadbc56e94f4c67a71",
+        "locations": [
+          "research-analyst/modules/decision-council/MODULE.md"
+        ]
+      },
+      "modules/deep-reading-analyst/MODULE.md": {
+        "sha256": "89c5351f8d5c431fdd49a9823e45157f95b5410db9ae3f8898d28304a9ea9dbb",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/MODULE.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/5w2h_analysis.md": {
+        "sha256": "cf47e04d09ceb2dbe52c10a51f10c891dab0bdc4245c9ab37c04354e9efdc91e",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/5w2h_analysis.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/advanced-usage.md": {
+        "sha256": "38ec248c89ba8056908df75c458973e4d50b1d09b33032deefa315acc3b3ae65",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/advanced-usage.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/comparison_matrix.md": {
+        "sha256": "226c2b17edde851dd93dd6f9f6a25f339d7ddf8b766d41c4436e122d3166ac19",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/comparison_matrix.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/critical_thinking.md": {
+        "sha256": "f81980cc9231514fda742ade77d1aede3dc2a101af16730611ab370d26df48d9",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/critical_thinking.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/first_principles.md": {
+        "sha256": "d2f650ab4a28a9fb902e47fba0ff326880d5c970e473159b45cb5531bc999ec2",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/first_principles.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/inversion_thinking.md": {
+        "sha256": "692581f39b276a6377eb2692632649787e32eb1ac1bec52a8b36537017fe19e5",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/inversion_thinking.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/mental_models.md": {
+        "sha256": "142a08b988b77420588de4e5989ad0e542dc3a31b09c4648a6edf8f832574920",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/mental_models.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/output_templates.md": {
+        "sha256": "0ec34fcf107e751137254f8b8bca10053e2566f5ccd04fc1a1318ef41383fa4e",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/output_templates.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/scqa_framework.md": {
+        "sha256": "dbfa97fd1ea33b10f04021353327c2d34b8a11a29d48ad02da9cc4608eed1487",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/scqa_framework.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/six_hats.md": {
+        "sha256": "678a75344ac5e2c08f1a80c8cbaf7f11be5be9b0d7b5046f8b5fc124ed2c1c60",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/six_hats.md"
+        ]
+      },
+      "modules/deep-reading-analyst/references/systems_thinking.md": {
+        "sha256": "d33def5eac46874a158f62b0184b423bc88540be6897307a3f19694b603373e6",
+        "locations": [
+          "research-analyst/modules/deep-reading-analyst/references/systems_thinking.md"
+        ]
+      },
+      "modules/deep-research-compilation/MODULE.md": {
+        "sha256": "d493b441aa4d56c78b5e92b31d332eb479d2199df3658e79b7336ddb5d517026",
+        "locations": [
+          "research-analyst/modules/deep-research-compilation/MODULE.md"
+        ]
+      },
+      "modules/deep-research/MODULE.md": {
+        "sha256": "a5ac798663940d3e084ac5337478cb4a9a813863a565def6b11e9085689a7cb2",
+        "locations": [
+          "research-analyst/modules/deep-research/MODULE.md"
+        ]
+      },
+      "modules/deep-research/evals/trigger-cases.json": {
+        "sha256": "1ce66da75c8f4a61a39811de8b3fbebe73e23db60d51985e05ddd81ac2692bc0",
+        "locations": [
+          "research-analyst/modules/deep-research/evals/trigger-cases.json"
+        ]
+      },
+      "modules/deep-research/references/compilation-method.md": {
+        "sha256": "21837e3d34cbb59c32f94c846dcb70b95b1a60e1adbb9843a6dc27257c153f7f",
+        "locations": [
+          "research-analyst/modules/deep-research/references/compilation-method.md"
+        ]
+      },
+      "modules/deep-research/references/domain-routing.md": {
+        "sha256": "f68c5027e54598ae4b1277f1004e8ad56e83b48f4757435bc4df6359d3c5ec80",
+        "locations": [
+          "research-analyst/modules/deep-research/references/domain-routing.md"
+        ]
+      },
+      "modules/evidence-integrity-guard/MODULE.md": {
+        "sha256": "a1f0d44f8076b148e1832be0f5fde2835e401f5045c361ca6902a525b97bf0bb",
+        "locations": [
+          "research-analyst/modules/evidence-integrity-guard/MODULE.md"
+        ]
+      },
+      "modules/evidence-integrity-guard/evals/trigger-cases.json": {
+        "sha256": "bffb678b456312d8712ead3cce2e52ef0221becd5f72a1096e15a8d5a8a461e5",
+        "locations": [
+          "research-analyst/modules/evidence-integrity-guard/evals/trigger-cases.json"
+        ]
+      },
+      "modules/evidence-integrity-guard/references/citation-audit.md": {
+        "sha256": "363fa65346297b8b774970fba93a562e7974f017a5d34a33ecb2be0b3c04d456",
+        "locations": [
+          "research-analyst/modules/evidence-integrity-guard/references/citation-audit.md"
+        ]
+      },
+      "modules/evidence-integrity-guard/references/evidence-protocol.md": {
+        "sha256": "420c1a121d0181aac6a32ee895b77f956045d14a2cf372ed0bfe576c8bdc1f9f",
+        "locations": [
+          "research-analyst/modules/evidence-integrity-guard/references/evidence-protocol.md"
+        ]
+      },
+      "modules/evidence-integrity-guard/references/source-and-incentive-checks.md": {
+        "sha256": "049f09e798cbf35219a51b7cae6bf24740bb4ba8c36ac0b080816045b113256e",
+        "locations": [
+          "research-analyst/modules/evidence-integrity-guard/references/source-and-incentive-checks.md"
+        ]
+      },
+      "modules/evidence-integrity-guard/scripts/audit_research_report.py": {
+        "sha256": "e35d5a139ffcdfd8423f295aa5682a6a6c2636435df334861a088aaa888fde90",
+        "locations": [
+          "research-analyst/modules/evidence-integrity-guard/scripts/audit_research_report.py"
+        ]
+      },
+      "modules/fact-check-workflow/LICENSE": {
+        "sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+        "locations": [
+          "research-analyst/modules/fact-check-workflow/LICENSE"
+        ]
+      },
+      "modules/fact-check-workflow/MODULE.md": {
+        "sha256": "333d79732db2e1b1830eee125bbcd8f3992baae3f88f7754dfe16f404f38a69e",
+        "locations": [
+          "research-analyst/modules/fact-check-workflow/MODULE.md"
+        ]
+      },
+      "modules/firecrawl-search/MODULE.md": {
+        "sha256": "afe80980efbe4a18cf95a00b70dda45cf6494aac6e134eea7392b41c07e5b283",
+        "locations": [
+          "research-analyst/modules/firecrawl-search/MODULE.md"
+        ]
+      },
+      "modules/firecrawl/MODULE.md": {
+        "sha256": "688cdfd4b199a19e396c729fdbbb24b1d4f77479806020108c19de58110950c1",
+        "locations": [
+          "research-analyst/modules/firecrawl/MODULE.md"
+        ]
+      },
+      "modules/legal-research/MODULE.md": {
+        "sha256": "8bc9ea333c37cb3e72fddf4619c118c1edce59f03e06f0f72d0c76a96654647c",
+        "locations": [
+          "research-analyst/modules/legal-research/MODULE.md"
+        ]
+      },
+      "modules/quick-research/MODULE.md": {
+        "sha256": "e523fa31e7b7f986e8d963f2a704e365cd7ab2586fd47dc9f30f1ce2bde699f9",
+        "locations": [
+          "research-analyst/modules/quick-research/MODULE.md"
+        ]
+      },
+      "modules/research-synthesis/MODULE.md": {
+        "sha256": "8371b5426fe968d32090e4686278be4aaca61bc606a6075324d5ceb4d4833ecf",
+        "locations": [
+          "research-analyst/modules/research-synthesis/MODULE.md"
+        ]
+      },
+      "modules/source-driven-development/MODULE.md": {
+        "sha256": "b7ff19c4a5d6d3dbf00fb3e3b66eb54e2d610bf472ecfa88f5464e733a1bf907",
+        "locations": [
+          "research-analyst/modules/source-driven-development/MODULE.md"
+        ]
+      },
+      "modules/source-verification/LICENSE": {
+        "sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+        "locations": [
+          "research-analyst/modules/source-verification/LICENSE"
+        ]
+      },
+      "modules/source-verification/MODULE.md": {
+        "sha256": "2efb501c93c019c1f0884ca24d3a7b1e92a35c1901b7b677e65c770baedd7347",
+        "locations": [
+          "research-analyst/modules/source-verification/MODULE.md"
+        ]
+      },
+      "modules/source-verification/references/documents.md": {
+        "sha256": "658547ebb8673f82c70cd223979edbfa84d79f886c70ac5923e6803b56b2a711",
+        "locations": [
+          "research-analyst/modules/source-verification/references/documents.md"
+        ]
+      },
+      "modules/source-verification/references/images.md": {
+        "sha256": "57583026890abdb3e3d635ef8db78defd0b54e9a4ef8f8ed1db8d39477116725",
+        "locations": [
+          "research-analyst/modules/source-verification/references/images.md"
+        ]
+      },
+      "modules/source-verification/references/interviews.md": {
+        "sha256": "38290f55c19e561b96cf4371bed56337d0e04901ab2c9ac10ddcb85e80dcbdf3",
+        "locations": [
+          "research-analyst/modules/source-verification/references/interviews.md"
+        ]
+      },
+      "modules/source-verification/references/resources.md": {
+        "sha256": "791812c225aae94d18b5376a167f8d6a700a7c61fcdb98ef9eb602e7bd0bc145",
+        "locations": [
+          "research-analyst/modules/source-verification/references/resources.md"
+        ]
+      },
+      "modules/source-verification/references/social-accounts.md": {
+        "sha256": "67f84b058706628094bc9432c4fb26af393e6039fbfba5a7578109d224ddba3f",
+        "locations": [
+          "research-analyst/modules/source-verification/references/social-accounts.md"
+        ]
+      },
+      "modules/source-verification/references/source-credibility.md": {
+        "sha256": "429379316b3b0280ab6367dbc04e7f8e7444fec99f94c9be1177bb4f1a38c015",
+        "locations": [
+          "research-analyst/modules/source-verification/references/source-credibility.md"
+        ]
+      },
+      "modules/source-verification/references/synthetic-media.md": {
+        "sha256": "54d4a515ef403e6ef3d53e6c09fb2f795693c31d04d0a03b9196f72254230f8a",
+        "locations": [
+          "research-analyst/modules/source-verification/references/synthetic-media.md"
+        ]
+      },
+      "modules/source-verification/references/verification-trail-and-archiving.md": {
+        "sha256": "efe58df01926106982a131b0bee430c27ccd06e71461cf61401a669fb02e38af",
+        "locations": [
+          "research-analyst/modules/source-verification/references/verification-trail-and-archiving.md"
+        ]
+      },
+      "modules/source-verification/references/video.md": {
+        "sha256": "2b2c5ddbb76350ea2843b0ce29d6ebbfb7211041f163da6c6fdbc0fc5dde9da8",
+        "locations": [
+          "research-analyst/modules/source-verification/references/video.md"
+        ]
+      },
+      "modules/trend-research/MODULE.md": {
+        "sha256": "21b6427406feb8693945007c63f5017fc6587e44e735320b7b26b3c5fafc0074",
+        "locations": [
+          "research-analyst/modules/trend-research/MODULE.md"
+        ]
+      },
+      "modules/trend-research/agents/openai.yaml": {
+        "sha256": "d0508ff4689a71f8b834e981fdbef89fcfb0f3621ecbf020ceb2510f7eb51b6a",
+        "locations": [
+          "research-analyst/modules/trend-research/agents/openai.yaml"
+        ]
+      },
+      "modules/vendor-review/MODULE.md": {
+        "sha256": "e7f33f3065f22ee43640d729bff869b3ad913c78a74dd7573fdeb71f59a63901",
+        "locations": [
+          "research-analyst/modules/vendor-review/MODULE.md"
+        ]
+      },
+      "modules/video-understanding/MODULE.md": {
+        "sha256": "6cddfe2761324c7b92ad32c89858963a4ca9e306d234ba6b287333280d39ad04",
+        "locations": [
+          "research-analyst/modules/video-understanding/MODULE.md"
+        ]
+      },
+      "modules/video-understanding/scripts/sample_video.py": {
+        "sha256": "980ca6e135d82ebada5e6547cda1a69935aa79c9fe242c27b5d7585c97a30ec3",
+        "locations": [
+          "research-analyst/modules/video-understanding/scripts/sample_video.py"
+        ]
+      },
+      "modules/web-archiving/LICENSE": {
+        "sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+        "locations": [
+          "research-analyst/modules/web-archiving/LICENSE"
+        ]
+      },
+      "modules/web-archiving/MODULE.md": {
+        "sha256": "6553808eaed6584b3bb8ec84c16bc223579dbaf65c4c788a8c40295c5165b5c6",
+        "locations": [
+          "research-analyst/modules/web-archiving/MODULE.md"
+        ]
+      },
+      "modules/weizhena-research-add-fields/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research-add-fields/LICENSE"
+        ]
+      },
+      "modules/weizhena-research-add-fields/MODULE.md": {
+        "sha256": "d8ed15b8d283bb04e98a3d2b172ba517f91e973817aaa34358766bff08bc44db",
+        "locations": [
+          "research-analyst/modules/weizhena-research-add-fields/MODULE.md"
+        ]
+      },
+      "modules/weizhena-research-add-fields/codex-variant/CODEX-VARIANT.md": {
+        "sha256": "3cf862d84bb84a11935567ecba473924a9da54ecb2d63692ae7487d46fb0e627",
+        "locations": [
+          "research-analyst/modules/weizhena-research-add-fields/codex-variant/CODEX-VARIANT.md"
+        ]
+      },
+      "modules/weizhena-research-add-fields/codex-variant/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research-add-fields/codex-variant/LICENSE"
+        ]
+      },
+      "modules/weizhena-research-add-items/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research-add-items/LICENSE"
+        ]
+      },
+      "modules/weizhena-research-add-items/MODULE.md": {
+        "sha256": "3a16018a7c118dd4b2ce4d9946f0128b2e0df9834cc292dbfe7f15ee79c2a3e8",
+        "locations": [
+          "research-analyst/modules/weizhena-research-add-items/MODULE.md"
+        ]
+      },
+      "modules/weizhena-research-add-items/codex-variant/CODEX-VARIANT.md": {
+        "sha256": "4a77e1240250212bcda7a5e148bb8a81ef1629c84e139145a715ce0fd0965d17",
+        "locations": [
+          "research-analyst/modules/weizhena-research-add-items/codex-variant/CODEX-VARIANT.md"
+        ]
+      },
+      "modules/weizhena-research-add-items/codex-variant/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research-add-items/codex-variant/LICENSE"
+        ]
+      },
+      "modules/weizhena-research-deep/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research-deep/LICENSE"
+        ]
+      },
+      "modules/weizhena-research-deep/MODULE.md": {
+        "sha256": "f0e9b01ab122d84c7a82d0e32347fa27372034b8dba7a61ec4f8efb329d61938",
+        "locations": [
+          "research-analyst/modules/weizhena-research-deep/MODULE.md"
+        ]
+      },
+      "modules/weizhena-research-deep/codex-variant/CODEX-VARIANT.md": {
+        "sha256": "edfae7d224d8f9e1a62286f03de9b62357ca83bcc06bd4ef14644b41a139cb26",
+        "locations": [
+          "research-analyst/modules/weizhena-research-deep/codex-variant/CODEX-VARIANT.md"
+        ]
+      },
+      "modules/weizhena-research-deep/codex-variant/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research-deep/codex-variant/LICENSE"
+        ]
+      },
+      "modules/weizhena-research-report/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research-report/LICENSE"
+        ]
+      },
+      "modules/weizhena-research-report/MODULE.md": {
+        "sha256": "4af08c2c8135fcf52cf6bd41a165f46bf4d8021e6e64de4a25b0e07f247d4e0e",
+        "locations": [
+          "research-analyst/modules/weizhena-research-report/MODULE.md"
+        ]
+      },
+      "modules/weizhena-research-report/codex-variant/CODEX-VARIANT.md": {
+        "sha256": "ff34c53fbc834677331442e916ae6b3193100e75e5455f3e6f5bc75551818b10",
+        "locations": [
+          "research-analyst/modules/weizhena-research-report/codex-variant/CODEX-VARIANT.md"
+        ]
+      },
+      "modules/weizhena-research-report/codex-variant/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research-report/codex-variant/LICENSE"
+        ]
+      },
+      "modules/weizhena-research/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research/LICENSE"
+        ]
+      },
+      "modules/weizhena-research/MODULE.md": {
+        "sha256": "81276175b678967d3c03c103c27568fd1b42548687c1fc386ba0be3a67753bd7",
+        "locations": [
+          "research-analyst/modules/weizhena-research/MODULE.md"
+        ]
+      },
+      "modules/weizhena-research/codex-variant/CODEX-VARIANT.md": {
+        "sha256": "db05a62e71c8599d6bda2c9b2fc88e24709575cbfa4847a8628c77f902691c5a",
+        "locations": [
+          "research-analyst/modules/weizhena-research/codex-variant/CODEX-VARIANT.md"
+        ]
+      },
+      "modules/weizhena-research/codex-variant/LICENSE": {
+        "sha256": "543261f34ca9b6af0a425bd4422be126f348bab7521847728e25360a049d9e9f",
+        "locations": [
+          "research-analyst/modules/weizhena-research/codex-variant/LICENSE"
+        ]
+      },
+      "modules/weizhena-research/codex-variant/validate_json.py": {
+        "sha256": "de4b01c438f698fc0e9346693a82fe8a2ae1f54ddf704f6e10dc97acc8f28ee4",
+        "locations": [
+          "research-analyst/modules/weizhena-research/codex-variant/validate_json.py"
+        ]
+      },
+      "modules/weizhena-research/validate_json.py": {
+        "sha256": "de4b01c438f698fc0e9346693a82fe8a2ae1f54ddf704f6e10dc97acc8f28ee4",
+        "locations": [
+          "research-analyst/modules/weizhena-research/validate_json.py"
+        ]
+      },
+      "yigit/host-manifest.json": {
+        "sha256": "913c3f97be33d424664dc36bf97fbb8fa12737e26fda4159903120628e3c29a0",
+        "locations": [
+          "research-analyst/yigit/host-manifest.json"
+        ]
+      },
+      "yigit/host-runtime.md": {
+        "sha256": "7340e97e88e7f03880a60b1d98aece1c9d0ac8ea8b7dcaebe04889699090f6ec",
+        "locations": [
+          "research-analyst/yigit/host-runtime.md"
+        ]
+      },
+      "yigit/source-SKILL.md": {
+        "sha256": "5b42f6de5e3a2782834e4578e1800de87c63d7e13568bfc3891c04f3edeba49a",
+        "locations": [
+          "research-analyst/yigit/source-SKILL.md"
+        ]
+      }
+    }
+  }
+}

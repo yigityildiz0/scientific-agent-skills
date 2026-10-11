@@ -1,0 +1,48 @@
+{
+  "edition": "2026.10.11",
+  "repository": "scientific-agent-skills",
+  "canonical": "universal-ai-skill-library",
+  "skills": [
+    "academic-study-coach",
+    "ai-research-skills",
+    "data-analyst",
+    "medical-evidence-research",
+    "office-docs-qa",
+    "research-analyst"
+  ],
+  "claude_parts": {
+    "academic-study-coach": 1,
+    "ai-research-skills": 3,
+    "data-analyst": 1,
+    "medical-evidence-research": 1,
+    "office-docs-qa": 1,
+    "research-analyst": 1
+  },
+  "artifact_sha256": {
+    "downloads/ChatGPT.zip": "906703885da4cc7dc93397d13ad2e9c0bd24fc6f3647676c9faf7c99fd6fa045",
+    "downloads/Claude.zip": "8fa6a0e99a3638b2959288abcdf41ed596202b3a8c56c24461add2768ec256d3",
+    "downloads/Codex.zip": "e2bf5779f22f73db0dc8fd1c7fb2ebc9a75801d9fca360be51fcbb6a37721e5f",
+    "downloads/portable-skills.zip": "7aa396ec9f9caac8d0c79de5a85bdb85c29fd389bd13f37f257616c843d440b9",
+    "packages/portable/academic-study-coach.zip": "a4f85176587f81d62d589e688af4a3299266ba76a047e42a042d5d5a24e7243b",
+    "packages/portable/ai-research-skills.zip": "e9878e0d76859f13b68fcbf4ba07f2888f562c97ff3f5eb99b08758819b62ec7",
+    "packages/portable/data-analyst.zip": "9737ddbeba22902794ab2ee0160eea6721a75a490f9b7aea0e850b8549adc8b9",
+    "packages/portable/medical-evidence-research.zip": "cfcf3da6bff174ace8463907e7c0e32a4f12f44f9481b04e5882c5d17e3a3e09",
+    "packages/portable/office-docs-qa.zip": "7e76c767de8d283f371378194a6f6ec2a63b4485ef43e13eb8c4bceffdaa8c5d",
+    "packages/portable/research-analyst.zip": "91ccc91ac7117ad2e1876c1bc17c7ffc5af2c427e47753b23b8bc97051df56f0",
+    "packages/chatgpt/academic-study-coach.zip": "ae0acd015bfa71360cca051f6bac4f0cefbe4d64ff2e17e1c3581d57056efd6b",
+    "packages/chatgpt/ai-research-skills.zip": "14c5090904e2dfb4b9d11bf271ed286724c24f59165d316a1f8fd819384b3fe2",
+    "packages/chatgpt/data-analyst.zip": "5956360e2e4dbd221fc5473b38616bc72a07e6b7236ea520d46bee9c750a058b",
+    "packages/chatgpt/medical-evidence-research.zip": "164d627d2c9460c079eba971a0ab4c7a9b792d50818c9b03f8b84adbb51d35cf",
+    "packages/chatgpt/office-docs-qa.zip": "6aaa39878557ee12a1458b780c439bf09f9320f8e693cd050c0d4b5c6da45251",
+    "packages/chatgpt/research-analyst.zip": "7ff62c8ae1e2aee8e1de4f4f6227c65d66830fac6c2e65508af68c84e946af45",
+    "packages/claude/academic-study-coach.zip": "5990e7506916fa34f3d3cd41e553e4c32900eb51fdbc7827f9108e61c2dcde24",
+    "packages/claude/ai-research-skills-part-001.zip": "96f3199fe1fe273023a21cc4d43ab38857704a58ac169ce6c32e050c7ecf41c6",
+    "packages/claude/ai-research-skills-part-002.zip": "8e13b64f2c75a200798dd8a8e96d0efe9dba70c6935ba0665b27f0cecf5d3d76",
+    "packages/claude/ai-research-skills-part-003.zip": "a93f4b4a5d15ffb09a95a76505bffca929f2330f5baf733d8b1d39d936652071",
+    "packages/claude/data-analyst.zip": "f0876615e1c65e809698ecbeee5b0399a96163c343d317fba0ca581ed6404d37",
+    "packages/claude/medical-evidence-research.zip": "2fa8003e006a81a360ada749eaed06946017132c44a4a456e1569588abf244bc",
+    "packages/claude/office-docs-qa.zip": "2388172ae30128d6d95782365b920ab3f3c3abc006a6b1c00f18bcdffe0d73cd",
+    "packages/claude/research-analyst.zip": "47f9917d1aa46cbd7d3270e6518eb086c5d8cced1f08c83276f2f11869638132"
+  },
+  "validation_scope": "structure, hashes and archives; not live account activation or clinical/financial efficacy"
+}

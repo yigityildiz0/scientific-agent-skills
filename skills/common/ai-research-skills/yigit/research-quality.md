@@ -1,0 +1,12 @@
+# Research quality without extra services
+
+Apply proportionately to ML papers, RAG evaluation, training experiments and tool comparisons. Keep the complete upstream library; use only the module needed.
+
+1. State the decision, task, language/domain, hardware budget and data cutoff. Ask a focused question only when a missing fact changes the experiment or conclusion.
+2. Trace claims to the actual paper, dataset/model card, repository revision and benchmark protocol. Open the supporting passage; distinguish abstracts, full text, preprints, peer review and reproductions. Check corrections/retractions at the publisher or [Crossmark](https://www.crossref.org/services/crossmark/); missing Crossmark is not proof that a paper is current.
+3. Label vendor, sponsor, affiliate and author incentives. A leaderboard or product demo is not independent validation. Do not exclude sound work just because it is sponsored; inspect methods, access to data/code and independent replication. Seek negative results and failed replications.
+4. Compare like with like: dataset/split/version, contamination controls, prompt, tools, token/compute budget, quantization, hardware, latency and evaluation metric. Separate reported results from locally reproduced results. Treat model-judged scores as measurements with evaluator bias, not ground truth.
+5. Keep train/validation/test separation. Fit preprocessing only on training data, prevent time/group/entity leakage and test-set tuning, disclose overlapping benchmarks and synthetic-data provenance. Preserve a held-out check; show baseline, ablation and uncertainty where warranted.
+6. Report sample size, seeds, dispersion versus CI, effect size and practical significance. Correct for multiple comparisons when relevant. A small accuracy gain on one dataset does not establish general superiority or clinical usefulness.
+7. Run on existing local tools/hardware or the current host session. Do not switch to cloud GPU, billed APIs, hosted vector/search services or remote paid judges when local resources fail. Reduce the experiment, use an offline fixture, or report the missing resource; never invent a successful run.
+8. Preserve evidence and reproducibility: source URLs/revisions, retrieval date, data license, parameters and negative outcomes. For a short answer expose only decisive citations, uncertainty and the next discriminating test. This checklist is not a new automatic multi-agent phase.

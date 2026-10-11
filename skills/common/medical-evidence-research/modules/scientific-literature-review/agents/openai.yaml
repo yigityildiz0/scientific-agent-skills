@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Literature Review"
+  short_description: "Builds verified biomedical evidence reviews"
+  default_prompt: "Use $scientific-literature-review to create a traceable review of this scientific question."
