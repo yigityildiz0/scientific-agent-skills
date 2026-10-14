@@ -26,7 +26,7 @@ Read [research execution and data boundaries](yigit/execution-protocol.md) befor
 
 - Starting or steering an AI/ML research project end to end → `autoresearch` module; it routes to the domain modules below.
 - A specific framework, technique or deliverable → open that module directly and read it completely.
-- AI/ML research ideas → `brainstorming-research-ideas`, then `creative-thinking-for-research`. For biomedical/rehabilitation thesis ideas, first use the available `medical-evidence-research` hub for clinical importance, evidence gaps and study feasibility; use these ideation modules as optional support. Clinical cases belong to `physio-clinical-copilot`, and study/exam or general academic presentation tasks to `academic-study-coach` when those skills are installed.
+- AI/ML research ideas → `brainstorming-research-ideas`, then `creative-thinking-for-research`. For biomedical/rehabilitation thesis ideas, first use the available `medical-evidence-research` hub for clinical importance, evidence gaps and study feasibility; use these ideation modules as optional support. Clinical cases belong to `physio-clinical-copilot`, and study/exam tasks to `academic-study-coach` and slide decks/PPTX/speaker notes to `presentation-studio` when those skills are installed.
 - Install the Python packages a module lists only when the task needs them; ask before installing GPU, cloud or paid tooling.
 
 ## Modules by category

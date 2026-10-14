@@ -20,13 +20,13 @@
         ]
       },
       "SKILL.md": {
-        "sha256": "c58609542f0ad0b9c743df3b583c24c6cc55b6389f1d9b79a67e02532145aa18",
+        "sha256": "169e6eb9b4f599d0f766a55d807e2908bf398ec716fae66046e24f0b175596a7",
         "locations": [
           "academic-study-coach/SKILL.md"
         ]
       },
       "modules/academic-presentations/MODULE.md": {
-        "sha256": "463e11f3885cccfbf4bfd61cdc13fad659064283aeb26f4d017b591bf3f1f1b5",
+        "sha256": "71ba65bf04ff9e6a95912b4e4ce58b626d6105fe5fa951874cfaacd53cc23f9b",
         "locations": [
           "academic-study-coach/modules/academic-presentations/MODULE.md"
         ]
@@ -182,7 +182,7 @@
         ]
       },
       "yigit/host-manifest.json": {
-        "sha256": "2b0195c01c4a8eb1a84fef651ba378387bf7208a47537dcfad26966701304172",
+        "sha256": "1d8e8a24241d681a3bc5f542d943a16fb313c96ec72abf8b5ae4caa558eb8be7",
         "locations": [
           "academic-study-coach/yigit/host-manifest.json"
         ]
@@ -194,7 +194,7 @@
         ]
       },
       "yigit/source-SKILL.md": {
-        "sha256": "f3babfacd400e2a76944bb9799e7021fdbb5808f5824e049239c44fc1c28e9e3",
+        "sha256": "7a4e0088621265293eb460f04570eab022b4f3dbf7cb156cb80037d9c6328dd3",
         "locations": [
           "academic-study-coach/yigit/source-SKILL.md"
         ]
@@ -523,7 +523,7 @@
         ]
       },
       "SKILL.md": {
-        "sha256": "880203f4f2b08c57a21ad66b1f74613e34d6f4acd87bd21c8ec91d0b3a0a740e",
+        "sha256": "585bbb3620969e647129bd2a3a986b406f984cef641ab4defef675b8e228a6c3",
         "locations": [
           "ai-research-skills-part-001/yigit/complete-host-entrypoint.md",
           "ai-research-skills-part-002/yigit/complete-host-entrypoint.md",
@@ -3113,7 +3113,7 @@
         ]
       },
       "yigit/host-manifest.json": {
-        "sha256": "09f09fc57a4c6e665ac295c84b5a024591e0a0f4c1aa6915ffc87bef53006020",
+        "sha256": "86d24e2d3faf622a434ad587638641a27bd7672643df8471de264eed7179d5de",
         "locations": [
           "ai-research-skills-part-001/yigit/host-manifest.json",
           "ai-research-skills-part-002/yigit/host-manifest.json",
@@ -3153,7 +3153,7 @@
         ]
       },
       "yigit/source-SKILL.md": {
-        "sha256": "a8bc2ffcd5f9a4d992d9b6c782331b377f58e3184a563b493bad92559d2ef3bb",
+        "sha256": "392ad3b4f99c304f852bafffa0a3d8b3925d972eb79c3174dbf461cc7d34785b",
         "locations": [
           "ai-research-skills-part-001/yigit/source-SKILL.md",
           "ai-research-skills-part-002/yigit/source-SKILL.md",
@@ -3467,7 +3467,7 @@
         ]
       },
       "SKILL.md": {
-        "sha256": "c9c334634d2e4bff1819a599dabf01b79b2fc7089c519f97cc0e1f2d5d44bc62",
+        "sha256": "027e3b8e3dbe2a486674df3047b855e0d806818d3e7bfc175ec2c7c1d3c0a1fc",
         "locations": [
           "office-docs-qa/SKILL.md"
         ]
@@ -3479,7 +3479,7 @@
         ]
       },
       "modules/file-reading-workflow/MODULE.md": {
-        "sha256": "7946f4800d9ae0cc2bfea02567f2befe19adbe68f07c77e7ce817806e1d859e9",
+        "sha256": "b6c92b1f37a650b396559571955ae1cc07e3e2aaf444e08e72c0d3e9fba8f3ba",
         "locations": [
           "office-docs-qa/modules/file-reading-workflow/MODULE.md"
         ]
@@ -3515,7 +3515,7 @@
         ]
       },
       "yigit/host-manifest.json": {
-        "sha256": "2731ad0a2f5e1a63a7998223a98f700af0ccf8b6d4e8eb23e626ed737831685d",
+        "sha256": "a593045434894f47f9a6fe4f507d839b17563c9a6f598a6208f9268f1cae53a1",
         "locations": [
           "office-docs-qa/yigit/host-manifest.json"
         ]
@@ -3527,7 +3527,7 @@
         ]
       },
       "yigit/source-SKILL.md": {
-        "sha256": "83eb3462ad7e409d35b6a0aa14c263eebfdd22d8bc19062539166a10ff090ef7",
+        "sha256": "ed88566cd0e684fc2028733f558c9e1079bad3db2fd22c58d44c775a88a3051a",
         "locations": [
           "office-docs-qa/yigit/source-SKILL.md"
         ]

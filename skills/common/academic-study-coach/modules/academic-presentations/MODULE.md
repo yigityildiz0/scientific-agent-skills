@@ -5,7 +5,7 @@
 
 # Academic Presentations
 
-Use this skill for the scholarly argument layer. Delegate file creation, rendering, and layout mechanics to the active host’s presentation capability.
+Use this module for the scholarly argument layer only. Building the deck — brief and course rules, slide plan, real images, PPTX via the deck kit, speaker notes, rendered QA, audit and delivery — belongs to the `presentation-studio` skill. Hand over: audience, time, the claim, action titles, evidence per slide and verified references; do not leave layout or production to an unspecified "host capability".
 
 ## Build the argument first
 
@@ -28,7 +28,7 @@ Use this skill for the scholarly argument layer. Delegate file creation, renderi
 1. Argument and evidence review.
 2. Timing review: remove material before shrinking text.
 3. Accessibility review: reading order, contrast, legible type, and chart annotations.
-4. Rendered visual QA using the host’s available tool.
+4. Rendered visual QA and audit with `presentation-studio` (`scripts/render_pptx.ps1`, `scripts/pptx_audit.py`).
 
 ## Guardrails
 

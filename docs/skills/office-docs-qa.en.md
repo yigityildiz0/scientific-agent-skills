@@ -15,7 +15,7 @@ The host matches the request against the skill description. Explicit selection b
 <details>
 <summary>Exact source description</summary>
 
-Quality-first handling of office files and diagrams: Word DOCX, PDF (extract, merge, split, OCR, forms, redaction), Excel/CSV workbooks, PowerPoint file checks, large or unknown files, workflow diagrams (Mermaid, SVG, HTML) and Markdown knowledge bases, preserving structure and verifying the output. Turkish triggers: Word dosyası, PDF birleştir/böl, Excel düzenle, PPTX kontrol, dosyayı oku, diyagram çiz, akış şeması, not arşivi düzenle. More triggers: bilgi tabanı kur, indeks ve bağlantılar, iş akışını görselleştir, süreç veya sistem haritası, Mermaid.
+Quality-first handling of office files and diagrams: Word DOCX, PDF (extract, merge, split, OCR, forms, redaction), Excel/CSV workbooks, reading PowerPoint files (building or redesigning a deck goes to presentation-studio), large or unknown files, workflow diagrams (Mermaid, SVG, HTML) and Markdown knowledge bases, preserving structure and verifying the output. Turkish triggers: Word dosyası, PDF birleştir/böl, Excel düzenle, PPTX kontrol, dosyayı oku, diyagram çiz, akış şeması, not arşivi düzenle. More triggers: bilgi tabanı kur, indeks ve bağlantılar, iş akışını görselleştir, süreç veya sistem haritası, Mermaid.
 
 </details>
 

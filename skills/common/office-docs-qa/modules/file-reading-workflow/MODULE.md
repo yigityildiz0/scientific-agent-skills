@@ -27,7 +27,7 @@ Read only what the question requires and preserve the source file.
 | DOCX/ODT/RTF | safe document parser or office conversion in an isolated output folder | [docx-workflow](../docx-workflow/MODULE.md) (verify parser support/conversion for ODT/RTF) |
 | XLSX/XLSM/ODS | workbook metadata and read-only load; never execute macros | [xlsx-workflow](../xlsx-workflow/MODULE.md) (verify ODS support) |
 | PDF | page count, text layer, encryption, attachments, forms, image/scanned status | [pdf-workflow](../pdf-workflow/MODULE.md) |
-| PPTX | slide inventory and text/media extraction | This skill's [PPTX QA contract](../../SKILL.md); use available PowerPoint tools or a verified PPTX parser, then render and inspect; HTML `slides` is not a PPTX parser |
+| PPTX | slide inventory and text/media extraction | read with a verified PPTX parser (python-pptx, markitdown) or PowerPoint; for building, redesigning or checking a deck use the `presentation-studio` skill (`scripts/pptx_audit.py`, `scripts/render_pptx.ps1`); HTML `html-slides` is not a PPTX tool |
 | image | dimensions, color mode, metadata, visual inspection | image/design skill |
 | ZIP/TAR/7z | list entries and expanded-size estimates before extraction | archive-safe extraction |
 | unknown/binary | signature/MIME and hex header only | ask for or select a verified parser |

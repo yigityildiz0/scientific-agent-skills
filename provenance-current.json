@@ -1,11 +1,11 @@
 {
-  "edition": "2026.10.11",
+  "edition": "2026.10.14",
   "files": [
     {
       "path": "academic-study-coach/modules/academic-presentations/MODULE.md",
-      "source_sha256": "463e11f3885cccfbf4bfd61cdc13fad659064283aeb26f4d017b591bf3f1f1b5",
-      "published_sha256": "463e11f3885cccfbf4bfd61cdc13fad659064283aeb26f4d017b591bf3f1f1b5",
-      "bytes": 2333,
+      "source_sha256": "71ba65bf04ff9e6a95912b4e4ce58b626d6105fe5fa951874cfaacd53cc23f9b",
+      "published_sha256": "71ba65bf04ff9e6a95912b4e4ce58b626d6105fe5fa951874cfaacd53cc23f9b",
+      "bytes": 2611,
       "legal_notice": false,
       "modified": false
     },
@@ -211,9 +211,9 @@
     },
     {
       "path": "academic-study-coach/SKILL.md",
-      "source_sha256": "45c2772f7b5de27beef361908e9bc0955090fde1c01601f8e5ea15650d511710",
-      "published_sha256": "f3babfacd400e2a76944bb9799e7021fdbb5808f5824e049239c44fc1c28e9e3",
-      "bytes": 7425,
+      "source_sha256": "22f84a82ba043c3fea5126d6dbdda33c362c6c98f35a67a9531f08945cda8acc",
+      "published_sha256": "7a4e0088621265293eb460f04570eab022b4f3dbf7cb156cb80037d9c6328dd3",
+      "bytes": 7608,
       "legal_notice": false,
       "modified": true
     },
@@ -3659,9 +3659,9 @@
     },
     {
       "path": "ai-research-skills/SKILL.md",
-      "source_sha256": "cf94062813796f767c667834a7b83ac2a94099bb67874e898bddf0476fc5ca54",
-      "published_sha256": "a8bc2ffcd5f9a4d992d9b6c782331b377f58e3184a563b493bad92559d2ef3bb",
-      "bytes": 17567,
+      "source_sha256": "484f3dbf04fc7875b940f37cdd2f13a204f02e3c6becc6e270b0b3d83b13641f",
+      "published_sha256": "392ad3b4f99c304f852bafffa0a3d8b3925d972eb79c3174dbf461cc7d34785b",
+      "bytes": 17594,
       "legal_notice": false,
       "modified": true
     },
@@ -3979,9 +3979,9 @@
     },
     {
       "path": "office-docs-qa/modules/file-reading-workflow/MODULE.md",
-      "source_sha256": "7946f4800d9ae0cc2bfea02567f2befe19adbe68f07c77e7ce817806e1d859e9",
-      "published_sha256": "7946f4800d9ae0cc2bfea02567f2befe19adbe68f07c77e7ce817806e1d859e9",
-      "bytes": 3565,
+      "source_sha256": "b6c92b1f37a650b396559571955ae1cc07e3e2aaf444e08e72c0d3e9fba8f3ba",
+      "published_sha256": "b6c92b1f37a650b396559571955ae1cc07e3e2aaf444e08e72c0d3e9fba8f3ba",
+      "bytes": 3602,
       "legal_notice": false,
       "modified": false
     },
@@ -4027,9 +4027,9 @@
     },
     {
       "path": "office-docs-qa/SKILL.md",
-      "source_sha256": "a2d5ea31da88abd36ef2991267d22713dc26799ec2e42ed392e8b6d51e204a32",
-      "published_sha256": "83eb3462ad7e409d35b6a0aa14c263eebfdd22d8bc19062539166a10ff090ef7",
-      "bytes": 3991,
+      "source_sha256": "a40d3b54920f52dae817b570d5e1be0f3f124443fce47520dcc694b42e8d7a6b",
+      "published_sha256": "ed88566cd0e684fc2028733f558c9e1079bad3db2fd22c58d44c775a88a3051a",
+      "bytes": 4005,
       "legal_notice": false,
       "modified": true
     },

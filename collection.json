@@ -28,6 +28,6 @@
     "documents / office QA": "office-docs-qa"
   },
   "repository": "scientific-agent-skills",
-  "base_commit": "e998e8cdf20972731238f4ab36971963ac0d37c8",
+  "base_commit": "ff668c4c0aceb59c0403720e1d8a45d3424c73fa",
   "canonical_repository": "universal-ai-skill-library"
 }

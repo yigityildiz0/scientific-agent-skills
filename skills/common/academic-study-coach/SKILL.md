@@ -1,6 +1,6 @@
 ---
 name: academic-study-coach
-description: "Academic study coach, FTR-focused: turns slides, PDFs, notes and screenshots into exam-ready summaries, tables, flashcards, active-recall and case/OSCE questions and study plans; teaches English physiotherapy and medical texts and terminology; writes NotebookLM prompts; builds thesis and conference presentations; handles scholarly writing compliance (CRediT, preregistration, ORCID, LLM-use disclosure, preprints); routes research-idea generation to the AI research library. Turkish triggers: sınava hazırla, slaytı özetle, soru çıkar, flashcard, İngilizce makaleyi çevir/anlat, terim ne demek, NotebookLM'e ne yazayım, tez sunumu, akademik sunum, tez konusu fikri. More triggers: konferans konuşması, seminer sunumu, ders notu çıkar, sınav soruları."
+description: "Academic study coach, FTR-focused: turns slides, PDFs, notes and screenshots into exam-ready summaries, tables, flashcards, active-recall and case/OSCE questions and study plans; teaches English physiotherapy and medical texts and terminology; writes NotebookLM prompts; plans the scholarly argument of thesis and conference talks (deck building, PPTX and speaker notes go to presentation-studio); handles scholarly writing compliance (CRediT, preregistration, ORCID, LLM-use disclosure, preprints); routes research-idea generation to the AI research library. Turkish triggers: sınava hazırla, slaytı özetle, soru çıkar, flashcard, İngilizce makaleyi çevir/anlat, terim ne demek, NotebookLM'e ne yazayım, tez sunumu, akademik sunum, tez konusu fikri. More triggers: konferans konuşması, seminer sunumu, ders notu çıkar, sınav soruları."
 ---
 
 
@@ -30,11 +30,11 @@ For literature-search/reading training, use [literature practice](references/lit
 | Slides, PDFs, notes, screenshots or objectives → exam-ready study system (summary tables, high-yield points, flashcards, active recall, case/OSCE questions, study plan) | `physio-study-coach` |
 | English article, abstract, guideline, table, acronym or term; sentence-by-sentence reading; academic/statistical language | `physio-clinical-english` |
 | Prompts and outputs for Google NotebookLM (study guide, briefing, FAQ, quiz, mind map, Audio/Video Overview) | `notebooklm-prompt-architect` |
-| Thesis defense, conference talk, seminar or journal-club slides | `academic-presentations` |
+| Scholarly argument of a thesis defense, conference talk, seminar or journal-club talk (the deck itself: `presentation-studio` skill) | `academic-presentations` |
 | Scholarly writing compliance: CRediT roles, preregistration, ORCID, preprints, open-access mandates, AI/LLM-use disclosure | `academic-writing` |
 | Thesis/project topic ideas, research questions, novel angles | the separate `ai-research-skills` skill (`brainstorming-research-ideas`, `creative-thinking-for-research` modules) |
 
-Related skills: literature search and critical appraisal → `medical-evidence-research`; a patient case → `physio-clinical-copilot`; generic slide/Word/PDF file handling → `office-docs-qa`.
+Related skills: literature search and critical appraisal → `medical-evidence-research`; a patient case → `physio-clinical-copilot`; building a slide deck, PPTX, speaker notes or presenter guide → `presentation-studio`; generic Word/PDF/Excel file handling → `office-docs-qa`.
 
 ## Rules
 
