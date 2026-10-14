@@ -7,7 +7,7 @@
 
 [English](README.md) · [Türkçe](README.tr.md)
 
-![Edition](https://img.shields.io/badge/edition-2026.10.14.3-0f6e8c) [![Validate](https://github.com/yigityildiz0/scientific-agent-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/yigityildiz0/scientific-agent-skills/actions/workflows/validate.yml) [![Release](https://img.shields.io/github/v/release/yigityildiz0/scientific-agent-skills?display_name=tag&sort=date)](https://github.com/yigityildiz0/scientific-agent-skills/releases/latest) ![Skills](https://img.shields.io/badge/skills-6-b0303f) ![Languages](https://img.shields.io/badge/EN%20%2B%20TR-guides-e0a43a)
+![Edition](https://img.shields.io/badge/edition-2026.10.14.4-0f6e8c) [![Validate](https://github.com/yigityildiz0/scientific-agent-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/yigityildiz0/scientific-agent-skills/actions/workflows/validate.yml) [![Release](https://img.shields.io/github/v/release/yigityildiz0/scientific-agent-skills?display_name=tag&sort=date)](https://github.com/yigityildiz0/scientific-agent-skills/releases/latest) ![Skills](https://img.shields.io/badge/skills-6-b0303f) ![Languages](https://img.shields.io/badge/EN%20%2B%20TR-guides-e0a43a)
 
 **Maintained scientific workflows for literature, study, analysis, AI research and document quality.**
 
@@ -15,12 +15,12 @@
 
 [Start here](docs/INSTALL.md) · [Browse the catalog](https://yigityildiz0.github.io/universal-ai-skill-library/) · [Downloads](DOWNLOADS.md) · [Maintenance model](MAINTAINING.md)
 
-## New in 2026.10.14.3
+## New in 2026.10.14.4
 
 - academic-study-coach, office-docs-qa, design and design-system now hand deck building to presentation-studio (fixes a broken PPTX QA link).
 - Gemini packages (CLI folders and filtered Gemini app uploads), an installation table for every app and a real GitHub Release with SHA-256 checksums.
 - One ZIP per skill for every app, never split into parts; Claude gets grouped bulk-upload ZIPs on the Desktop edition.
-- Claude.ai upload fix: large skills stay ONE skill under the 200-file limit (supporting files packed in resources.zip inside the skill).
+- Claude.ai upload fix: large skills stay ONE skill under the 200-file limit and without nested ZIPs (supporting text files bundled in resources/bundle-NN.md with an INDEX).
 
 ## Works with
 
@@ -94,4 +94,4 @@ The canonical source is [Universal AI Skill Library](https://github.com/yigityil
 - Source licenses remain attached; no blanket third-party license is assumed.
 
 ---
-Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.14.3
+Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.14.4
