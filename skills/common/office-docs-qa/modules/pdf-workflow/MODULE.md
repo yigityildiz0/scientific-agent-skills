@@ -15,7 +15,7 @@ Record size, page count, version, encryption, permissions, signatures, page boxe
 - **Tables:** compare text extraction with rendered layout; do not treat a visually aligned table as reliable rows until validated.
 - **Scans/OCR:** preserve the original image, record language and OCR settings, and mark uncertain text.
 - **Merge/split/rotate:** preserve page order, boxes, bookmarks, metadata, links, and forms when supported.
-- **Create:** use a layout engine appropriate to the source, embed or license fonts correctly, and add document metadata/accessibility structure where supported.
+- **Create (new document or redesign):** hand over to the `pdf-studio` skill (intake questions, print-safe pagination, lint + page audit). Otherwise use a layout engine appropriate to the source, embed or license fonts correctly, and add document metadata/accessibility structure where supported.
 - **Forms:** detect AcroForm versus XFA, preserve field names and appearances, and flatten only when requested.
 - **Redaction:** remove underlying text/images and metadata, then verify by extraction and object inspection. Drawing a black rectangle is not secure redaction.
 

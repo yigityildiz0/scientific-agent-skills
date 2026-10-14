@@ -22,7 +22,7 @@ Planning and quality checks for office files and diagrams. Use the host's native
 | File or task | Module |
 |---|---|
 | Word / DOCX | `docx-workflow` |
-| PDF: extract, create, merge, split, rotate, OCR, forms, redaction | `pdf-workflow` |
+| PDF: extract, merge, split, rotate, OCR, forms, redaction (creating a new PDF: `pdf-studio` skill) | `pdf-workflow` |
 | Excel / XLSX / CSV | `xlsx-workflow` |
 | Large, unknown or binary file inspection | `file-reading-workflow` |
 | Process, system or data-flow diagram (Mermaid, SVG, HTML) | `workflow-visualizer` |

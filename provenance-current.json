@@ -1,5 +1,5 @@
 {
-  "edition": "2026.10.14",
+  "edition": "2026.10.14.2",
   "files": [
     {
       "path": "academic-study-coach/modules/academic-presentations/MODULE.md",
@@ -3995,9 +3995,9 @@
     },
     {
       "path": "office-docs-qa/modules/pdf-workflow/MODULE.md",
-      "source_sha256": "5e7529fa1b724561f1d94be54674c3c962e1cac4b9b4e8eae0ece39face55735",
-      "published_sha256": "5e7529fa1b724561f1d94be54674c3c962e1cac4b9b4e8eae0ece39face55735",
-      "bytes": 2545,
+      "source_sha256": "6a595a3496b99e4784b60a4160a8124747d98971378a7137acf9d486412da4dd",
+      "published_sha256": "6a595a3496b99e4784b60a4160a8124747d98971378a7137acf9d486412da4dd",
+      "bytes": 2647,
       "legal_notice": false,
       "modified": false
     },
@@ -4027,9 +4027,9 @@
     },
     {
       "path": "office-docs-qa/SKILL.md",
-      "source_sha256": "a40d3b54920f52dae817b570d5e1be0f3f124443fce47520dcc694b42e8d7a6b",
-      "published_sha256": "ed88566cd0e684fc2028733f558c9e1079bad3db2fd22c58d44c775a88a3051a",
-      "bytes": 4005,
+      "source_sha256": "fde03e4c392124733e5faaa592ed47deec63a45c70c94787b4ee347144919f53",
+      "published_sha256": "7ad4a351cb85b0b61ac69dce444f939c04653265c425c337c2e1c3e7f5cb2653",
+      "bytes": 4038,
       "legal_notice": false,
       "modified": true
     },
